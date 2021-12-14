@@ -1,0 +1,226 @@
+$sides: top, right, bottom, left;
+$borders: dotted, dashed, solid, double, groove, ridge, inset, outset;
+$fifth: 0, 5, 10, 15, 20, 25;
+
+body {
+  height: 100%;
+  overflow: hidden;
+}
+#root {
+  overflow: scroll;
+  height: 100vh;
+  width: 100vw;
+}
+#pdt {
+  padding-top: 50px;
+  @media (max-width: 600px) {
+    padding-top: 0px;
+  }
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  width: 100%;
+}
+
+#content {
+  display: block;
+  height: 100%;
+  min-height: 100vh;
+  z-index: 0;
+}
+
+.headers {
+  background: var(--darkopacity);
+  border-left: 5px solid var(--light);
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+
+// DISPLAY MODES
+div {
+  box-sizing: border-box;
+}
+.toggle {
+  display: none;
+}
+.show {
+  display: block !important;
+  opacity: 1 !important;
+}
+.hide {
+  display: none !important;
+}
+.showMenu {
+  display: block !important;
+}
+.hideMenu {
+  display: none !important;
+}
+.showDropdown {
+  display: block !important;
+}
+.hideDropdown {
+  display: none !important;
+}
+.showFlex {
+  display: flex !important;
+}
+.hideFlex {
+  display: none !important;
+}
+.showGrid {
+  display: grid !important;
+}
+.hideGrid {
+  display: none !important;
+}
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+.inline {
+  display: inline;
+}
+
+// TYPE POSITION
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.sticky {
+  position: sticky;
+}
+.static {
+  position: static;
+}
+.fixed {
+  position: fixed;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+// TYPE POSITION
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.sticky {
+  position: sticky;
+}
+.static {
+  position: static;
+}
+.fixed {
+  position: fixed;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.help {
+  cursor: help;
+}
+.top {
+  top: 0;
+}
+.left {
+  left: 0;
+}
+.bottom {
+  bottom: 0;
+}
+
+.pst_top_50 {
+  top: 50%;
+}
+.pst_left_50 {
+  left: 50%;
+}
+
+// CLEAR BLOCK
+
+.clear {
+  clear: both;
+}
+.row {
+  clear: both;
+}
+
+.h100 {
+  height: 100%;
+}
+.w100 {
+  width: 100%;
+}
+.vh100 {
+  height: 100vh;
+}
+.vw100 {
+  width: 100vw;
+}
+
+.drag {
+  cursor: move;
+}
+
+.center-content {
+  display: grid;
+  place-items: center;
+}
+.center-vertical {
+  place-items: center;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+
+// SHOW AND HIDE POR SIZE SCREEN
+@media (max-width: 600px) {
+  .flex-s {
+    display: flex;
+  }
+  a.hs,
+  span.hs,
+  p.hs,
+  div.hs,
+  input.hs {
+    display: none;
+  }
+  div.hs {
+    a,
+    span {
+      display: none;
+    }
+    a.ss,
+    span.ss {
+      display: initial;
+    }
+  }
+}
+@media (min-width: 600px) {
+  .flex-l {
+    display: flex;
+  }
+  a.hl,
+  span.hl,
+  p.hl,
+  li.hl {
+    display: none;
+  }
+}

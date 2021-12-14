@@ -1,0 +1,156 @@
+// Import fonts
+@font-face {
+  font-family: gotham thin;
+  src: url("../../assets/fonts/Gotham/gotham_thin.ttf");
+}
+@font-face {
+  font-family: gotham medium;
+  src: url("../../assets/fonts/Gotham/gotham_medium.ttf");
+}
+@font-face {
+  font-family: gotham bold;
+  src: url("../../assets/fonts/Gotham/gotham_bold.ttf");
+}
+@font-face {
+  font-family: gotham book;
+  src: url("../../assets/fonts/Gotham/gotham_book.ttf");
+}
+@font-face {
+  font-family: baloo gujarati;
+  src: url("../../assets/fonts/BalooBhai-Gujarati.ttf");
+}
+@font-face {
+  font-family: baloo regular;
+  src: url("../../assets/fonts/BalooBhainaOdia-Regular.ttf");
+}
+@font-face {
+  font-family: agency;
+  src: url("../../assets/fonts/AGENCYB.TTF");
+}
+@font-face {
+  font-family: samson;
+  src: url("../../assets/fonts/Samson Light.ttf");
+}
+
+@font-face {
+  font-family: ubuntu light;
+  src: url("../../assets/fonts/Ubuntu/Ubuntu-Light.ttf");
+}
+@font-face {
+  font-family: pixel;
+  src: url("../../assets/fonts/PressStart2P-Regular.ttf");
+}
+@font-face {
+  font-family: alien;
+  src: url("../../assets/fonts/Alien.ttf");
+}
+
+
+/* Hide scrollbar for IE and Edge */
+.example {
+  -ms-overflow-style: none;
+}
+body {
+  font: 1.1em gotham thin, Arial, Helvetica, sans-serif;
+  letter-spacing: normal;
+  color: var(--second);
+}
+button {
+  font: 1.1em gotham book, Arial, Helvetica, sans-serif;
+  letter-spacing: normal;
+  color: var(--second);
+}
+a,
+p {
+  font: 1em gotham book, Arial, Helvetica, sans-serif;
+  line-height: 1.2em;
+  letter-spacing: normal;
+  color: var(--second);
+}
+
+font {
+  color: var(--dark);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong ,.bold {
+  font-weight: bold;
+  font-family: gotham medium, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3.5em;
+  line-height: 3.8em;
+}
+h2 {
+  font-size: 2.5em;
+  line-height: 2.8em;
+}
+h3 {
+  font-size: 1.8em;
+  line-height: 2em;
+}
+h4 {
+  font-size: 1.5em;
+  line-height: 1.8em;
+}
+h5 {
+  font-size: 1em;
+  line-height: 1.2em;
+}
+h6 {
+  font-size: 0.8em;
+  line-height: 1em;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+
+// Custom font
+@for $i from 10 through 64 {
+  .font_#{$i} {
+    font-size: $i * 0.06 + em;
+  }
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+
+.tags {
+  background-color: var(--primary-color);
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin: 5px auto;
+  &:hover {
+    background-color: crimson;
+    color: white;
+  }
+}
+
+.font_fine {
+  font-family: gotham thin, Arial, Helvetica, sans-serif;
+}
+.font_book {
+  font-family: gotham book, Arial, Helvetica, sans-serif;
+}
+.font_bold {
+  font-family: gotham bold, Arial, Helvetica, sans-serif;
+}

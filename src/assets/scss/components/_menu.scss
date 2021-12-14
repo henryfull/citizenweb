@@ -1,0 +1,229 @@
+
+$colorDefault : var(--primary);
+.menu-css {
+  display: inline;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  input.dropdown-input ~ div {
+    display: none;
+  }
+  input:checked.dropdown-input ~ div {
+    display: flex;
+    left: 0px;
+    background-color: white;
+    min-width: 250px;
+    box-shadow: 0 4px 5px black;
+    min-height: 100px;
+    color: grey;
+  }
+
+  input.dropdown-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  input[type="radio"]:checked ~ label {
+    color: var(--primary);
+  }
+}
+.avatar {
+  vertical-align: middle;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  &:hover {
+    border-color: black;
+  }
+}
+.btn_menu_search {
+  border-radius: 50%;
+  background-color: #eee;
+  height: 36px;
+  width: 36px;
+
+  i {
+    font-size: 14px;
+    padding: 5px;
+  }
+  &:after {
+    transition: all 0.5s;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f002";
+    font-size: 14px;
+    vertical-align: middle;
+    padding: 5px;
+  }
+}
+
+
+
+
+.sidenav.inside {
+  position: fixed; /* Stay in place */
+  z-index: 5; /* Stay on top */
+  top: 90px; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  width: 300px;
+  padding-bottom: 50px;
+}
+.sidenav.inside ~ .sibling_nav {
+  margin-left: 300px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+// Es solo temporal
+.sidenav {
+  // background-color: #3284fd;
+  background-color: white;
+  a {
+    color: black;
+    &.closebtn{
+      color: $colorDefault;
+      &:hover{
+        color: crimson;
+      }
+    }
+  }
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav.inside.hide ~ .sibling_nav {
+  margin-left: 0px !important;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  padding: 0;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  margin-left: 0px;
+  width: 100vw;
+}
+.main {
+  transition: margin-left 0.5s;
+  margin-left: 0px;
+}
+
+@media (max-width: 600px) {
+  .sidenav.inside {
+    width: 0; /* 0 width - change this with JavaScript */
+  }
+  .sidenav.inside ~ .sibling_nav {
+    margin-left: 0px;
+  }
+}
+
+.header_sidenav_filter {
+  position: sticky;
+  top: -1px;
+  z-index: 3;
+}
+/* #filterside {
+  box-shadow: 1px 0px black;
+  padding-bottom: 100px;
+} */
+#filterside ~ #list_items {
+  margin-left: 0;
+}
+#filterside {
+  position: sticky;
+  box-shadow: 1px 0px black;
+  height: 50px;
+  overflow-x: scroll;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 20px;
+  transition: all 0.5s;
+
+  .header_sidenav_filter{
+    display: none;
+  }
+  .list_filters_search {
+    padding: 0px;
+    width: auto;
+    display: flex;
+    white-space: nowrap;
+    height: 100%;
+    .filter{
+      margin: 0px 5px;
+      padding: 0px;
+      height: 32px;
+      span{
+        font-family: gotham book, Arial, Helvetica, sans-serif;
+      }
+      &.active{
+        background-color: limegreen;
+        &:hover{
+          background-color: crimson;
+        }
+      }
+      &:hover{
+        background-color: var(--primary);
+      }
+    }
+  }
+
+}
+ul#moreFilterList{
+  padding: 10px;
+    background-color: #222;
+    display: flex;
+    z-index: 11;
+    margin-top: 20px;
+    position: sticky;
+    top: 140px;
+    -webkit-overflow-scrolling: auto; /* Stops scrolling immediately */
+
+    li{
+      margin: 10px 0px;
+    }
+  }
+#mySidenav{
+  width: 300px;
+  transform: translateX(100%);
+}
+.moreButton {
+  position: absolute;
+  top: 0;
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+  color: white;
+}
+#overScroll {
+  overflow-x: scroll;
+  transition: all 0.5s;
+
+
+}
+
+body{
+  scroll-behavior: smooth;
+
+}

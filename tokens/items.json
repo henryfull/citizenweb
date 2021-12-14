@@ -1,0 +1,115 @@
+[
+    {
+        "_id": "12342i3u4n2ij3n4",
+        "typeToken": "item",
+        "name": "Final fury",
+        "level": 1,
+        "location": "arms",
+        "rarity": "rare",
+        "image":"",
+        "set": "one",
+        "upgrade": {
+            "strength": 30,
+            "precision": 15
+        },
+        "requirement": "none",
+        "use": false,
+        "count": 1,
+        "price": 0.6
+    },
+    {
+        "_id": "3oij4oisfdwe",
+        "typeToken": "item",
+        "name": "Killer dagger",
+        "level": 1,
+        "location": "body",
+        "rarity": "epic",
+        "image":"",
+        "set": "two",
+        "upgrade": {
+            "strength": 20,
+            "precision": 3,
+            "amor": 10
+        },
+        "requirement": "none",
+        "use": false,
+        "count": 1,
+        "price": 0.2
+    },
+    {
+        "_id": "pijqwdpijwpdoijw",
+        "typeToken": "item",
+        "name": "Fantasy shield ",
+        "level": 1,
+        "location": "arms",
+        "rarity": "common",
+        "image":"",
+        "set": "one",
+        "upgrade": {
+            "shield": 5,
+            "energy": 2
+        },
+        "requirement": "none",
+        "use": false,
+        "count": 1,
+        "price": 0.2
+    },
+    {
+        "_id": "uhsdiuqwhdpqwuhd",
+        "typeToken": "item",
+        "name": "Capirote warm",
+        "level": 1,
+        "location": "head",
+        "rarity": "uncommon",
+        "image":"",
+        "set": "one",
+        "upgrade": {
+            "shield": 50,
+            "amor": 10,
+            "recovery-shield": 0.1
+        },
+        "requirement": "none",
+        "use": false,
+        "count": 1,
+        "price": 0.4
+    },
+    {
+        "_id": "3ñj21h4ñu3h4",
+        "typeToken": "item",
+        "name": "Fantasy warm",
+        "level": 1,
+        "location": "legs",
+        "rarity": "common",
+        "image":"",
+        "set": "one",
+        "upgrade": {
+            "armor": 50,
+            "energy": 10
+        },
+        "requirement": "none",
+        "use": false,
+        "count": 1,
+        "price": 0.2
+    },
+    {
+        "_id": "231kyug4u2y34g",
+        "typeToken": "item",
+        "name": "American shield",
+        "level": 1,
+        "location": "arms",
+        "rarity": "legendary",
+        "image":"",
+        "set": "three",
+        "upgrade": {
+            "shield": 50,
+            "energy": 10,
+            "maxLife": 100,
+            "armor": 30,
+            "recovery-life": 0.1
+        },
+        "requirement": "none",
+        "use": false,
+        "count": 1,
+        "price": 0.8
+    }
+]

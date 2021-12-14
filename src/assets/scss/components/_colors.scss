@@ -1,0 +1,251 @@
+:root {
+    --body: #fff;
+    --primary: #ff4400;
+    --second: rgba(9,39,179,0.9);
+    --light: #ffffff;
+    --lightwhite: #eee;
+    --lightopacity: #ffffffd8;
+    --dark: #000333;
+    --darkblue: #000666;
+    --darkopacity: #000333d8;
+    --black: #000000;
+    --white: #ffffff;
+    --hover-light: #eeeeee;
+    --hover-dark: #000333;
+    --color-default: #2d19ff;
+    --color-default-light: #1962ff;
+
+    --red: crimson;
+    --blue: cornflowerblue;
+    --green: #00df94;
+    --gold: gold;
+    --yellow: yellow;
+    --purple: rgb(131, 36, 131);
+    --pink: pink;
+    --grey: #888;
+    --royalblue: royalblue;
+    --violet: blueviolet;
+    --lightgrey: whitesmoke;
+    --lightblue: lightskyblue;
+    --redc: crimson;
+    --bluec: blue;
+    --greenc: green;
+    --yellowc: yellow;
+    --pinkc: pink;
+    --focus: cornflowerblue;
+    --max: "1000px";
+    --min: 587;
+}
+
+// #App.light {
+//     @media (prefers-color-scheme: light) {
+//         :root {
+//             --light: #ffffff;
+//             --lightwhite: #eee;
+//             --lightopacity: #ffffffd8;
+//             --dark: #000333;
+//             --darkblue: #000666;
+//             --darkopacity: #000333d8;
+//             --content: "🌞 light version";
+//         }
+//     }
+// }
+// @media (prefers-color-scheme: dark) {
+//     :root {
+//         --light: #000333;
+//         --lightwhite: #000666;
+//         --lightopacity: #000766d8;
+//         --dark: #fff;
+//         --darkblue: #eee;
+//         --darkopacity: #ffffffd8;
+//         --content: "🌑 dark version";
+//     }
+// }
+#App {
+
+    &.darkmode {
+        // --body: linear-gradient(183deg, rgba(63, 0,0) 0.001%, black 95%);
+        --body: #0F002D;
+        --light: #000011;
+        --primary: #F66962;
+        --second: #56F9FE;
+        --lightwhite: #000666;
+        --lightopacity: #000766d8;
+        --dark: #fff;
+        --darkblue: rgb(60, 82, 209);
+        --darkopacity:rgb(246 105 98 / 0.3);
+        --content: "🌑 dark version";
+    }
+    &.lightmode {
+        --body: #fff;
+        --second: #F66962;
+        --primary: #56F9FE;
+        --light: #ffffff;
+        --lightwhite: #eee;
+        --lightopacity: #ffffffd8;
+        --dark: rgb(35, 40, 64);
+        --darkblue: #000666;
+        --darkopacity: rgba(255,100,0,0.3);
+        --content: "🌞 light version";
+    }
+
+    &.citizen {
+        --citizen-light: #ffffff;
+        --citizen-lightwhite: #eee;
+        --citizen-lightopacity: #ffffffd8;
+        --citizen-dark: white;
+        --citizen-darkblue: #000666;
+        --citizen-darkopacity: #000011d8;
+        --citizen-content: "🌞 light version"; 
+        --citizen-color: #2d19ff;
+        --citizen-color-light: #1962ff;
+        /* filter: hue-rotate(100deg); */
+      }
+      background: var(--body);
+      overflow: scroll;
+
+}
+
+// $dark-theme: true !default;
+// $primary-color: #f8bbd0 !default;
+// $accent-color: #6a1b9a !default;
+
+// @if $dark-theme {
+//   $primary-color: darken($primary-color, 60%);
+//   $accent-color: lighten($accent-color, 60%);
+// }
+
+$space_top: 48px;
+$colorDefault: var(--primary);
+$white: var(--light);
+$black: var(--dark);
+
+/* COLOR */
+
+.citizen-color {
+    color: var(--citizen-color);
+}
+.defaultc {
+    color: var(--primary);
+}
+.primary {
+    color: var(--primary);
+}
+.second {
+    color: var(--second);
+}
+.lightwhite {
+    color: var(--lightwhite);
+}
+.light {
+    color: var(--light);
+}
+.dark {
+    color: var(--dark);
+}
+.white {
+    color: var(--white);
+}
+.black {
+    color: var(--black);
+}
+.lightgrey {
+    color: var(--lightgrey);
+}
+.lightblue {
+    color: var(--lightblue);
+}
+.red {
+    color: var(--red);
+}
+.blue {
+    color: var(--blue);
+}
+.green {
+    color: var(--green);
+}
+.gold {
+    color: var(--gold);
+}
+.yellow {
+    color: var(--yellow);
+}
+.purple {
+    color: var(--purple);
+}
+.pink {
+    color: var(--pink);
+}
+.royalblue {
+    color: var(--royalblue);
+}
+/* COLOR BACKGROUND */
+.defaultbc {
+    background-color: var(--primary);
+}
+.bglightwhite {
+    background-color: var(--lightwhite);
+}
+.bglight {
+    background-color: var(--light);
+}
+.bgdark {
+    background-color: var(--dark);
+}
+.bgwhite {
+    background-color: var(--white);
+}
+.bgblack {
+    background-color: var(--black);
+}
+.bglightgrey {
+    background-color: var(--lightgrey);
+}
+.bglightblue {
+    background-color: var(--lightblue);
+}
+.bgred {
+    background-color: var(--red);
+}
+.bgblue {
+    background-color: var(--blue);
+}
+.bgroyalblue {
+    background-color: var(--royalblue);
+}
+.bggreen {
+    background-color: var(--green);
+}
+.bgyellow {
+    background-color: var(--yellow);
+}
+.bgpurple {
+    background-color: var(--purple);
+}
+.bgviolet {
+    background-color: var(--violet);
+}
+.bgpink {
+    background-color: var(--pink);
+}
+.bggrey {
+    background-color: var(--grey);
+}
+
+.icon::before,
+.icon::after {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.leaflet-container {
+    width: 100%;
+    min-height: 250px;
+}
+@media (max-width: 600px) {
+    .leaflet-container {
+        min-height: 150px;
+    }
+}

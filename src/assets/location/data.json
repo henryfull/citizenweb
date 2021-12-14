@@ -1,0 +1,13 @@
+{
+    "venues": [
+        {
+            "description": "Oficinas de checkauto",
+            "name": "Checkauto",
+            "geometry": [
+                41.3183889,
+                2.0213373
+            ]
+        }
+        
+    ]
+}

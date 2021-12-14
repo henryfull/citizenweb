@@ -1,0 +1,5078 @@
+{
+    "idUser": "odhoiajodsodij323ojit",
+    "urlAvatar": "https://checkautopublic.s3.eu-west-3.amazonaws.com/V-fbySLh_3w1lxypuyubL.jpeg",
+    "email": "henryfull@gmail.com",
+    "name": "lleno",
+    "account": {
+        "email": "henryfull@gmail.com",
+        "name": "lleno",
+        "deck": {
+            "name": "piu",
+            "cards": [
+                {
+                    "_id": "avv64gbtWka01IDOuPTtH",
+                    "name": "crow-1.png",
+                    "namecard": "Llenocida",
+                    "faction": "cyborgs",
+                    "aboutme": "Nowadays, robots are in charge of the jobs that Citizen usually developed. Now, the Establishment supports them, albeit in a precarious way. They mostly hang out in the fascinating world of Ether. But some of them are struggling to get ahead, and keep real jobs. They mostly hang ",
+                    "image": "crow-1.png",
+                    "background": "bg-police.jpg",
+                    "typeToken": "card",
+                    "race": "crow",
+                    "block": "cybers",
+                    "rarity": "common",
+                    "level": "1",
+                    "count": 1,
+                    "effect": "electric",
+                    "slots": [
+                        {
+                            "location": "head",
+                            "use": false
+                        },
+                        {
+                            "location": "body",
+                            "use": false
+                        },
+                        {
+                            "location": "arms",
+                            "use": false
+                        },
+                        {
+                            "location": "legs",
+                            "use": false
+                        }
+                    ],
+                    "states": {
+                        "energyBase": 60,
+                        "energy": 100,
+                        "affinity": 0,
+                        "strength": 48,
+                        "precision": 95,
+                        "armor": 60,
+                        "dodge": 40,
+                        "influence": 37,
+                        "knowlegde": 82,
+                        "shield": 43,
+                        "maxshield": 43,
+                        "life": 860,
+                        "maxlife": 860
+                    },
+                    "resistence": {
+                        "normal": 35,
+                        "fire": 41,
+                        "electric": 17,
+                        "poison": 41,
+                        "blood": 20,
+                        "total": null
+                    },
+                    "recovery": {
+                        "life": "0.84",
+                        "shield": "0.28"
+                    },
+                    "skills": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 48,
+                            "effect": "electric",
+                            "name": "Nuzzle",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "_id": "a008",
+                            "code": "a008",
+                            "name": "Recovey life 100%",
+                            "description": "Recuperar vida 100%",
+                            "to_affect": [
+                                {
+                                    "player": "me",
+                                    "to": "card-me-one",
+                                    "method": "states",
+                                    "state": "life",
+                                    "action": "give",
+                                    "value": 100,
+                                    "typeValue": "percent",
+                                    "effect": "",
+                                    "permanent": true
+                                }
+                            ],
+                            "cost": 150,
+                            "turn": 0,
+                            "cooldown": 4,
+                            "level": 1,
+                            "count": 1,
+                            "use": true,
+                            "price": 0.8,
+                            "rarity": "common",
+                            "position": 1,
+                            "faction": "",
+                            "type": "active",
+                            "status": true,
+                            "typeToken": "skill",
+                            "color": "#42D92B"
+                        },
+                        {
+                            "_id": "a013",
+                            "code": "a013",
+                            "name": "Takes life to one enemy",
+                            "description": "Realiza un ataque de 700 de daño a un enemigo",
+                            "to_affect": [
+                                {
+                                    "player": "me",
+                                    "to": "card-he-one",
+                                    "method": "states",
+                                    "state": "life",
+                                    "action": "punch",
+                                    "value": 700,
+                                    "type": "",
+                                    "effect": "",
+                                    "repeat": 1
+                                }
+                            ],
+                            "cost": 600,
+                            "turn": 0,
+                            "cooldown": 8,
+                            "level": 1,
+                            "count": 1,
+                            "use": true,
+                            "price": 0.8,
+                            "rarity": "rare",
+                            "position": 1,
+                            "faction": "",
+                            "type": "active",
+                            "status": true,
+                            "typeToken": "skill",
+                            "color": "#FFC300"
+                        },
+                        {
+                            "_id": "a101",
+                            "code": "a101",
+                            "name": "Super Atack",
+                            "description": "Hace 300% de su fuerza",
+                            "to_affect": [
+                                {
+                                    "player": "he",
+                                    "to": "card-he-one",
+                                    "method": "states",
+                                    "state": "life",
+                                    "action": "punch",
+                                    "value": "strength",
+                                    "typeValue": "percent",
+                                    "effect": "",
+                                    "multiplier": 300,
+                                    "repeat": 1
+                                }
+                            ],
+                            "cost": 100,
+                            "turn": 0,
+                            "cooldown": 6,
+                            "level": 1,
+                            "count": 1,
+                            "use": true,
+                            "price": 0.8,
+                            "rarity": "common",
+                            "position": 1,
+                            "faction": "",
+                            "type": "active",
+                            "status": true,
+                            "typeToken": "skill",
+                            "color": "#FFAD31"
+                        }
+                    ],
+                    "defense": {
+                        "block": {
+                            "strength": 58,
+                            "cost": 30,
+                            "name": "block"
+                        },
+                        "shield": {
+                            "strength": 20,
+                            "cost": 40,
+                            "description": "Añade escudo a un personaje",
+                            "name": "shield",
+                            "color": "#57F9FE",
+                            "code": "shield"
+                        }
+                    },
+                    "change": {
+                        "name": "change",
+                        "cost": 50,
+                        "description": "Intercambia tu carta del tablero por otra del banquillo",
+                        "color": "#FE6A57",
+                        "code": "swap"
+                    },
+                    "skills_combat": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 48,
+                            "effect": "electric",
+                            "name": "Nuzzle",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "_id": "a008",
+                            "code": "a008",
+                            "name": "Recovey life 100%",
+                            "description": "Recuperar vida 100%",
+                            "to_affect": [
+                                {
+                                    "player": "me",
+                                    "to": "card-me-one",
+                                    "method": "states",
+                                    "state": "life",
+                                    "action": "give",
+                                    "value": 100,
+                                    "typeValue": "percent",
+                                    "effect": "",
+                                    "permanent": true
+                                }
+                            ],
+                            "cost": 150,
+                            "turn": 0,
+                            "cooldown": 4,
+                            "level": 1,
+                            "count": 1,
+                            "use": true,
+                            "price": 0.8,
+                            "rarity": "common",
+                            "position": 1,
+                            "faction": "",
+                            "type": "active",
+                            "status": true,
+                            "typeToken": "skill",
+                            "color": "#42D92B"
+                        },
+                        {
+                            "_id": "a013",
+                            "code": "a013",
+                            "name": "Takes life to one enemy",
+                            "description": "Realiza un ataque de 700 de daño a un enemigo",
+                            "to_affect": [
+                                {
+                                    "player": "me",
+                                    "to": "card-he-one",
+                                    "method": "states",
+                                    "state": "life",
+                                    "action": "punch",
+                                    "value": 700,
+                                    "type": "",
+                                    "effect": "",
+                                    "repeat": 1
+                                }
+                            ],
+                            "cost": 600,
+                            "turn": 0,
+                            "cooldown": 8,
+                            "level": 1,
+                            "count": 1,
+                            "use": true,
+                            "price": 0.8,
+                            "rarity": "rare",
+                            "position": 1,
+                            "faction": "",
+                            "type": "active",
+                            "status": true,
+                            "typeToken": "skill",
+                            "color": "#FFC300"
+                        },
+                        {
+                            "_id": "a101",
+                            "code": "a101",
+                            "name": "Super Atack",
+                            "description": "Hace 300% de su fuerza",
+                            "to_affect": [
+                                {
+                                    "player": "he",
+                                    "to": "card-he-one",
+                                    "method": "states",
+                                    "state": "life",
+                                    "action": "punch",
+                                    "value": "strength",
+                                    "typeValue": "percent",
+                                    "effect": "",
+                                    "multiplier": 300,
+                                    "repeat": 1
+                                }
+                            ],
+                            "cost": 100,
+                            "turn": 0,
+                            "cooldown": 6,
+                            "level": 1,
+                            "count": 1,
+                            "use": true,
+                            "price": 0.8,
+                            "rarity": "common",
+                            "position": 1,
+                            "faction": "",
+                            "type": "active",
+                            "status": true,
+                            "typeToken": "skill",
+                            "color": "#FFAD31"
+                        }
+                    ],
+                    "power": 2330
+                },
+                {
+                    "_id": "KMQOjXXpyIktLgSxdEnDZ",
+                    "name": "bull-1.svg",
+                    "namecard": "Bull Red",
+                    "faction": "statesmen",
+                    "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+                    "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+                    "image": "bull-1.svg",
+                    "background": "bg-building.jpg",
+                    "typeToken": "card",
+                    "race": "bull",
+                    "block": "establishment",
+                    "rarity": "legendary",
+                    "level": 1,
+                    "count": 1,
+                    "effect": "electric",
+                    "slots": [
+                        {
+                            "location": "head",
+                            "use": false
+                        },
+                        {
+                            "location": "body",
+                            "use": false
+                        },
+                        {
+                            "location": "arms",
+                            "use": false
+                        },
+                        {
+                            "location": "legs",
+                            "use": false
+                        }
+                    ],
+                    "states": {
+                        "energyBase": 80,
+                        "energy": 90,
+                        "affinity": 0,
+                        "strength": 56,
+                        "precision": 127,
+                        "armor": 58,
+                        "dodge": 57,
+                        "influence": 46,
+                        "knowlegde": 84,
+                        "shield": 41,
+                        "maxshield": 41,
+                        "life": 1080,
+                        "maxlife": 1080
+                    },
+                    "resistence": {
+                        "normal": 38,
+                        "fire": 12,
+                        "electric": 2,
+                        "poison": 42,
+                        "blood": 22,
+                        "total": null
+                    },
+                    "recovery": {
+                        "life": "0.76",
+                        "shield": "0.36"
+                    },
+                    "skills": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 56,
+                            "effect": "electric",
+                            "name": "G-Max Volt Crash",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "code": "a000",
+                            "name": "super",
+                            "description": "Te hace 100 de daño verdadero",
+                            "cost": 100,
+                            "turn": 0,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        },
+                        {
+                            "code": "c001",
+                            "name": "super",
+                            "description": "Durante 4 turnos te hace daño a fuego",
+                            "cost": 50,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        },
+                        {
+                            "code": "d002",
+                            "name": "super",
+                            "description": "Durante 2 turnos no puedes cambiar de carta",
+                            "cost": 20,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        }
+                    ],
+                    "defense": {
+                        "block": {
+                            "strength": 60,
+                            "cost": 30,
+                            "name": "block"
+                        },
+                        "shield": {
+                            "strength": 26,
+                            "cost": 40,
+                            "description": "Añade escudo a un personaje",
+                            "name": "shield",
+                            "color": "#57F9FE",
+                            "code": "shield"
+                        }
+                    },
+                    "change": {
+                        "name": "change",
+                        "cost": 50,
+                        "description": "Intercambia tu carta del tablero por otra del banquillo",
+                        "color": "#FE6A57",
+                        "code": "swap"
+                    },
+                    "skills_combat": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 56,
+                            "effect": "electric",
+                            "name": "G-Max Volt Crash",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "code": "a000",
+                            "name": "super",
+                            "description": "Te hace 100 de daño verdadero",
+                            "cost": 100,
+                            "turn": 0,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        },
+                        {
+                            "code": "c001",
+                            "name": "super",
+                            "description": "Durante 4 turnos te hace daño a fuego",
+                            "cost": 50,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        },
+                        {
+                            "code": "d002",
+                            "name": "super",
+                            "description": "Durante 2 turnos no puedes cambiar de carta",
+                            "cost": 20,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        }
+                    ],
+                    "power": 2842,
+                    "price": 1
+                },
+                {
+                    "_id": "_W0cwQ4a1BIBfzLgKbflb",
+                    "name": "bot-1.svg",
+                    "namecard": "Botter",
+                    "faction": "cyborgs",
+                    "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+                    "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+                    "image": "bot-1.svg",
+                    "background": "bg-building.jpg",
+                    "typeToken": "card",
+                    "race": "bot",
+                    "block": "cybers",
+                    "rarity": "rare",
+                    "level": 1,
+                    "count": 1,
+                    "effect": "normal",
+                    "slots": [
+                        {
+                            "location": "head",
+                            "use": false
+                        },
+                        {
+                            "location": "body",
+                            "use": false
+                        },
+                        {
+                            "location": "arms",
+                            "use": false
+                        },
+                        {
+                            "location": "legs",
+                            "use": false
+                        }
+                    ],
+                    "states": {
+                        "energyBase": 60,
+                        "energy": 60,
+                        "affinity": 0,
+                        "strength": 37,
+                        "precision": 98,
+                        "armor": 46,
+                        "dodge": 27,
+                        "influence": 30,
+                        "knowlegde": 77,
+                        "shield": 39,
+                        "maxshield": 39,
+                        "life": 840,
+                        "maxlife": 840
+                    },
+                    "resistence": {
+                        "normal": 37,
+                        "fire": 3,
+                        "electric": 35,
+                        "poison": 4,
+                        "blood": 6,
+                        "total": null
+                    },
+                    "recovery": {
+                        "life": "0.96",
+                        "shield": "0.35"
+                    },
+                    "skills": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 37,
+                            "effect": "normal",
+                            "name": "Skull Bash",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "code": "c002",
+                            "name": "super",
+                            "description": "Durante 4 turnos aumenta un poco más la energia",
+                            "cost": 30,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        },
+                        {
+                            "code": "c003",
+                            "name": "super",
+                            "description": "Durante 2 turnos quitas un poco de energia al rival",
+                            "cost": 20,
+                            "turn": 2,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        },
+                        {
+                            "code": "d003",
+                            "name": "super",
+                            "description": "Inmunidad durante 1 turno",
+                            "cost": 200,
+                            "turn": 2,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        }
+                    ],
+                    "defense": {
+                        "block": {
+                            "strength": 41,
+                            "cost": 30,
+                            "name": "block"
+                        },
+                        "shield": {
+                            "strength": 38,
+                            "cost": 40,
+                            "description": "Añade escudo a un personaje",
+                            "name": "shield",
+                            "color": "#57F9FE",
+                            "code": "shield"
+                        }
+                    },
+                    "change": {
+                        "name": "change",
+                        "cost": 50,
+                        "description": "Intercambia tu carta del tablero por otra del banquillo",
+                        "color": "#FE6A57",
+                        "code": "swap"
+                    },
+                    "skills_combat": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 37,
+                            "effect": "normal",
+                            "name": "Skull Bash",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "code": "c002",
+                            "name": "super",
+                            "description": "Durante 4 turnos aumenta un poco más la energia",
+                            "cost": 30,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        },
+                        {
+                            "code": "c003",
+                            "name": "super",
+                            "description": "Durante 2 turnos quitas un poco de energia al rival",
+                            "cost": 20,
+                            "turn": 2,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        },
+                        {
+                            "code": "d003",
+                            "name": "super",
+                            "description": "Inmunidad durante 1 turno",
+                            "cost": 200,
+                            "turn": 2,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        }
+                    ],
+                    "power": 2195,
+                    "price": 0.6
+                }
+            ],
+            "_id": "2h4INdDl49rspxT3uwYbe"
+        }
+    },
+    "level": 1,
+    "booster": 0,
+    "coins": 6760,
+    "bytes": 1024,
+    "tokens": {
+        "cards": [
+            {
+                "_id": "avv64gbtWka01IDOuPTtH",
+                "name": "crow-1.png",
+                "namecard": "Llenocida",
+                "faction": "cyborgs",
+                "aboutme": "Nowadays, robots are in charge of the jobs that Citizen usually developed. Now, the Establishment supports them, albeit in a precarious way. They mostly hang out in the fascinating world of Ether. But some of them are struggling to get ahead, and keep real jobs. They mostly hang ",
+                "image": "crow-1.png",
+                "background": "bg-police.jpg",
+                "typeToken": "card",
+                "race": "crow",
+                "block": "cybers",
+                "rarity": "common",
+                "level": "1",
+                "count": 1,
+                "effect": "electric",
+                "slots": [
+                    {
+                        "location": "head",
+                        "use": false
+                    },
+                    {
+                        "location": "body",
+                        "use": false
+                    },
+                    {
+                        "location": "arms",
+                        "use": false
+                    },
+                    {
+                        "location": "legs",
+                        "use": false
+                    }
+                ],
+                "states": {
+                    "energyBase": 60,
+                    "energy": 100,
+                    "affinity": 0,
+                    "strength": 48,
+                    "precision": 95,
+                    "armor": 60,
+                    "dodge": 40,
+                    "influence": 37,
+                    "knowlegde": 82,
+                    "shield": 43,
+                    "maxshield": 43,
+                    "life": 860,
+                    "maxlife": 860
+                },
+                "resistence": {
+                    "normal": 35,
+                    "fire": 41,
+                    "electric": 17,
+                    "poison": 41,
+                    "blood": 20,
+                    "total": null
+                },
+                "recovery": {
+                    "life": "0.84",
+                    "shield": "0.28"
+                },
+                "skills": [
+                    {
+                        "code": "0000",
+                        "cost": 20,
+                        "strength": 48,
+                        "effect": "electric",
+                        "name": "Nuzzle",
+                        "status": true,
+                        "type": "active",
+                        "description": "basic atack",
+                        "cooldown": 0,
+                        "multiplier": 100,
+                        "color": "white"
+                    },
+                    {
+                        "_id": "a008",
+                        "code": "a008",
+                        "name": "Recovey life 100%",
+                        "description": "Recuperar vida 100%",
+                        "to_affect": [
+                            {
+                                "player": "me",
+                                "to": "card-me-one",
+                                "method": "states",
+                                "state": "life",
+                                "action": "give",
+                                "value": 100,
+                                "typeValue": "percent",
+                                "effect": "",
+                                "permanent": true
+                            }
+                        ],
+                        "cost": 150,
+                        "turn": 0,
+                        "cooldown": 4,
+                        "level": 1,
+                        "count": 1,
+                        "use": false,
+                        "price": 0.8,
+                        "rarity": "common",
+                        "position": 1,
+                        "faction": "",
+                        "type": "active",
+                        "status": true,
+                        "typeToken": "skill",
+                        "color": "#42D92B"
+                    },
+                    {
+                        "_id": "a013",
+                        "code": "a013",
+                        "name": "Takes life to one enemy",
+                        "description": "Realiza un ataque de 700 de daño a un enemigo",
+                        "to_affect": [
+                            {
+                                "player": "me",
+                                "to": "card-he-one",
+                                "method": "states",
+                                "state": "life",
+                                "action": "punch",
+                                "value": 700,
+                                "type": "",
+                                "effect": "",
+                                "repeat": 1
+                            }
+                        ],
+                        "cost": 600,
+                        "turn": 0,
+                        "cooldown": 8,
+                        "level": 1,
+                        "count": 1,
+                        "use": false,
+                        "price": 0.8,
+                        "rarity": "rare",
+                        "position": 1,
+                        "faction": "",
+                        "type": "active",
+                        "status": true,
+                        "typeToken": "skill",
+                        "color": "#FFC300"
+                    },
+                    {
+                        "_id": "a101",
+                        "code": "a101",
+                        "name": "Super Atack",
+                        "description": "Hace 300% de su fuerza",
+                        "to_affect": [
+                            {
+                                "player": "he",
+                                "to": "card-he-one",
+                                "method": "states",
+                                "state": "life",
+                                "action": "punch",
+                                "value": "strength",
+                                "typeValue": "percent",
+                                "effect": "",
+                                "multiplier": 300,
+                                "repeat": 1
+                            }
+                        ],
+                        "cost": 100,
+                        "turn": 0,
+                        "cooldown": 6,
+                        "level": 1,
+                        "count": 1,
+                        "use": false,
+                        "price": 0.8,
+                        "rarity": "common",
+                        "position": 1,
+                        "faction": "",
+                        "type": "active",
+                        "status": true,
+                        "typeToken": "skill",
+                        "color": "#FFAD31"
+                    }
+                ],
+                "defense": {
+                    "block": {
+                        "strength": 58,
+                        "cost": 30,
+                        "name": "block"
+                    },
+                    "shield": {
+                        "strength": 20,
+                        "cost": 40,
+                        "description": "Añade escudo a un personaje",
+                        "name": "shield",
+                        "color": "#57F9FE",
+                        "code": "shield"
+                    }
+                },
+                "change": {
+                    "name": "change",
+                    "cost": 50,
+                    "description": "Intercambia tu carta del tablero por otra del banquillo",
+                    "color": "#FE6A57",
+                    "code": "swap"
+                },
+                "skills_combat": [
+                    {
+                        "code": "0000",
+                        "cost": 20,
+                        "strength": 48,
+                        "effect": "electric",
+                        "name": "Nuzzle",
+                        "status": true,
+                        "type": "active",
+                        "description": "basic atack",
+                        "cooldown": 0,
+                        "multiplier": 100,
+                        "color": "white"
+                    },
+                    {
+                        "_id": "a008",
+                        "code": "a008",
+                        "name": "Recovey life 100%",
+                        "description": "Recuperar vida 100%",
+                        "to_affect": [
+                            {
+                                "player": "me",
+                                "to": "card-me-one",
+                                "method": "states",
+                                "state": "life",
+                                "action": "give",
+                                "value": 100,
+                                "typeValue": "percent",
+                                "effect": "",
+                                "permanent": true
+                            }
+                        ],
+                        "cost": 150,
+                        "turn": 0,
+                        "cooldown": 4,
+                        "level": 1,
+                        "count": 1,
+                        "use": false,
+                        "price": 0.8,
+                        "rarity": "common",
+                        "position": 1,
+                        "faction": "",
+                        "type": "active",
+                        "status": true,
+                        "typeToken": "skill",
+                        "color": "#42D92B"
+                    },
+                    {
+                        "_id": "a013",
+                        "code": "a013",
+                        "name": "Takes life to one enemy",
+                        "description": "Realiza un ataque de 700 de daño a un enemigo",
+                        "to_affect": [
+                            {
+                                "player": "me",
+                                "to": "card-he-one",
+                                "method": "states",
+                                "state": "life",
+                                "action": "punch",
+                                "value": 700,
+                                "type": "",
+                                "effect": "",
+                                "repeat": 1
+                            }
+                        ],
+                        "cost": 600,
+                        "turn": 0,
+                        "cooldown": 8,
+                        "level": 1,
+                        "count": 1,
+                        "use": false,
+                        "price": 0.8,
+                        "rarity": "rare",
+                        "position": 1,
+                        "faction": "",
+                        "type": "active",
+                        "status": true,
+                        "typeToken": "skill",
+                        "color": "#FFC300"
+                    },
+                    {
+                        "_id": "a101",
+                        "code": "a101",
+                        "name": "Super Atack",
+                        "description": "Hace 300% de su fuerza",
+                        "to_affect": [
+                            {
+                                "player": "he",
+                                "to": "card-he-one",
+                                "method": "states",
+                                "state": "life",
+                                "action": "punch",
+                                "value": "strength",
+                                "typeValue": "percent",
+                                "effect": "",
+                                "multiplier": 300,
+                                "repeat": 1
+                            }
+                        ],
+                        "cost": 100,
+                        "turn": 0,
+                        "cooldown": 6,
+                        "level": 1,
+                        "count": 1,
+                        "use": false,
+                        "price": 0.8,
+                        "rarity": "common",
+                        "position": 1,
+                        "faction": "",
+                        "type": "active",
+                        "status": true,
+                        "typeToken": "skill",
+                        "color": "#FFAD31"
+                    }
+                ],
+                "power": 2330
+            },
+            {
+                "_id": "KMQOjXXpyIktLgSxdEnDZ",
+                "name": "bull-1.svg",
+                "namecard": "Bull Red",
+                "faction": "statesmen",
+                "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+                "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+                "image": "bull-1.svg",
+                "background": "bg-building.jpg",
+                "typeToken": "card",
+                "race": "bull",
+                "block": "establishment",
+                "rarity": "legendary",
+                "level": 1,
+                "count": 1,
+                "effect": "electric",
+                "slots": [
+                    {
+                        "location": "head",
+                        "use": false
+                    },
+                    {
+                        "location": "body",
+                        "use": false
+                    },
+                    {
+                        "location": "arms",
+                        "use": false
+                    },
+                    {
+                        "location": "legs",
+                        "use": false
+                    }
+                ],
+                "states": {
+                    "energyBase": 80,
+                    "energy": 90,
+                    "affinity": 0,
+                    "strength": 56,
+                    "precision": 127,
+                    "armor": 58,
+                    "dodge": 57,
+                    "influence": 46,
+                    "knowlegde": 84,
+                    "shield": 41,
+                    "maxshield": 41,
+                    "life": 1080,
+                    "maxlife": 1080
+                },
+                "resistence": {
+                    "normal": 38,
+                    "fire": 12,
+                    "electric": 2,
+                    "poison": 42,
+                    "blood": 22,
+                    "total": null
+                },
+                "recovery": {
+                    "life": "0.76",
+                    "shield": "0.36"
+                },
+                "skills": [
+                    {
+                        "code": "0000",
+                        "cost": 20,
+                        "strength": 56,
+                        "effect": "electric",
+                        "name": "G-Max Volt Crash",
+                        "status": true,
+                        "type": "active",
+                        "description": "basic atack",
+                        "cooldown": 0,
+                        "multiplier": 100,
+                        "color": "white"
+                    },
+                    {
+                        "code": "a000",
+                        "name": "super",
+                        "description": "Te hace 100 de daño verdadero",
+                        "cost": 100,
+                        "turn": 0,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "c001",
+                        "name": "super",
+                        "description": "Durante 4 turnos te hace daño a fuego",
+                        "cost": 50,
+                        "turn": 4,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "d002",
+                        "name": "super",
+                        "description": "Durante 2 turnos no puedes cambiar de carta",
+                        "cost": 20,
+                        "turn": 4,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 2
+                    }
+                ],
+                "defense": {
+                    "block": {
+                        "strength": 60,
+                        "cost": 30,
+                        "name": "block"
+                    },
+                    "shield": {
+                        "strength": 26,
+                        "cost": 40,
+                        "description": "Añade escudo a un personaje",
+                        "name": "shield",
+                        "color": "#57F9FE",
+                        "code": "shield"
+                    }
+                },
+                "change": {
+                    "name": "change",
+                    "cost": 50,
+                    "description": "Intercambia tu carta del tablero por otra del banquillo",
+                    "color": "#FE6A57",
+                    "code": "swap"
+                },
+                "skills_combat": [
+                    {
+                        "code": "0000",
+                        "cost": 20,
+                        "strength": 56,
+                        "effect": "electric",
+                        "name": "G-Max Volt Crash",
+                        "status": true,
+                        "type": "active",
+                        "description": "basic atack",
+                        "cooldown": 0,
+                        "multiplier": 100,
+                        "color": "white"
+                    },
+                    {
+                        "_id": "a008",
+                        "code": "a008",
+                        "name": "Recovey life 100%",
+                        "description": "Recuperar vida 100%",
+                        "to_affect": [
+                            {
+                                "player": "me",
+                                "to": "card-me-one",
+                                "method": "states",
+                                "state": "life",
+                                "action": "give",
+                                "value": 100,
+                                "typeValue": "percent",
+                                "effect": "",
+                                "permanent": true
+                            }
+                        ],
+                        "cost": 150,
+                        "turn": 0,
+                        "cooldown": 4,
+                        "level": 1,
+                        "count": 1,
+                        "use": true,
+                        "price": 0.8,
+                        "rarity": "common",
+                        "position": 1,
+                        "faction": "",
+                        "type": "active",
+                        "status": true,
+                        "typeToken": "skill",
+                        "color": "#42D92B"
+                    },
+                    {
+                        "_id": "a010",
+                        "code": "a010",
+                        "name": "4 impacts enemy",
+                        "description": "Realiza 4 ataques basicos",
+                        "to_affect": [
+                            {
+                                "player": "me",
+                                "to": "card-he-one",
+                                "method": "states",
+                                "state": "life",
+                                "action": "punch",
+                                "value": "strench",
+                                "type": "",
+                                "effect": "",
+                                "repeat": 4,
+                                "multiplier": 100
+                            }
+                        ],
+                        "cost": 300,
+                        "turn": 0,
+                        "cooldown": 8,
+                        "level": 1,
+                        "count": 1,
+                        "use": true,
+                        "price": 0.8,
+                        "rarity": "rare",
+                        "position": 1,
+                        "faction": "",
+                        "type": "active",
+                        "status": true,
+                        "typeToken": "skill",
+                        "color": "#e3e3e3"
+                    },
+                    {
+                        "code": "d002",
+                        "name": "super",
+                        "description": "Durante 2 turnos no puedes cambiar de carta",
+                        "cost": 20,
+                        "turn": 4,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 2
+                    }
+                ],
+                "power": 2842,
+                "price": 1
+            },
+            {
+                "_id": "_W0cwQ4a1BIBfzLgKbflb",
+                "name": "bot-1.svg",
+                "namecard": "Botter",
+                "faction": "cyborgs",
+                "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+                "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+                "image": "bot-1.svg",
+                "background": "bg-building.jpg",
+                "typeToken": "card",
+                "race": "bot",
+                "block": "cybers",
+                "rarity": "rare",
+                "level": 1,
+                "count": 1,
+                "effect": "normal",
+                "slots": [
+                    {
+                        "location": "head",
+                        "use": false
+                    },
+                    {
+                        "location": "body",
+                        "use": false
+                    },
+                    {
+                        "location": "arms",
+                        "use": false
+                    },
+                    {
+                        "location": "legs",
+                        "use": false
+                    }
+                ],
+                "states": {
+                    "energyBase": 60,
+                    "energy": 60,
+                    "affinity": 0,
+                    "strength": 37,
+                    "precision": 98,
+                    "armor": 46,
+                    "dodge": 27,
+                    "influence": 30,
+                    "knowlegde": 77,
+                    "shield": 39,
+                    "maxshield": 39,
+                    "life": 840,
+                    "maxlife": 840
+                },
+                "resistence": {
+                    "normal": 37,
+                    "fire": 3,
+                    "electric": 35,
+                    "poison": 4,
+                    "blood": 6,
+                    "total": null
+                },
+                "recovery": {
+                    "life": "0.96",
+                    "shield": "0.35"
+                },
+                "skills": [
+                    {
+                        "code": "0000",
+                        "cost": 20,
+                        "strength": 37,
+                        "effect": "normal",
+                        "name": "Skull Bash",
+                        "status": true,
+                        "type": "active",
+                        "description": "basic atack",
+                        "cooldown": 0,
+                        "multiplier": 100,
+                        "color": "white"
+                    },
+                    {
+                        "code": "c002",
+                        "name": "super",
+                        "description": "Durante 4 turnos aumenta un poco más la energia",
+                        "cost": 30,
+                        "turn": 4,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 6
+                    },
+                    {
+                        "code": "c003",
+                        "name": "super",
+                        "description": "Durante 2 turnos quitas un poco de energia al rival",
+                        "cost": 20,
+                        "turn": 2,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 6
+                    },
+                    {
+                        "code": "d003",
+                        "name": "super",
+                        "description": "Inmunidad durante 1 turno",
+                        "cost": 200,
+                        "turn": 2,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 6
+                    }
+                ],
+                "defense": {
+                    "block": {
+                        "strength": 41,
+                        "cost": 30,
+                        "name": "block"
+                    },
+                    "shield": {
+                        "strength": 38,
+                        "cost": 40,
+                        "description": "Añade escudo a un personaje",
+                        "name": "shield",
+                        "color": "#57F9FE",
+                        "code": "shield"
+                    }
+                },
+                "change": {
+                    "name": "change",
+                    "cost": 50,
+                    "description": "Intercambia tu carta del tablero por otra del banquillo",
+                    "color": "#FE6A57",
+                    "code": "swap"
+                },
+                "skills_combat": [
+                    {
+                        "code": "0000",
+                        "cost": 20,
+                        "strength": 37,
+                        "effect": "normal",
+                        "name": "Skull Bash",
+                        "status": true,
+                        "type": "active",
+                        "description": "basic atack",
+                        "cooldown": 0,
+                        "multiplier": 100,
+                        "color": "white"
+                    },
+                    {
+                        "code": "c002",
+                        "name": "super",
+                        "description": "Durante 4 turnos aumenta un poco más la energia",
+                        "cost": 30,
+                        "turn": 4,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 6
+                    },
+                    {
+                        "code": "c003",
+                        "name": "super",
+                        "description": "Durante 2 turnos quitas un poco de energia al rival",
+                        "cost": 20,
+                        "turn": 2,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 6
+                    },
+                    {
+                        "code": "d003",
+                        "name": "super",
+                        "description": "Inmunidad durante 1 turno",
+                        "cost": 200,
+                        "turn": 2,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 6
+                    }
+                ],
+                "power": 2195,
+                "price": 0.6
+            },
+            {
+                "_id": "cQee_L5LTbuOWdQF4P2af",
+                "name": "rabbit-1.svg",
+                "namecard": "Roger Rabbit",
+                "faction": "artisans",
+                "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+                "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+                "image": "rabbit-1.svg",
+                "background": "bg-building.jpg",
+                "typeToken": "card",
+                "race": "rabbit",
+                "block": "rebels",
+                "rarity": "uncommon",
+                "level": 1,
+                "count": 1,
+                "effect": "normal",
+                "slots": [
+                    {
+                        "location": "head",
+                        "use": false
+                    },
+                    {
+                        "location": "body",
+                        "use": false
+                    },
+                    {
+                        "location": "arms",
+                        "use": false
+                    },
+                    {
+                        "location": "legs",
+                        "use": false
+                    }
+                ],
+                "states": {
+                    "energyBase": 60,
+                    "energy": 80,
+                    "affinity": 0,
+                    "strength": 30,
+                    "precision": 72,
+                    "armor": 37,
+                    "dodge": 15,
+                    "influence": 18,
+                    "knowlegde": 58,
+                    "shield": 23,
+                    "maxshield": 23,
+                    "life": 420,
+                    "maxlife": 420
+                },
+                "resistence": {
+                    "normal": 58,
+                    "fire": 9,
+                    "electric": 19,
+                    "poison": 25,
+                    "blood": 8,
+                    "total": null
+                },
+                "recovery": {
+                    "life": "0.90",
+                    "shield": "0.23"
+                },
+                "skills": [
+                    {
+                        "code": "0000",
+                        "cost": 20,
+                        "strength": 30,
+                        "effect": "normal",
+                        "name": "Giga Impact",
+                        "status": true,
+                        "type": "active",
+                        "description": "basic atack",
+                        "cooldown": 0,
+                        "multiplier": 100,
+                        "color": "white"
+                    },
+                    {
+                        "code": "d001",
+                        "name": "super",
+                        "description": "Durante 1 turno el enemigo no puede hacer ninguna acción",
+                        "cost": 50,
+                        "turn": 3,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 5
+                    },
+                    {
+                        "code": "c004",
+                        "name": "super",
+                        "description": "Durante 2 turnos cuando un oponente te golpea se hace un 20% del daño inflingido",
+                        "cost": 30,
+                        "turn": 2,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 5
+                    },
+                    {
+                        "code": "d004",
+                        "name": "super",
+                        "description": "Durante 4 turnos, si una carta oponente recibe escudo, en vez de eso, recidbe daño",
+                        "cost": 20,
+                        "turn": 4,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 5
+                    }
+                ],
+                "defense": {
+                    "block": {
+                        "strength": 34,
+                        "cost": 30,
+                        "name": "block"
+                    },
+                    "shield": {
+                        "strength": 27,
+                        "cost": 40,
+                        "description": "Añade escudo a un personaje",
+                        "name": "shield",
+                        "color": "#57F9FE",
+                        "code": "shield"
+                    }
+                },
+                "change": {
+                    "name": "change",
+                    "cost": 50,
+                    "description": "Intercambia tu carta del tablero por otra del banquillo",
+                    "color": "#FE6A57",
+                    "code": "swap"
+                },
+                "skills_combat": [
+                    {
+                        "code": "0000",
+                        "cost": 20,
+                        "strength": 30,
+                        "effect": "normal",
+                        "name": "Giga Impact",
+                        "status": true,
+                        "type": "active",
+                        "description": "basic atack",
+                        "cooldown": 0,
+                        "multiplier": 100,
+                        "color": "white"
+                    },
+                    {
+                        "code": "d001",
+                        "name": "super",
+                        "description": "Durante 1 turno el enemigo no puede hacer ninguna acción",
+                        "cost": 50,
+                        "turn": 3,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 5
+                    },
+                    {
+                        "code": "c004",
+                        "name": "super",
+                        "description": "Durante 2 turnos cuando un oponente te golpea se hace un 20% del daño inflingido",
+                        "cost": 30,
+                        "turn": 2,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 5
+                    },
+                    {
+                        "code": "d004",
+                        "name": "super",
+                        "description": "Durante 4 turnos, si una carta oponente recibe escudo, en vez de eso, recidbe daño",
+                        "cost": 20,
+                        "turn": 4,
+                        "status": true,
+                        "type": "active",
+                        "cooldown": 5
+                    }
+                ],
+                "power": 1258,
+                "price": 0.4
+            }
+        ],
+        "skins": [
+            {
+                "_id": "XggYijiGI7dtIdlvV2E5p",
+                "idToken": 7,
+                "created": "2020-11-28T16:25:21.816Z",
+                "typeCharacter": "mare",
+                "name": "C-Mare#38",
+                "rarity": "common",
+                "imageCharacter": "mare-9.svg",
+                "vocation": "Virtual",
+                "price": 0.8,
+                "count": 1,
+                "use": false,
+                "typeToken": "skin"
+            },
+            {
+                "_id": "wvplHFBshBvUsXwwsSr93",
+                "idToken": 7,
+                "created": "2020-11-28T16:27:41.567Z",
+                "typeCharacter": "mare",
+                "name": "E-Mare-47",
+                "rarity": "uncommon",
+                "imageCharacter": "mare-7.svg",
+                "vocation": "Virtual",
+                "price": 0.8,
+                "count": 1,
+                "use": false,
+                "typeToken": "skin"
+            }
+        ],
+        "skills": [
+            {
+                "_id": "a000",
+                "code": "a000",
+                "name": "Recovey life 30%",
+                "description": "Recuperar vida 30%",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-me-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "give",
+                        "value": 30,
+                        "typeValue": "percent",
+                        "effect": "",
+                        "permanent": true
+                    }
+                ],
+                "cost": 150,
+                "turn": 0,
+                "cooldown": 4,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "common",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "red"
+            },
+            {
+                "_id": "a001",
+                "code": "a001",
+                "name": "Gives life to all allies",
+                "description": "Dar vida a todos los compañeros pero poca cantidad",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-me-all",
+                        "method": "states",
+                        "state": "life",
+                        "action": "give",
+                        "value": 10,
+                        "typeValue": "percent",
+                        "effect": "",
+                        "permanent": true
+                    }
+                ],
+                "cost": 60,
+                "turn": 0,
+                "cooldown": 4,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "rare",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FF005C"
+            },
+            {
+                "_id": "a002",
+                "code": "a002",
+                "name": "Steal life",
+                "description": "Roba vida al enemigo",
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "take",
+                        "value": 100,
+                        "type": "",
+                        "effect": "",
+                        "permanent": true
+                    },
+                    {
+                        "player": "me",
+                        "to": "card-me-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "give",
+                        "value": 100,
+                        "type": "",
+                        "effect": "",
+                        "multiplier": 100,
+                        "permanent": true
+                    }
+                ],
+                "cost": 60,
+                "turn": 0,
+                "cooldown": 4,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "rare",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "white"
+            },
+            {
+                "_id": "a003",
+                "code": "a003",
+                "name": "Reduce half life",
+                "description": "Reduce a la mitad la vida de ambas cartas",
+                "from_affect": [],
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-me-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "take",
+                        "value": "50",
+                        "typeValue": "percent",
+                        "effect": "",
+                        "permanent": true
+                    },
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "take",
+                        "value": "50",
+                        "typeValue": "percent",
+                        "effect": "",
+                        "permanent": true
+                    }
+                ],
+                "cost": 120,
+                "turn": 0,
+                "cooldown": 6,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "common",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FF005C"
+            },
+            {
+                "_id": "a004",
+                "code": "a004",
+                "name": "Steal & Atack",
+                "description": "Roba vida a la carta enemiga 100 de vida y despues le golpea",
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "take",
+                        "value": "100",
+                        "type": "",
+                        "effect": "",
+                        "permanent": true
+                    },
+                    {
+                        "player": "me",
+                        "to": "card-me-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "give",
+                        "value": "100",
+                        "type": "",
+                        "effect": "",
+                        "permanent": true
+                    },
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "punch",
+                        "value": "strength",
+                        "type": "",
+                        "effect": "",
+                        "repeat": 1,
+                        "multiplier": 100,
+                        "permanent": true
+                    }
+                ],
+                "cost": 60,
+                "turn": 0,
+                "cooldown": 4,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "common",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "white"
+            },
+            {
+                "_id": "a008",
+                "code": "a008",
+                "name": "Recovey life 100%",
+                "description": "Recuperar vida 100%",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-me-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "give",
+                        "value": 100,
+                        "typeValue": "percent",
+                        "effect": "",
+                        "permanent": true
+                    }
+                ],
+                "cost": 150,
+                "turn": 0,
+                "cooldown": 4,
+                "level": 1,
+                "count": 1,
+                "use": true,
+                "price": 0.8,
+                "rarity": "common",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#42D92B"
+            },
+            {
+                "_id": "a010",
+                "code": "a010",
+                "name": "4 impacts enemy",
+                "description": "Realiza 4 ataques basicos",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-he-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "punch",
+                        "value": "strench",
+                        "type": "",
+                        "effect": "",
+                        "repeat": 4,
+                        "multiplier": 100
+                    }
+                ],
+                "cost": 300,
+                "turn": 0,
+                "cooldown": 8,
+                "level": 1,
+                "count": 1,
+                "use": true,
+                "price": 0.8,
+                "rarity": "rare",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#e3e3e3"
+            },
+            {
+                "_id": "a013",
+                "code": "a013",
+                "name": "Takes life to one enemy",
+                "description": "Realiza un ataque de 700 de daño a un enemigo",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-he-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "punch",
+                        "value": 700,
+                        "type": "",
+                        "effect": "",
+                        "repeat": 1
+                    }
+                ],
+                "cost": 600,
+                "turn": 0,
+                "cooldown": 8,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "rare",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FFC300"
+            },
+            {
+                "_id": "a014",
+                "code": "a014",
+                "name": "Takes life to all enemies",
+                "description": "Realiza un ataque de 100 de daño verdadero a todos los enemigos",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-he-all",
+                        "method": "states",
+                        "state": "life",
+                        "action": "take",
+                        "value": 100,
+                        "type": "",
+                        "effect": "",
+                        "permanent": true
+                    }
+                ],
+                "cost": 60,
+                "turn": 0,
+                "cooldown": 4,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "rare",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FFAD31"
+            },
+            {
+                "_id": "a015",
+                "code": "a015",
+                "name": "2 impacts enemy",
+                "description": "Realiza 2 ataques basicos",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-he-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "punch",
+                        "value": "strench",
+                        "type": "",
+                        "effect": "",
+                        "multiplier": 500,
+                        "repeat": 2
+                    }
+                ],
+                "cost": 600,
+                "turn": 0,
+                "cooldown": 8,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "rare",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#F2AD31"
+            },
+            {
+                "_id": "a016",
+                "code": "a016",
+                "name": "Up strench and energy",
+                "description": "Aumenta la energia y la fuera en un 20%",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-me-one",
+                        "method": "states",
+                        "state": "states",
+                        "action": "give",
+                        "value": "20",
+                        "typeValue": "percent",
+                        "effect": "",
+                        "multiplier": 1,
+                        "repeat": 1,
+                        "field": [
+                            "energy",
+                            "life"
+                        ],
+                        "permanent": true
+                    }
+                ],
+                "cost": 600,
+                "turn": 0,
+                "cooldown": 8,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "rare",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#6C4F46"
+            },
+            {
+                "_id": "a018",
+                "code": "a018",
+                "name": "Kamikaze boom",
+                "description": "Se suicida y su daño se reparte entre todos los enemigos",
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "card-me-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "take",
+                        "value": "100",
+                        "typeValue": "percent",
+                        "effect": "",
+                        "permanent": true
+                    },
+                    {
+                        "player": "me",
+                        "to": "card-he-all",
+                        "method": "states",
+                        "state": "life",
+                        "action": "take",
+                        "value": "damages",
+                        "type": "",
+                        "effect": "",
+                        "permanent": true
+                    }
+                ],
+                "cost": 60,
+                "turn": 0,
+                "cooldown": 4,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "common",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FF2C00"
+            },
+            {
+                "_id": "b006",
+                "code": "b006",
+                "name": "Kamikaze saveward",
+                "description": "Se suicida y da toda su vida a un aliado",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-me-choice",
+                        "method": "states",
+                        "state": "life",
+                        "action": "take",
+                        "value": "damages",
+                        "type": "",
+                        "effect": "",
+                        "permanent": true
+                    }
+                ],
+                "cost": 60,
+                "turn": 0,
+                "cooldown": 4,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "common",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill"
+            },
+            {
+                "_id": "b001",
+                "code": "b001",
+                "name": "Give life my friend",
+                "description": "Da vida a un aliado",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-me-choice",
+                        "method": "states",
+                        "state": "life",
+                        "action": "give",
+                        "value": 30,
+                        "typeValue": "percent",
+                        "effect": "",
+                        "permanent": true
+                    }
+                ],
+                "cost": 40,
+                "turn": 0,
+                "cooldown": 4,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "common",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#E400FF"
+            },
+            {
+                "_id": "b002",
+                "code": "b002",
+                "name": "Resurrect",
+                "description": "Resucitar una carta con poca vida",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-me-choice",
+                        "method": "states",
+                        "state": "life",
+                        "action": "give",
+                        "value": "50",
+                        "typeValue": "percent",
+                        "effect": "",
+                        "permanent": true
+                    }
+                ],
+                "cost": 120,
+                "turn": 0,
+                "cooldown": 6,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "epic",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#510087"
+            },
+            {
+                "_id": "b003",
+                "code": "b003",
+                "name": "Swap life ally",
+                "description": "Intercambiar la vida con una carta de tus aliados",
+                "to_affect": [
+                    {
+                        "to": "card-me-choice",
+                        "method": "states",
+                        "state": "life",
+                        "value": "card.life",
+                        "type": "",
+                        "action": "swap",
+                        "effect": ""
+                    },
+                    {
+                        "player": "me",
+                        "to": "card-me-one",
+                        "method": "states",
+                        "state": "life",
+                        "value": "card.life",
+                        "type": "",
+                        "action": "swap",
+                        "effect": ""
+                    }
+                ],
+                "cost": 120,
+                "turn": 0,
+                "cooldown": 4,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "epic",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FE6A57"
+            },
+            {
+                "_id": "b004",
+                "code": "b004",
+                "name": "Give shield ally",
+                "description": "Pone escudo a un aliado",
+                "to_affect": [
+                    {
+                        "to": "card-me-choice",
+                        "method": "states",
+                        "state": "shield",
+                        "value": "100",
+                        "type": "",
+                        "action": "give",
+                        "effect": "",
+                        "permanent": true
+                    }
+                ],
+                "cost": 120,
+                "turn": 0,
+                "cooldown": 5,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "epic",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#1EC0C5"
+            },
+            {
+                "_id": "j001",
+                "code": "j001",
+                "name": "Swap life enemy",
+                "description": "Intercambiar la vida con la de la carta de tu rival",
+                "from_affect": [],
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "state": "states",
+                        "value": "card.life",
+                        "type": "",
+                        "action": "swap",
+                        "effect": "",
+                        "field": [
+                            "life"
+                        ]
+                    }
+                ],
+                "cost": 120,
+                "turn": 0,
+                "cooldown": 8,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "legendary",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FF001C"
+            },
+            {
+                "_id": "j002",
+                "code": "j002",
+                "name": "Swap states enemy",
+                "description": "Intercambiar los states con los del rival",
+                "from_affect": [],
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "state": "states",
+                        "value": "card.life",
+                        "type": "",
+                        "action": "swap",
+                        "effect": "",
+                        "field": [
+                            "energy",
+                            "energyBase",
+                            "affinity",
+                            "strength",
+                            "precision",
+                            "conscience",
+                            "armor",
+                            "dodge",
+                            "influence",
+                            "knowlegde",
+                            "shield",
+                            "maxshield",
+                            "life",
+                            "maxlife"
+                        ]
+                    }
+                ],
+                "cost": 120,
+                "turn": 0,
+                "cooldown": 8,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "legendary",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#34C51E"
+            },
+            {
+                "_id": "a101",
+                "code": "a101",
+                "name": "Super Atack",
+                "description": "Hace 300% de su fuerza",
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "punch",
+                        "value": "strength",
+                        "typeValue": "percent",
+                        "effect": "",
+                        "multiplier": 300,
+                        "repeat": 1
+                    }
+                ],
+                "cost": 100,
+                "turn": 0,
+                "cooldown": 6,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "common",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FFAD31"
+            },
+            {
+                "_id": "c005",
+                "code": "c005",
+                "name": "Increment states 3 turns",
+                "description": "Durante 3 aumenta los states un 40%",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-me-one",
+                        "method": "states",
+                        "state": "states",
+                        "action": "give",
+                        "value": 40,
+                        "typeValue": "percent",
+                        "effect": "",
+                        "field": [
+                            "energy",
+                            "energyBase",
+                            "affinity",
+                            "strength",
+                            "precision",
+                            "conscience",
+                            "armor",
+                            "dodge",
+                            "influence",
+                            "knowlegde",
+                            "shield",
+                            "maxshield",
+                            "life",
+                            "maxlife"
+                        ]
+                    }
+                ],
+                "cost": 50,
+                "turn": 4,
+                "cooldown": 6,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "rare",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#34C51E"
+            },
+            {
+                "_id": "c007",
+                "code": "c007",
+                "name": "Decrement states 3 turns",
+                "description": "Durante 3 decrementa los states un 40% el enemigo",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-he-one",
+                        "method": "states",
+                        "state": "states",
+                        "action": "take",
+                        "value": 40,
+                        "typeValue": "percent",
+                        "effect": "",
+                        "field": [
+                            "energy",
+                            "affinity",
+                            "strength",
+                            "precision",
+                            "conscience",
+                            "armor",
+                            "dodge",
+                            "influence",
+                            "knowlegde",
+                            "maxshield",
+                            "maxlife"
+                        ]
+                    }
+                ],
+                "cost": 50,
+                "turn": 5,
+                "cooldown": 7,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "rare",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#4A4948"
+            },
+            {
+                "_id": "c008",
+                "code": "c008",
+                "name": "Decrement states 10% permanent ",
+                "description": "decrementa los states un 10% el enemigo permanentemente",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-he-one",
+                        "method": "states",
+                        "state": "states",
+                        "action": "take",
+                        "value": 10,
+                        "typeValue": "percent",
+                        "effect": "",
+                        "field": [
+                            "energy",
+                            "affinity",
+                            "strength",
+                            "precision",
+                            "conscience",
+                            "armor",
+                            "dodge",
+                            "influence",
+                            "knowlegde",
+                            "maxshield",
+                            "maxlife"
+                        ],
+                        "permanent": true
+                    }
+                ],
+                "cost": 50,
+                "turn": 0,
+                "cooldown": 7,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "rare",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#4A4948"
+            },
+            {
+                "_id": "a019",
+                "code": "a019",
+                "name": "Increases the states permanently 10%",
+                "description": "Incrementa los estados permanentemente en un 10%",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-me-one",
+                        "method": "states",
+                        "state": "states",
+                        "action": "give",
+                        "value": 20,
+                        "typeValue": "percent",
+                        "effect": "",
+                        "field": [
+                            "energy",
+                            "energyBase",
+                            "affinity",
+                            "strength",
+                            "precision",
+                            "conscience",
+                            "armor",
+                            "dodge",
+                            "influence",
+                            "knowlegde",
+                            "shield",
+                            "maxshield",
+                            "life",
+                            "maxlife"
+                        ],
+                        "permanent": true
+                    }
+                ],
+                "cost": 50,
+                "turn": 0,
+                "cooldown": 6,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "rare",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FFAD31"
+            },
+            {
+                "_id": "c010",
+                "code": "c010",
+                "name": "Fire 4 turn",
+                "description": "Durante 4 turnos te hace daño a fuego",
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "take",
+                        "value": 30,
+                        "type": "",
+                        "effect": "fire",
+                        "permanent": true
+                    }
+                ],
+                "cost": 50,
+                "turn": 4,
+                "cooldown": 6,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "rare",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FFC300"
+            },
+            {
+                "_id": "c011",
+                "code": "c011",
+                "name": "Electric 4 turn",
+                "description": "Durante 4 turnos te hace daño a electricidad",
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "take",
+                        "value": 30,
+                        "type": "",
+                        "effect": "electric",
+                        "trigger": "",
+                        "permanent": true
+                    }
+                ],
+                "cost": 50,
+                "turn": 4,
+                "cooldown": 6,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "rare",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#1EA7C5"
+            },
+            {
+                "_id": "c012",
+                "code": "c012",
+                "name": "Water 4 turn",
+                "description": "Durante 4 turnos te hace daño a agua",
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "method": "states",
+                        "state": "life",
+                        "action": "take",
+                        "value": 30,
+                        "type": "",
+                        "effect": "water",
+                        "trigger": ""
+                    }
+                ],
+                "cost": 50,
+                "turn": 4,
+                "cooldown": 6,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "rare",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FFC300"
+            },
+            {
+                "_id": "d001",
+                "code": "d001",
+                "name": "No swap card",
+                "description": "Durante 2 turnos no puedes cambiar de carta",
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "method": "change",
+                        "state": "change",
+                        "action": "limit",
+                        "value": "not",
+                        "type": "",
+                        "effect": "",
+                        "field": [
+                            "change"
+                        ]
+                    }
+                ],
+                "cost": 80,
+                "turn": 2,
+                "cooldown": 4,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "uncommon",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FE6A57"
+            },
+            {
+                "_id": "d008",
+                "code": "d008",
+                "name": "Only can basic atack",
+                "description": "Durante 2 turnos solo puedes atacar",
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "method": "change",
+                        "state": "change",
+                        "action": "limit",
+                        "value": "not",
+                        "type": "",
+                        "effect": "",
+                        "field": [
+                            "skill1",
+                            "skill2",
+                            "skill3",
+                            "shield",
+                            "shield",
+                            "change"
+                        ]
+                    }
+                ],
+                "cost": 80,
+                "turn": 4,
+                "cooldown": 8,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "uncommon",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#e4e4e4"
+            },
+            {
+                "_id": "d000",
+                "code": "d000",
+                "name": "Increment energy me 4 turns",
+                "description": "Durante 4 turnos aumenta un poco más la energia",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "player",
+                        "method": "increment",
+                        "state": "energy",
+                        "action": "give",
+                        "value": "10",
+                        "type": "",
+                        "effect": "",
+                        "field": [
+                            "energy"
+                        ]
+                    }
+                ],
+                "cost": 80,
+                "turn": 4,
+                "cooldown": 8,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "uncommon",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FFAD31"
+            },
+            {
+                "_id": "c003",
+                "code": "c003",
+                "name": "Decrement energy he",
+                "description": "Durante 2 turnos quitas energia un poco de energia al rival",
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "player",
+                        "method": "decrement",
+                        "state": "energy",
+                        "action": "give",
+                        "value": "10",
+                        "type": "",
+                        "effect": ""
+                    }
+                ],
+                "cost": 80,
+                "turn": 4,
+                "cooldown": 8,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "common",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#4A4948"
+            },
+            {
+                "_id": "c004",
+                "code": "c004",
+                "name": "return 20% damage",
+                "description": "Durante 4 turnos el 20% del daño producido se transforma en daño hacia la misma carta",
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "car-he-one",
+                        "method": "life",
+                        "state": "energy",
+                        "action": "take",
+                        "value": "20",
+                        "typeValue": "percent",
+                        "effect": "",
+                        "trigger": "damage",
+                        "permanent": true
+                    }
+                ],
+                "cost": 80,
+                "turn": 4,
+                "cooldown": 8,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "common",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FF005C"
+            },
+            {
+                "_id": "d003",
+                "code": "d003",
+                "name": "Inmunity",
+                "description": "Inmunidad durante 1 turno",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-me-one",
+                        "method": "immunity",
+                        "state": "",
+                        "action": "inmmunity",
+                        "value": "",
+                        "type": "",
+                        "effect": "",
+                        "trigger": "inmune"
+                    }
+                ],
+                "cost": 200,
+                "turn": 2,
+                "cooldown": 6,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "legendary",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#0069FF"
+            },
+            {
+                "_id": "d007",
+                "code": "d007",
+                "name": "Transform damage to life",
+                "description": "el daño recibido se transforma en vida",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-me-one",
+                        "method": "life",
+                        "state": "",
+                        "action": "give",
+                        "value": "100%",
+                        "typeValue": "percent",
+                        "effect": "",
+                        "trigger": "damage",
+                        "permanent": true
+                    }
+                ],
+                "cost": 200,
+                "turn": 2,
+                "cooldown": 6,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "legendary",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#B100FF"
+            },
+            {
+                "_id": "d020",
+                "code": "d020",
+                "name": "Transform damage to energy",
+                "description": "el daño recibido se transforma en energia",
+                "to_affect": [
+                    {
+                        "player": "me",
+                        "to": "card-me-one",
+                        "method": "states",
+                        "state": "energy",
+                        "action": "give",
+                        "value": "100%",
+                        "typeValue": "percent",
+                        "effect": "",
+                        "trigger": "damage",
+                        "permanent": true
+                    }
+                ],
+                "cost": 200,
+                "turn": 2,
+                "cooldown": 6,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "legendary",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#2C2C2C"
+            },
+            {
+                "_id": "d009",
+                "code": "d009",
+                "name": "limit actions until take damage",
+                "description": "No puede hacer ninguna acción hasta recibir daño",
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "method": "change",
+                        "state": "change",
+                        "action": "limit",
+                        "value": "not",
+                        "type": "",
+                        "effect": "",
+                        "field": [
+                            "skill0",
+                            "skill1",
+                            "skill2",
+                            "skill3",
+                            "shield",
+                            "shield",
+                            "change"
+                        ],
+                        "trigger": "damage",
+                        "permanent": true
+                    }
+                ],
+                "cost": 200,
+                "turn": 0,
+                "cooldown": 999,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "legendary",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#8F8F8F"
+            },
+            {
+                "_id": "d016",
+                "code": "d016",
+                "name": "50% fail",
+                "description": "Durante 2 turnos tiene un 50% de probabilidad de fallar sus habilidades",
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "method": "fail",
+                        "state": "fail",
+                        "action": "fail",
+                        "value": "not",
+                        "type": "",
+                        "effect": ""
+                    }
+                ],
+                "cost": 200,
+                "turn": 4,
+                "cooldown": 8,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "legendary",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#FF9300"
+            },
+            {
+                "_id": "d017",
+                "code": "d017",
+                "name": "50% dodge",
+                "description": "Durante 2 turnos tienes un 50% más de probabilidad de esquivar los ataques",
+                "to_affect": [
+                    {
+                        "player": "he",
+                        "to": "card-he-one",
+                        "method": "dodge",
+                        "state": "dodge",
+                        "action": "dodge",
+                        "value": "50",
+                        "typeValue": "percent",
+                        "effect": "",
+                        "trigger": "damage"
+                    }
+                ],
+                "cost": 200,
+                "turn": 4,
+                "cooldown": 8,
+                "level": 1,
+                "count": 1,
+                "use": false,
+                "price": 0.8,
+                "rarity": "legendary",
+                "position": 1,
+                "faction": "",
+                "type": "active",
+                "status": true,
+                "typeToken": "skill",
+                "color": "#510087"
+            }
+        ],
+        "items": [
+            {
+                "_id": "3trJA4Um95aTp02mI4KBc",
+                "typeToken": "item",
+                "name": "Fantasy shield ",
+                "level": 1,
+                "location": "arms",
+                "rarity": "common",
+                "set": "one",
+                "upgrade": {
+                    "shield": 5,
+                    "energy": 2
+                },
+                "requirement": "none",
+                "use": false,
+                "count": 1,
+                "price": 0.2
+            },
+            {
+                "_id": "3trJA4Um95aTp02mI4KBc",
+                "typeToken": "item",
+                "name": "Fantasy shield ",
+                "level": 1,
+                "location": "arms",
+                "rarity": "common",
+                "set": "one",
+                "upgrade": {
+                    "shield": 5,
+                    "energy": 2
+                },
+                "requirement": "none",
+                "use": false,
+                "count": 1,
+                "price": 0.2
+            },
+            {
+                "_id": "3trJA4Um95aTp02mI4KBc",
+                "typeToken": "item",
+                "name": "Fantasy shield ",
+                "level": 1,
+                "location": "arms",
+                "rarity": "common",
+                "set": "one",
+                "upgrade": {
+                    "shield": 5,
+                    "energy": 2
+                },
+                "requirement": "none",
+                "use": false,
+                "count": 1,
+                "price": 0.2
+            }
+        ]
+    },
+    "decks": [
+        {
+            "name": "piu",
+            "cards": [
+                {
+                    "_id": "avv64gbtWka01IDOuPTtH",
+                    "name": "crow-1.png",
+                    "namecard": "Llenocida",
+                    "faction": "cyborgs",
+                    "aboutme": "Nowadays, robots are in charge of the jobs that Citizen usually developed. Now, the Establishment supports them, albeit in a precarious way. They mostly hang out in the fascinating world of Ether. But some of them are struggling to get ahead, and keep real jobs. They mostly hang ",
+                    "image": "crow-1.png",
+                    "background": "bg-police.jpg",
+                    "typeToken": "card",
+                    "race": "crow",
+                    "block": "cybers",
+                    "rarity": "common",
+                    "level": "1",
+                    "count": 1,
+                    "effect": "electric",
+                    "slots": [
+                        {
+                            "location": "head",
+                            "use": false
+                        },
+                        {
+                            "location": "body",
+                            "use": false
+                        },
+                        {
+                            "location": "arms",
+                            "use": false
+                        },
+                        {
+                            "location": "legs",
+                            "use": false
+                        }
+                    ],
+                    "states": {
+                        "energyBase": 60,
+                        "energy": 100,
+                        "affinity": 0,
+                        "strength": 48,
+                        "precision": 95,
+                        "armor": 60,
+                        "dodge": 40,
+                        "influence": 37,
+                        "knowlegde": 82,
+                        "shield": 43,
+                        "maxshield": 43,
+                        "life": 860,
+                        "maxlife": 860
+                    },
+                    "resistence": {
+                        "normal": 35,
+                        "fire": 41,
+                        "electric": 17,
+                        "poison": 41,
+                        "blood": 20,
+                        "total": null
+                    },
+                    "recovery": {
+                        "life": "0.84",
+                        "shield": "0.28"
+                    },
+                    "skills": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 48,
+                            "effect": "electric",
+                            "name": "Nuzzle",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "_id": "a008",
+                            "code": "a008",
+                            "name": "Recovey life 100%",
+                            "description": "Recuperar vida 100%",
+                            "to_affect": [
+                                {
+                                    "player": "me",
+                                    "to": "card-me-one",
+                                    "method": "states",
+                                    "state": "life",
+                                    "action": "give",
+                                    "value": 100,
+                                    "typeValue": "percent",
+                                    "effect": "",
+                                    "permanent": true
+                                }
+                            ],
+                            "cost": 150,
+                            "turn": 0,
+                            "cooldown": 4,
+                            "level": 1,
+                            "count": 1,
+                            "use": true,
+                            "price": 0.8,
+                            "rarity": "common",
+                            "position": 1,
+                            "faction": "",
+                            "type": "active",
+                            "status": true,
+                            "typeToken": "skill",
+                            "color": "#42D92B"
+                        },
+                        {
+                            "_id": "a013",
+                            "code": "a013",
+                            "name": "Takes life to one enemy",
+                            "description": "Realiza un ataque de 700 de daño a un enemigo",
+                            "to_affect": [
+                                {
+                                    "player": "me",
+                                    "to": "card-he-one",
+                                    "method": "states",
+                                    "state": "life",
+                                    "action": "punch",
+                                    "value": 700,
+                                    "type": "",
+                                    "effect": "",
+                                    "repeat": 1
+                                }
+                            ],
+                            "cost": 600,
+                            "turn": 0,
+                            "cooldown": 8,
+                            "level": 1,
+                            "count": 1,
+                            "use": true,
+                            "price": 0.8,
+                            "rarity": "rare",
+                            "position": 1,
+                            "faction": "",
+                            "type": "active",
+                            "status": true,
+                            "typeToken": "skill",
+                            "color": "#FFC300"
+                        },
+                        {
+                            "_id": "a101",
+                            "code": "a101",
+                            "name": "Super Atack",
+                            "description": "Hace 300% de su fuerza",
+                            "to_affect": [
+                                {
+                                    "player": "he",
+                                    "to": "card-he-one",
+                                    "method": "states",
+                                    "state": "life",
+                                    "action": "punch",
+                                    "value": "strength",
+                                    "typeValue": "percent",
+                                    "effect": "",
+                                    "multiplier": 300,
+                                    "repeat": 1
+                                }
+                            ],
+                            "cost": 100,
+                            "turn": 0,
+                            "cooldown": 6,
+                            "level": 1,
+                            "count": 1,
+                            "use": true,
+                            "price": 0.8,
+                            "rarity": "common",
+                            "position": 1,
+                            "faction": "",
+                            "type": "active",
+                            "status": true,
+                            "typeToken": "skill",
+                            "color": "#FFAD31"
+                        }
+                    ],
+                    "defense": {
+                        "block": {
+                            "strength": 58,
+                            "cost": 30,
+                            "name": "block"
+                        },
+                        "shield": {
+                            "strength": 20,
+                            "cost": 40,
+                            "description": "Añade escudo a un personaje",
+                            "name": "shield",
+                            "color": "#57F9FE",
+                            "code": "shield"
+                        }
+                    },
+                    "change": {
+                        "name": "change",
+                        "cost": 50,
+                        "description": "Intercambia tu carta del tablero por otra del banquillo",
+                        "color": "#FE6A57",
+                        "code": "swap"
+                    },
+                    "skills_combat": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 48,
+                            "effect": "electric",
+                            "name": "Nuzzle",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "_id": "a008",
+                            "code": "a008",
+                            "name": "Recovey life 100%",
+                            "description": "Recuperar vida 100%",
+                            "to_affect": [
+                                {
+                                    "player": "me",
+                                    "to": "card-me-one",
+                                    "method": "states",
+                                    "state": "life",
+                                    "action": "give",
+                                    "value": 100,
+                                    "typeValue": "percent",
+                                    "effect": "",
+                                    "permanent": true
+                                }
+                            ],
+                            "cost": 150,
+                            "turn": 0,
+                            "cooldown": 4,
+                            "level": 1,
+                            "count": 1,
+                            "use": true,
+                            "price": 0.8,
+                            "rarity": "common",
+                            "position": 1,
+                            "faction": "",
+                            "type": "active",
+                            "status": true,
+                            "typeToken": "skill",
+                            "color": "#42D92B"
+                        },
+                        {
+                            "_id": "a013",
+                            "code": "a013",
+                            "name": "Takes life to one enemy",
+                            "description": "Realiza un ataque de 700 de daño a un enemigo",
+                            "to_affect": [
+                                {
+                                    "player": "me",
+                                    "to": "card-he-one",
+                                    "method": "states",
+                                    "state": "life",
+                                    "action": "punch",
+                                    "value": 700,
+                                    "type": "",
+                                    "effect": "",
+                                    "repeat": 1
+                                }
+                            ],
+                            "cost": 600,
+                            "turn": 0,
+                            "cooldown": 8,
+                            "level": 1,
+                            "count": 1,
+                            "use": true,
+                            "price": 0.8,
+                            "rarity": "rare",
+                            "position": 1,
+                            "faction": "",
+                            "type": "active",
+                            "status": true,
+                            "typeToken": "skill",
+                            "color": "#FFC300"
+                        },
+                        {
+                            "_id": "a101",
+                            "code": "a101",
+                            "name": "Super Atack",
+                            "description": "Hace 300% de su fuerza",
+                            "to_affect": [
+                                {
+                                    "player": "he",
+                                    "to": "card-he-one",
+                                    "method": "states",
+                                    "state": "life",
+                                    "action": "punch",
+                                    "value": "strength",
+                                    "typeValue": "percent",
+                                    "effect": "",
+                                    "multiplier": 300,
+                                    "repeat": 1
+                                }
+                            ],
+                            "cost": 100,
+                            "turn": 0,
+                            "cooldown": 6,
+                            "level": 1,
+                            "count": 1,
+                            "use": true,
+                            "price": 0.8,
+                            "rarity": "common",
+                            "position": 1,
+                            "faction": "",
+                            "type": "active",
+                            "status": true,
+                            "typeToken": "skill",
+                            "color": "#FFAD31"
+                        }
+                    ],
+                    "power": 2330
+                },
+                {
+                    "_id": "KMQOjXXpyIktLgSxdEnDZ",
+                    "name": "bull-1.svg",
+                    "namecard": "Bull Red",
+                    "faction": "statesmen",
+                    "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+                    "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+                    "image": "bull-1.svg",
+                    "background": "bg-building.jpg",
+                    "typeToken": "card",
+                    "race": "bull",
+                    "block": "establishment",
+                    "rarity": "legendary",
+                    "level": 1,
+                    "count": 1,
+                    "effect": "electric",
+                    "slots": [
+                        {
+                            "location": "head",
+                            "use": false
+                        },
+                        {
+                            "location": "body",
+                            "use": false
+                        },
+                        {
+                            "location": "arms",
+                            "use": false
+                        },
+                        {
+                            "location": "legs",
+                            "use": false
+                        }
+                    ],
+                    "states": {
+                        "energyBase": 80,
+                        "energy": 90,
+                        "affinity": 0,
+                        "strength": 56,
+                        "precision": 127,
+                        "armor": 58,
+                        "dodge": 57,
+                        "influence": 46,
+                        "knowlegde": 84,
+                        "shield": 41,
+                        "maxshield": 41,
+                        "life": 1080,
+                        "maxlife": 1080
+                    },
+                    "resistence": {
+                        "normal": 38,
+                        "fire": 12,
+                        "electric": 2,
+                        "poison": 42,
+                        "blood": 22,
+                        "total": null
+                    },
+                    "recovery": {
+                        "life": "0.76",
+                        "shield": "0.36"
+                    },
+                    "skills": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 56,
+                            "effect": "electric",
+                            "name": "G-Max Volt Crash",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "code": "a000",
+                            "name": "super",
+                            "description": "Te hace 100 de daño verdadero",
+                            "cost": 100,
+                            "turn": 0,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        },
+                        {
+                            "code": "c001",
+                            "name": "super",
+                            "description": "Durante 4 turnos te hace daño a fuego",
+                            "cost": 50,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        },
+                        {
+                            "code": "d002",
+                            "name": "super",
+                            "description": "Durante 2 turnos no puedes cambiar de carta",
+                            "cost": 20,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        }
+                    ],
+                    "defense": {
+                        "block": {
+                            "strength": 60,
+                            "cost": 30,
+                            "name": "block"
+                        },
+                        "shield": {
+                            "strength": 26,
+                            "cost": 40,
+                            "description": "Añade escudo a un personaje",
+                            "name": "shield",
+                            "color": "#57F9FE",
+                            "code": "shield"
+                        }
+                    },
+                    "change": {
+                        "name": "change",
+                        "cost": 50,
+                        "description": "Intercambia tu carta del tablero por otra del banquillo",
+                        "color": "#FE6A57",
+                        "code": "swap"
+                    },
+                    "skills_combat": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 56,
+                            "effect": "electric",
+                            "name": "G-Max Volt Crash",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "code": "a000",
+                            "name": "super",
+                            "description": "Te hace 100 de daño verdadero",
+                            "cost": 100,
+                            "turn": 0,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        },
+                        {
+                            "code": "c001",
+                            "name": "super",
+                            "description": "Durante 4 turnos te hace daño a fuego",
+                            "cost": 50,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        },
+                        {
+                            "code": "d002",
+                            "name": "super",
+                            "description": "Durante 2 turnos no puedes cambiar de carta",
+                            "cost": 20,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        }
+                    ],
+                    "power": 2842,
+                    "price": 1
+                },
+                {
+                    "_id": "_W0cwQ4a1BIBfzLgKbflb",
+                    "name": "bot-1.svg",
+                    "namecard": "Botter",
+                    "faction": "cyborgs",
+                    "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+                    "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+                    "image": "bot-1.svg",
+                    "background": "bg-building.jpg",
+                    "typeToken": "card",
+                    "race": "bot",
+                    "block": "cybers",
+                    "rarity": "rare",
+                    "level": 1,
+                    "count": 1,
+                    "effect": "normal",
+                    "slots": [
+                        {
+                            "location": "head",
+                            "use": false
+                        },
+                        {
+                            "location": "body",
+                            "use": false
+                        },
+                        {
+                            "location": "arms",
+                            "use": false
+                        },
+                        {
+                            "location": "legs",
+                            "use": false
+                        }
+                    ],
+                    "states": {
+                        "energyBase": 60,
+                        "energy": 60,
+                        "affinity": 0,
+                        "strength": 37,
+                        "precision": 98,
+                        "armor": 46,
+                        "dodge": 27,
+                        "influence": 30,
+                        "knowlegde": 77,
+                        "shield": 39,
+                        "maxshield": 39,
+                        "life": 840,
+                        "maxlife": 840
+                    },
+                    "resistence": {
+                        "normal": 37,
+                        "fire": 3,
+                        "electric": 35,
+                        "poison": 4,
+                        "blood": 6,
+                        "total": null
+                    },
+                    "recovery": {
+                        "life": "0.96",
+                        "shield": "0.35"
+                    },
+                    "skills": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 37,
+                            "effect": "normal",
+                            "name": "Skull Bash",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "code": "c002",
+                            "name": "super",
+                            "description": "Durante 4 turnos aumenta un poco más la energia",
+                            "cost": 30,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        },
+                        {
+                            "code": "c003",
+                            "name": "super",
+                            "description": "Durante 2 turnos quitas un poco de energia al rival",
+                            "cost": 20,
+                            "turn": 2,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        },
+                        {
+                            "code": "d003",
+                            "name": "super",
+                            "description": "Inmunidad durante 1 turno",
+                            "cost": 200,
+                            "turn": 2,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        }
+                    ],
+                    "defense": {
+                        "block": {
+                            "strength": 41,
+                            "cost": 30,
+                            "name": "block"
+                        },
+                        "shield": {
+                            "strength": 38,
+                            "cost": 40,
+                            "description": "Añade escudo a un personaje",
+                            "name": "shield",
+                            "color": "#57F9FE",
+                            "code": "shield"
+                        }
+                    },
+                    "change": {
+                        "name": "change",
+                        "cost": 50,
+                        "description": "Intercambia tu carta del tablero por otra del banquillo",
+                        "color": "#FE6A57",
+                        "code": "swap"
+                    },
+                    "skills_combat": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 37,
+                            "effect": "normal",
+                            "name": "Skull Bash",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "code": "c002",
+                            "name": "super",
+                            "description": "Durante 4 turnos aumenta un poco más la energia",
+                            "cost": 30,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        },
+                        {
+                            "code": "c003",
+                            "name": "super",
+                            "description": "Durante 2 turnos quitas un poco de energia al rival",
+                            "cost": 20,
+                            "turn": 2,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        },
+                        {
+                            "code": "d003",
+                            "name": "super",
+                            "description": "Inmunidad durante 1 turno",
+                            "cost": 200,
+                            "turn": 2,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        }
+                    ],
+                    "power": 2195,
+                    "price": 0.6
+                }
+            ],
+            "_id": "2h4INdDl49rspxT3uwYbe"
+        },
+        {
+            "name": "poli",
+            "cards": [
+                {
+                    "_id": "_W0cwQ4a1BIBfzLgKbflb",
+                    "name": "bot-1.svg",
+                    "namecard": "Botter",
+                    "faction": "cyborgs",
+                    "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+                    "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+                    "image": "bot-1.svg",
+                    "background": "bg-building.jpg",
+                    "typeToken": "card",
+                    "race": "bot",
+                    "block": "cybers",
+                    "rarity": "rare",
+                    "level": 1,
+                    "count": 1,
+                    "effect": "normal",
+                    "slots": [
+                        {
+                            "location": "head",
+                            "use": false
+                        },
+                        {
+                            "location": "body",
+                            "use": false
+                        },
+                        {
+                            "location": "arms",
+                            "use": false
+                        },
+                        {
+                            "location": "legs",
+                            "use": false
+                        }
+                    ],
+                    "states": {
+                        "energyBase": 60,
+                        "energy": 60,
+                        "affinity": 0,
+                        "strength": 37,
+                        "precision": 98,
+                        "armor": 46,
+                        "dodge": 27,
+                        "influence": 30,
+                        "knowlegde": 77,
+                        "shield": 39,
+                        "maxshield": 39,
+                        "life": 840,
+                        "maxlife": 840
+                    },
+                    "resistence": {
+                        "normal": 37,
+                        "fire": 3,
+                        "electric": 35,
+                        "poison": 4,
+                        "blood": 6,
+                        "total": null
+                    },
+                    "recovery": {
+                        "life": "0.96",
+                        "shield": "0.35"
+                    },
+                    "skills": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 37,
+                            "effect": "normal",
+                            "name": "Skull Bash",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "code": "c002",
+                            "name": "super",
+                            "description": "Durante 4 turnos aumenta un poco más la energia",
+                            "cost": 30,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        },
+                        {
+                            "code": "c003",
+                            "name": "super",
+                            "description": "Durante 2 turnos quitas un poco de energia al rival",
+                            "cost": 20,
+                            "turn": 2,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        },
+                        {
+                            "code": "d003",
+                            "name": "super",
+                            "description": "Inmunidad durante 1 turno",
+                            "cost": 200,
+                            "turn": 2,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        }
+                    ],
+                    "defense": {
+                        "block": {
+                            "strength": 41,
+                            "cost": 30,
+                            "name": "block"
+                        },
+                        "shield": {
+                            "strength": 38,
+                            "cost": 40,
+                            "description": "Añade escudo a un personaje",
+                            "name": "shield",
+                            "color": "#57F9FE",
+                            "code": "shield"
+                        }
+                    },
+                    "change": {
+                        "name": "change",
+                        "cost": 50,
+                        "description": "Intercambia tu carta del tablero por otra del banquillo",
+                        "color": "#FE6A57",
+                        "code": "swap"
+                    },
+                    "skills_combat": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 37,
+                            "effect": "normal",
+                            "name": "Skull Bash",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "code": "c002",
+                            "name": "super",
+                            "description": "Durante 4 turnos aumenta un poco más la energia",
+                            "cost": 30,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        },
+                        {
+                            "code": "c003",
+                            "name": "super",
+                            "description": "Durante 2 turnos quitas un poco de energia al rival",
+                            "cost": 20,
+                            "turn": 2,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        },
+                        {
+                            "code": "d003",
+                            "name": "super",
+                            "description": "Inmunidad durante 1 turno",
+                            "cost": 200,
+                            "turn": 2,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 6
+                        }
+                    ],
+                    "power": 2195,
+                    "price": 0.6
+                },
+                {
+                    "_id": "cQee_L5LTbuOWdQF4P2af",
+                    "name": "rabbit-1.svg",
+                    "namecard": "Roger Rabbit",
+                    "faction": "artisans",
+                    "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+                    "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+                    "image": "rabbit-1.svg",
+                    "background": "bg-building.jpg",
+                    "typeToken": "card",
+                    "race": "rabbit",
+                    "block": "rebels",
+                    "rarity": "uncommon",
+                    "level": 1,
+                    "count": 1,
+                    "effect": "normal",
+                    "slots": [
+                        {
+                            "location": "head",
+                            "use": false
+                        },
+                        {
+                            "location": "body",
+                            "use": false
+                        },
+                        {
+                            "location": "arms",
+                            "use": false
+                        },
+                        {
+                            "location": "legs",
+                            "use": false
+                        }
+                    ],
+                    "states": {
+                        "energyBase": 60,
+                        "energy": 80,
+                        "affinity": 0,
+                        "strength": 30,
+                        "precision": 72,
+                        "armor": 37,
+                        "dodge": 15,
+                        "influence": 18,
+                        "knowlegde": 58,
+                        "shield": 23,
+                        "maxshield": 23,
+                        "life": 420,
+                        "maxlife": 420
+                    },
+                    "resistence": {
+                        "normal": 58,
+                        "fire": 9,
+                        "electric": 19,
+                        "poison": 25,
+                        "blood": 8,
+                        "total": null
+                    },
+                    "recovery": {
+                        "life": "0.90",
+                        "shield": "0.23"
+                    },
+                    "skills": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 30,
+                            "effect": "normal",
+                            "name": "Giga Impact",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "code": "d001",
+                            "name": "super",
+                            "description": "Durante 1 turno el enemigo no puede hacer ninguna acción",
+                            "cost": 50,
+                            "turn": 3,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 5
+                        },
+                        {
+                            "code": "c004",
+                            "name": "super",
+                            "description": "Durante 2 turnos cuando un oponente te golpea se hace un 20% del daño inflingido",
+                            "cost": 30,
+                            "turn": 2,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 5
+                        },
+                        {
+                            "code": "d004",
+                            "name": "super",
+                            "description": "Durante 4 turnos, si una carta oponente recibe escudo, en vez de eso, recidbe daño",
+                            "cost": 20,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 5
+                        }
+                    ],
+                    "defense": {
+                        "block": {
+                            "strength": 34,
+                            "cost": 30,
+                            "name": "block"
+                        },
+                        "shield": {
+                            "strength": 27,
+                            "cost": 40,
+                            "description": "Añade escudo a un personaje",
+                            "name": "shield",
+                            "color": "#57F9FE",
+                            "code": "shield"
+                        }
+                    },
+                    "change": {
+                        "name": "change",
+                        "cost": 50,
+                        "description": "Intercambia tu carta del tablero por otra del banquillo",
+                        "color": "#FE6A57",
+                        "code": "swap"
+                    },
+                    "skills_combat": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 30,
+                            "effect": "normal",
+                            "name": "Giga Impact",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "code": "d001",
+                            "name": "super",
+                            "description": "Durante 1 turno el enemigo no puede hacer ninguna acción",
+                            "cost": 50,
+                            "turn": 3,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 5
+                        },
+                        {
+                            "code": "c004",
+                            "name": "super",
+                            "description": "Durante 2 turnos cuando un oponente te golpea se hace un 20% del daño inflingido",
+                            "cost": 30,
+                            "turn": 2,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 5
+                        },
+                        {
+                            "code": "d004",
+                            "name": "super",
+                            "description": "Durante 4 turnos, si una carta oponente recibe escudo, en vez de eso, recidbe daño",
+                            "cost": 20,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 5
+                        }
+                    ],
+                    "power": 1258,
+                    "price": 0.4
+                },
+                {
+                    "_id": "KMQOjXXpyIktLgSxdEnDZ",
+                    "name": "bull-1.svg",
+                    "namecard": "Bull Red",
+                    "faction": "statesmen",
+                    "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+                    "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+                    "image": "bull-1.svg",
+                    "background": "bg-building.jpg",
+                    "typeToken": "card",
+                    "race": "bull",
+                    "block": "establishment",
+                    "rarity": "legendary",
+                    "level": 1,
+                    "count": 1,
+                    "effect": "electric",
+                    "slots": [
+                        {
+                            "location": "head",
+                            "use": false
+                        },
+                        {
+                            "location": "body",
+                            "use": false
+                        },
+                        {
+                            "location": "arms",
+                            "use": false
+                        },
+                        {
+                            "location": "legs",
+                            "use": false
+                        }
+                    ],
+                    "states": {
+                        "energyBase": 80,
+                        "energy": 90,
+                        "affinity": 0,
+                        "strength": 56,
+                        "precision": 127,
+                        "armor": 58,
+                        "dodge": 57,
+                        "influence": 46,
+                        "knowlegde": 84,
+                        "shield": 41,
+                        "maxshield": 41,
+                        "life": 1080,
+                        "maxlife": 1080
+                    },
+                    "resistence": {
+                        "normal": 38,
+                        "fire": 12,
+                        "electric": 2,
+                        "poison": 42,
+                        "blood": 22,
+                        "total": null
+                    },
+                    "recovery": {
+                        "life": "0.76",
+                        "shield": "0.36"
+                    },
+                    "skills": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 56,
+                            "effect": "electric",
+                            "name": "G-Max Volt Crash",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "code": "a000",
+                            "name": "super",
+                            "description": "Te hace 100 de daño verdadero",
+                            "cost": 100,
+                            "turn": 0,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        },
+                        {
+                            "code": "c001",
+                            "name": "super",
+                            "description": "Durante 4 turnos te hace daño a fuego",
+                            "cost": 50,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        },
+                        {
+                            "code": "d002",
+                            "name": "super",
+                            "description": "Durante 2 turnos no puedes cambiar de carta",
+                            "cost": 20,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        }
+                    ],
+                    "defense": {
+                        "block": {
+                            "strength": 60,
+                            "cost": 30,
+                            "name": "block"
+                        },
+                        "shield": {
+                            "strength": 26,
+                            "cost": 40,
+                            "description": "Añade escudo a un personaje",
+                            "name": "shield",
+                            "color": "#57F9FE",
+                            "code": "shield"
+                        }
+                    },
+                    "change": {
+                        "name": "change",
+                        "cost": 50,
+                        "description": "Intercambia tu carta del tablero por otra del banquillo",
+                        "color": "#FE6A57",
+                        "code": "swap"
+                    },
+                    "skills_combat": [
+                        {
+                            "code": "0000",
+                            "cost": 20,
+                            "strength": 56,
+                            "effect": "electric",
+                            "name": "G-Max Volt Crash",
+                            "status": true,
+                            "type": "active",
+                            "description": "basic atack",
+                            "cooldown": 0,
+                            "multiplier": 100,
+                            "color": "white"
+                        },
+                        {
+                            "_id": "a008",
+                            "code": "a008",
+                            "name": "Recovey life 100%",
+                            "description": "Recuperar vida 100%",
+                            "to_affect": [
+                                {
+                                    "player": "me",
+                                    "to": "card-me-one",
+                                    "method": "states",
+                                    "state": "life",
+                                    "action": "give",
+                                    "value": 100,
+                                    "typeValue": "percent",
+                                    "effect": "",
+                                    "permanent": true
+                                }
+                            ],
+                            "cost": 150,
+                            "turn": 0,
+                            "cooldown": 4,
+                            "level": 1,
+                            "count": 1,
+                            "use": true,
+                            "price": 0.8,
+                            "rarity": "common",
+                            "position": 1,
+                            "faction": "",
+                            "type": "active",
+                            "status": true,
+                            "typeToken": "skill",
+                            "color": "#42D92B"
+                        },
+                        {
+                            "_id": "a010",
+                            "code": "a010",
+                            "name": "4 impacts enemy",
+                            "description": "Realiza 4 ataques basicos",
+                            "to_affect": [
+                                {
+                                    "player": "me",
+                                    "to": "card-he-one",
+                                    "method": "states",
+                                    "state": "life",
+                                    "action": "punch",
+                                    "value": "strench",
+                                    "type": "",
+                                    "effect": "",
+                                    "repeat": 4,
+                                    "multiplier": 100
+                                }
+                            ],
+                            "cost": 300,
+                            "turn": 0,
+                            "cooldown": 8,
+                            "level": 1,
+                            "count": 1,
+                            "use": true,
+                            "price": 0.8,
+                            "rarity": "rare",
+                            "position": 1,
+                            "faction": "",
+                            "type": "active",
+                            "status": true,
+                            "typeToken": "skill",
+                            "color": "#e3e3e3"
+                        },
+                        {
+                            "code": "d002",
+                            "name": "super",
+                            "description": "Durante 2 turnos no puedes cambiar de carta",
+                            "cost": 20,
+                            "turn": 4,
+                            "status": true,
+                            "type": "active",
+                            "cooldown": 2
+                        }
+                    ],
+                    "power": 2842,
+                    "price": 1
+                }
+            ],
+            "_id": "d_tYyzRESCX-YXU1fVGt2"
+        }
+    ],
+    "skill": {},
+    "loyalty": 0,
+    "purchased": {
+        "cards": [
+            "KMQOjXXpyIktLgSxdEnDZ",
+            "_W0cwQ4a1BIBfzLgKbflb",
+            "cQee_L5LTbuOWdQF4P2af"
+        ],
+        "skins": [
+            "5fc279f15256d21bddc3669a",
+            "5fc27a7d5256d21bddc3669b"
+        ],
+        "skills": [
+            "a000",
+            "a001",
+            "a002",
+            "a003",
+            "a004",
+            "a008",
+            "a010",
+            "a013",
+            "a014",
+            "a015",
+            "a016",
+            "a018",
+            "b006",
+            "b001",
+            "b002",
+            "b003",
+            "b004",
+            "j001",
+            "j002",
+            "a101",
+            "c005",
+            "c007",
+            "c008",
+            "a019",
+            "c010",
+            "c011",
+            "c012",
+            "d001",
+            "d008",
+            "d000",
+            "c003",
+            "c004",
+            "d003",
+            "d007",
+            "d020",
+            "d009",
+            "d016",
+            "d017"
+        ],
+        "items": [
+            "pijqwdpijwpdoijw",
+            "RCN8RoipHzmU24hZaO9VS",
+            "r_dbNCNuOFC_CTArj-f0A"
+        ]
+    },
+    "games": {
+        "win": 0,
+        "lose": 0,
+        "draw": 0,
+        "matches": 0
+    },
+    "block": "Cybers",
+    "faction": "Masters",
+    "team": [
+        {
+            "_id": "avv64gbtWka01IDOuPTtH",
+            "name": "crow-1.png",
+            "namecard": "Llenocida",
+            "faction": "cyborgs",
+            "aboutme": "Nowadays, robots are in charge of the jobs that Citizen usually developed. Now, the Establishment supports them, albeit in a precarious way. They mostly hang out in the fascinating world of Ether. But some of them are struggling to get ahead, and keep real jobs. They mostly hang ",
+            "image": "crow-1.png",
+            "background": "bg-police.jpg",
+            "typeToken": "card",
+            "race": "crow",
+            "block": "cybers",
+            "rarity": "common",
+            "level": "1",
+            "count": 1,
+            "effect": "electric",
+            "slots": [
+                {
+                    "location": "head",
+                    "use": false
+                },
+                {
+                    "location": "body",
+                    "use": false
+                },
+                {
+                    "location": "arms",
+                    "use": false
+                },
+                {
+                    "location": "legs",
+                    "use": false
+                }
+            ],
+            "states": {
+                "energyBase": 60,
+                "energy": 100,
+                "affinity": 0,
+                "strength": 48,
+                "precision": 95,
+                "armor": 60,
+                "dodge": 40,
+                "influence": 37,
+                "knowlegde": 82,
+                "shield": 43,
+                "maxshield": 43,
+                "life": 860,
+                "maxlife": 860
+            },
+            "resistence": {
+                "normal": 35,
+                "fire": 41,
+                "electric": 17,
+                "poison": 41,
+                "blood": 20,
+                "total": null
+            },
+            "recovery": {
+                "life": "0.84",
+                "shield": "0.28"
+            },
+            "skills": [
+                {
+                    "code": "0000",
+                    "cost": 20,
+                    "strength": 48,
+                    "effect": "electric",
+                    "name": "Nuzzle",
+                    "status": true,
+                    "type": "active",
+                    "description": "basic atack",
+                    "cooldown": 0,
+                    "multiplier": 100,
+                    "color": "white"
+                },
+                {
+                    "_id": "a008",
+                    "code": "a008",
+                    "name": "Recovey life 100%",
+                    "description": "Recuperar vida 100%",
+                    "to_affect": [
+                        {
+                            "player": "me",
+                            "to": "card-me-one",
+                            "method": "states",
+                            "state": "life",
+                            "action": "give",
+                            "value": 100,
+                            "typeValue": "percent",
+                            "effect": "",
+                            "permanent": true
+                        }
+                    ],
+                    "cost": 150,
+                    "turn": 0,
+                    "cooldown": 4,
+                    "level": 1,
+                    "count": 1,
+                    "use": true,
+                    "price": 0.8,
+                    "rarity": "common",
+                    "position": 1,
+                    "faction": "",
+                    "type": "active",
+                    "status": true,
+                    "typeToken": "skill",
+                    "color": "#42D92B"
+                },
+                {
+                    "_id": "a013",
+                    "code": "a013",
+                    "name": "Takes life to one enemy",
+                    "description": "Realiza un ataque de 700 de daño a un enemigo",
+                    "to_affect": [
+                        {
+                            "player": "me",
+                            "to": "card-he-one",
+                            "method": "states",
+                            "state": "life",
+                            "action": "punch",
+                            "value": 700,
+                            "type": "",
+                            "effect": "",
+                            "repeat": 1
+                        }
+                    ],
+                    "cost": 600,
+                    "turn": 0,
+                    "cooldown": 8,
+                    "level": 1,
+                    "count": 1,
+                    "use": true,
+                    "price": 0.8,
+                    "rarity": "rare",
+                    "position": 1,
+                    "faction": "",
+                    "type": "active",
+                    "status": true,
+                    "typeToken": "skill",
+                    "color": "#FFC300"
+                },
+                {
+                    "_id": "a101",
+                    "code": "a101",
+                    "name": "Super Atack",
+                    "description": "Hace 300% de su fuerza",
+                    "to_affect": [
+                        {
+                            "player": "he",
+                            "to": "card-he-one",
+                            "method": "states",
+                            "state": "life",
+                            "action": "punch",
+                            "value": "strength",
+                            "typeValue": "percent",
+                            "effect": "",
+                            "multiplier": 300,
+                            "repeat": 1
+                        }
+                    ],
+                    "cost": 100,
+                    "turn": 0,
+                    "cooldown": 6,
+                    "level": 1,
+                    "count": 1,
+                    "use": true,
+                    "price": 0.8,
+                    "rarity": "common",
+                    "position": 1,
+                    "faction": "",
+                    "type": "active",
+                    "status": true,
+                    "typeToken": "skill",
+                    "color": "#FFAD31"
+                }
+            ],
+            "defense": {
+                "block": {
+                    "strength": 58,
+                    "cost": 30,
+                    "name": "block"
+                },
+                "shield": {
+                    "strength": 20,
+                    "cost": 40,
+                    "description": "Añade escudo a un personaje",
+                    "name": "shield",
+                    "color": "#57F9FE",
+                    "code": "shield"
+                }
+            },
+            "change": {
+                "name": "change",
+                "cost": 50,
+                "description": "Intercambia tu carta del tablero por otra del banquillo",
+                "color": "#FE6A57",
+                "code": "swap"
+            },
+            "skills_combat": [
+                {
+                    "code": "0000",
+                    "cost": 20,
+                    "strength": 48,
+                    "effect": "electric",
+                    "name": "Nuzzle",
+                    "status": true,
+                    "type": "active",
+                    "description": "basic atack",
+                    "cooldown": 0,
+                    "multiplier": 100,
+                    "color": "white"
+                },
+                {
+                    "_id": "a008",
+                    "code": "a008",
+                    "name": "Recovey life 100%",
+                    "description": "Recuperar vida 100%",
+                    "to_affect": [
+                        {
+                            "player": "me",
+                            "to": "card-me-one",
+                            "method": "states",
+                            "state": "life",
+                            "action": "give",
+                            "value": 100,
+                            "typeValue": "percent",
+                            "effect": "",
+                            "permanent": true
+                        }
+                    ],
+                    "cost": 150,
+                    "turn": 0,
+                    "cooldown": 4,
+                    "level": 1,
+                    "count": 1,
+                    "use": true,
+                    "price": 0.8,
+                    "rarity": "common",
+                    "position": 1,
+                    "faction": "",
+                    "type": "active",
+                    "status": true,
+                    "typeToken": "skill",
+                    "color": "#42D92B"
+                },
+                {
+                    "_id": "a013",
+                    "code": "a013",
+                    "name": "Takes life to one enemy",
+                    "description": "Realiza un ataque de 700 de daño a un enemigo",
+                    "to_affect": [
+                        {
+                            "player": "me",
+                            "to": "card-he-one",
+                            "method": "states",
+                            "state": "life",
+                            "action": "punch",
+                            "value": 700,
+                            "type": "",
+                            "effect": "",
+                            "repeat": 1
+                        }
+                    ],
+                    "cost": 600,
+                    "turn": 0,
+                    "cooldown": 8,
+                    "level": 1,
+                    "count": 1,
+                    "use": true,
+                    "price": 0.8,
+                    "rarity": "rare",
+                    "position": 1,
+                    "faction": "",
+                    "type": "active",
+                    "status": true,
+                    "typeToken": "skill",
+                    "color": "#FFC300"
+                },
+                {
+                    "_id": "a101",
+                    "code": "a101",
+                    "name": "Super Atack",
+                    "description": "Hace 300% de su fuerza",
+                    "to_affect": [
+                        {
+                            "player": "he",
+                            "to": "card-he-one",
+                            "method": "states",
+                            "state": "life",
+                            "action": "punch",
+                            "value": "strength",
+                            "typeValue": "percent",
+                            "effect": "",
+                            "multiplier": 300,
+                            "repeat": 1
+                        }
+                    ],
+                    "cost": 100,
+                    "turn": 0,
+                    "cooldown": 6,
+                    "level": 1,
+                    "count": 1,
+                    "use": true,
+                    "price": 0.8,
+                    "rarity": "common",
+                    "position": 1,
+                    "faction": "",
+                    "type": "active",
+                    "status": true,
+                    "typeToken": "skill",
+                    "color": "#FFAD31"
+                }
+            ],
+            "power": 2330
+        },
+        {
+            "_id": "KMQOjXXpyIktLgSxdEnDZ",
+            "name": "bull-1.svg",
+            "namecard": "Bull Red",
+            "faction": "statesmen",
+            "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+            "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+            "image": "bull-1.svg",
+            "background": "bg-building.jpg",
+            "typeToken": "card",
+            "race": "bull",
+            "block": "establishment",
+            "rarity": "legendary",
+            "level": 1,
+            "count": 1,
+            "effect": "electric",
+            "slots": [
+                {
+                    "location": "head",
+                    "use": false
+                },
+                {
+                    "location": "body",
+                    "use": false
+                },
+                {
+                    "location": "arms",
+                    "use": false
+                },
+                {
+                    "location": "legs",
+                    "use": false
+                }
+            ],
+            "states": {
+                "energyBase": 80,
+                "energy": 90,
+                "affinity": 0,
+                "strength": 56,
+                "precision": 127,
+                "armor": 58,
+                "dodge": 57,
+                "influence": 46,
+                "knowlegde": 84,
+                "shield": 41,
+                "maxshield": 41,
+                "life": 1080,
+                "maxlife": 1080
+            },
+            "resistence": {
+                "normal": 38,
+                "fire": 12,
+                "electric": 2,
+                "poison": 42,
+                "blood": 22,
+                "total": null
+            },
+            "recovery": {
+                "life": "0.76",
+                "shield": "0.36"
+            },
+            "skills": [
+                {
+                    "code": "0000",
+                    "cost": 20,
+                    "strength": 56,
+                    "effect": "electric",
+                    "name": "G-Max Volt Crash",
+                    "status": true,
+                    "type": "active",
+                    "description": "basic atack",
+                    "cooldown": 0,
+                    "multiplier": 100,
+                    "color": "white"
+                },
+                {
+                    "code": "a000",
+                    "name": "super",
+                    "description": "Te hace 100 de daño verdadero",
+                    "cost": 100,
+                    "turn": 0,
+                    "status": true,
+                    "type": "active",
+                    "cooldown": 2
+                },
+                {
+                    "code": "c001",
+                    "name": "super",
+                    "description": "Durante 4 turnos te hace daño a fuego",
+                    "cost": 50,
+                    "turn": 4,
+                    "status": true,
+                    "type": "active",
+                    "cooldown": 2
+                },
+                {
+                    "code": "d002",
+                    "name": "super",
+                    "description": "Durante 2 turnos no puedes cambiar de carta",
+                    "cost": 20,
+                    "turn": 4,
+                    "status": true,
+                    "type": "active",
+                    "cooldown": 2
+                }
+            ],
+            "defense": {
+                "block": {
+                    "strength": 60,
+                    "cost": 30,
+                    "name": "block"
+                },
+                "shield": {
+                    "strength": 26,
+                    "cost": 40,
+                    "description": "Añade escudo a un personaje",
+                    "name": "shield",
+                    "color": "#57F9FE",
+                    "code": "shield"
+                }
+            },
+            "change": {
+                "name": "change",
+                "cost": 50,
+                "description": "Intercambia tu carta del tablero por otra del banquillo",
+                "color": "#FE6A57",
+                "code": "swap"
+            },
+            "skills_combat": [
+                {
+                    "code": "0000",
+                    "cost": 20,
+                    "strength": 56,
+                    "effect": "electric",
+                    "name": "G-Max Volt Crash",
+                    "status": true,
+                    "type": "active",
+                    "description": "basic atack",
+                    "cooldown": 0,
+                    "multiplier": 100,
+                    "color": "white"
+                },
+                {
+                    "code": "a000",
+                    "name": "super",
+                    "description": "Te hace 100 de daño verdadero",
+                    "cost": 100,
+                    "turn": 0,
+                    "status": true,
+                    "type": "active",
+                    "cooldown": 2
+                },
+                {
+                    "code": "c001",
+                    "name": "super",
+                    "description": "Durante 4 turnos te hace daño a fuego",
+                    "cost": 50,
+                    "turn": 4,
+                    "status": true,
+                    "type": "active",
+                    "cooldown": 2
+                },
+                {
+                    "code": "d002",
+                    "name": "super",
+                    "description": "Durante 2 turnos no puedes cambiar de carta",
+                    "cost": 20,
+                    "turn": 4,
+                    "status": true,
+                    "type": "active",
+                    "cooldown": 2
+                }
+            ],
+            "power": 2842,
+            "price": 1
+        },
+        {
+            "_id": "_W0cwQ4a1BIBfzLgKbflb",
+            "name": "bot-1.svg",
+            "namecard": "Botter",
+            "faction": "cyborgs",
+            "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+            "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+            "image": "bot-1.svg",
+            "background": "bg-building.jpg",
+            "typeToken": "card",
+            "race": "bot",
+            "block": "cybers",
+            "rarity": "rare",
+            "level": 1,
+            "count": 1,
+            "effect": "normal",
+            "slots": [
+                {
+                    "location": "head",
+                    "use": false
+                },
+                {
+                    "location": "body",
+                    "use": false
+                },
+                {
+                    "location": "arms",
+                    "use": false
+                },
+                {
+                    "location": "legs",
+                    "use": false
+                }
+            ],
+            "states": {
+                "energyBase": 60,
+                "energy": 60,
+                "affinity": 0,
+                "strength": 37,
+                "precision": 98,
+                "armor": 46,
+                "dodge": 27,
+                "influence": 30,
+                "knowlegde": 77,
+                "shield": 39,
+                "maxshield": 39,
+                "life": 840,
+                "maxlife": 840
+            },
+            "resistence": {
+                "normal": 37,
+                "fire": 3,
+                "electric": 35,
+                "poison": 4,
+                "blood": 6,
+                "total": null
+            },
+            "recovery": {
+                "life": "0.96",
+                "shield": "0.35"
+            },
+            "skills": [
+                {
+                    "code": "0000",
+                    "cost": 20,
+                    "strength": 37,
+                    "effect": "normal",
+                    "name": "Skull Bash",
+                    "status": true,
+                    "type": "active",
+                    "description": "basic atack",
+                    "cooldown": 0,
+                    "multiplier": 100,
+                    "color": "white"
+                },
+                {
+                    "code": "c002",
+                    "name": "super",
+                    "description": "Durante 4 turnos aumenta un poco más la energia",
+                    "cost": 30,
+                    "turn": 4,
+                    "status": true,
+                    "type": "active",
+                    "cooldown": 6
+                },
+                {
+                    "code": "c003",
+                    "name": "super",
+                    "description": "Durante 2 turnos quitas un poco de energia al rival",
+                    "cost": 20,
+                    "turn": 2,
+                    "status": true,
+                    "type": "active",
+                    "cooldown": 6
+                },
+                {
+                    "code": "d003",
+                    "name": "super",
+                    "description": "Inmunidad durante 1 turno",
+                    "cost": 200,
+                    "turn": 2,
+                    "status": true,
+                    "type": "active",
+                    "cooldown": 6
+                }
+            ],
+            "defense": {
+                "block": {
+                    "strength": 41,
+                    "cost": 30,
+                    "name": "block"
+                },
+                "shield": {
+                    "strength": 38,
+                    "cost": 40,
+                    "description": "Añade escudo a un personaje",
+                    "name": "shield",
+                    "color": "#57F9FE",
+                    "code": "shield"
+                }
+            },
+            "change": {
+                "name": "change",
+                "cost": 50,
+                "description": "Intercambia tu carta del tablero por otra del banquillo",
+                "color": "#FE6A57",
+                "code": "swap"
+            },
+            "skills_combat": [
+                {
+                    "code": "0000",
+                    "cost": 20,
+                    "strength": 37,
+                    "effect": "normal",
+                    "name": "Skull Bash",
+                    "status": true,
+                    "type": "active",
+                    "description": "basic atack",
+                    "cooldown": 0,
+                    "multiplier": 100,
+                    "color": "white"
+                },
+                {
+                    "code": "c002",
+                    "name": "super",
+                    "description": "Durante 4 turnos aumenta un poco más la energia",
+                    "cost": 30,
+                    "turn": 4,
+                    "status": true,
+                    "type": "active",
+                    "cooldown": 6
+                },
+                {
+                    "code": "c003",
+                    "name": "super",
+                    "description": "Durante 2 turnos quitas un poco de energia al rival",
+                    "cost": 20,
+                    "turn": 2,
+                    "status": true,
+                    "type": "active",
+                    "cooldown": 6
+                },
+                {
+                    "code": "d003",
+                    "name": "super",
+                    "description": "Inmunidad durante 1 turno",
+                    "cost": 200,
+                    "turn": 2,
+                    "status": true,
+                    "type": "active",
+                    "cooldown": 6
+                }
+            ],
+            "power": 2195,
+            "price": 0.6
+        }
+    ],
+    "energy": 60
+}

@@ -1,0 +1,489 @@
+form {
+  .group-form0 {
+    display: grid;
+    grid-template-columns: 0px 100%;
+    label {
+      margin: 10px 0px;
+    }
+  }
+  .group-form2 {
+    display: grid;
+    grid-template-columns: 110px auto;
+
+    label {
+      margin: 10px 0px;
+    }
+  }
+
+  input {
+    outline: none;
+    font-size: 1em;
+  }
+  .group-form {
+    input[type="search"]:focus ~ button {
+      display: block;
+    }
+  }
+}
+.btn-search {
+  display: none;
+}
+
+.form-classic {
+  box-sizing: border-box;
+  padding: 10px;
+
+  input[type="text"],
+  input[type="password"],
+  input[type="number"],
+  input[type="email"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="date"] {
+    border: 1px solid #ccc;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 3px;
+    margin: 10px 0px;
+    width: 100%;
+    -webkit-appearance: initial;
+    appearance: initial;
+    outline-offset: 0px;
+    outline-color: var(--primary);
+
+    &:focus {
+      border: 1px solid var(--focus);
+    }
+  }
+  input {
+    box-sizing: border-box;
+  }
+
+  textarea {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+.form-modern {
+  box-sizing: border-box;
+  padding: 10px;
+  input[type="text"],
+  input[type="password"],
+  input[type="number"],
+  input[type="email"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="date"] {
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px 0px;
+    width: 100%;
+    -webkit-appearance: initial;
+    appearance: initial;
+    outline-offset: 0px;
+    outline-color: var(--primary);
+
+    &:focus {
+      border: 1px solid var(--focus);
+    }
+  }
+  input {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  textarea {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    margin: 10px auto;
+    outline-offset: 0px;
+    outline-color: var(--primary);
+  }
+}
+
+.form-minimal {
+  box-sizing: border-box;
+  padding: 10px;
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="date"] {
+    border-bottom: 1px solid #ccc;
+    background-color: var(--primary-color);
+    padding: 10px 0px;
+    margin: 10px 0px;
+    width: 100%;
+    -webkit-appearance: initial;
+    appearance: initial;
+
+    &:focus {
+      border-bottom: 1px solid var(--focus);
+    }
+  }
+  input {
+    box-sizing: border-box;
+  }
+
+  textarea {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+.custom-check {
+  input[type="checkbox"],
+  input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #eee;
+    padding: 10px;
+    margin: 0px;
+    vertical-align: middle;
+    border: 1px solid grey;
+    outline: none;
+
+    &:checked {
+      background-color: var(--red);
+      border: 1px solid grey;
+    }
+  }
+  input[type="checkbox"] {
+    border: 1px solid var(--primary);
+    border-radius: 2px;
+
+    &:checked {
+      padding: 4px 6px 5px 5px;
+      border: 0px solid var(--primary);
+      background-color: var(--primary);
+    }
+    &:checked::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f00c";
+      color: white;
+    }
+  }
+  input[type="radio"] {
+    border-radius: 50%;
+    border: 1px solid grey;
+
+    &:checked {
+      background-color: white;
+      padding: 5px;
+      border: 6px solid var(--primary);
+    }
+  }
+}
+
+.custom-select {
+  .group-form {
+    position: relative;
+    line-height: 1em;
+    height: 2em;
+    label {
+      position: absolute;
+      z-index: 2;
+      top: 5px;
+      left: 5px;
+
+      &:hover ~ input[type="radio"] {
+        cursor: pointer;
+        background-color: var(--primary);
+      }
+    }
+  }
+
+  input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 12px;
+    margin: 0px;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+    width: 100%;
+    position: absolute;
+    height: 1.5em;
+    border-radius: 2px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: var(--primary);
+    }
+  }
+
+  input[type="radio"] {
+    &:checked {
+      background-color: var(--primary);
+    }
+  }
+}
+
+/* Custom select form */
+
+
+
+
+
+.group-form.select-form label {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.wrapper {
+  width: 100px; /* Set the size of the progress bar */
+  height: 100px;
+  position: absolute; /* Enable clipping */
+  clip: rect(0px, 100px, 100px, 50px); /* Hide half of the progress bar */
+}
+/* Set the sizes of the elements that make up the progress bar */
+.circle {
+  width: 80px;
+  height: 80px;
+  border: 10px solid green;
+  border-radius: 50px;
+  position: absolute;
+  clip: rect(0px, 50px, 100px, 0px);
+}
+
+// /* Using the data attributes for the animation selectors. */
+// /* Base settings for all animated elements */
+// div[data-anim~="base"] {
+//   -webkit-animation-iteration-count: 1; /* Only run once */
+//   -webkit-animation-fill-mode: forwards; /* Hold the last keyframe */
+//   -webkit-animation-timing-function: linear; /* Linear animation */
+//   -webkit-transform: rotate(360deg);
+// }
+
+// .wrapper[data-anim~="wrapper"] {
+//   -webkit-animation-duration: 0.01s; /* Complete keyframes asap */
+//   -webkit-animation-delay: 3s; /* Wait half of the animation */
+//   -webkit-animation-name: close-wrapper; /* Keyframes name */
+// }
+
+// .circle[data-anim~="left"] {
+//   -webkit-animation-duration: 6s; /* Full animation time */
+//   -webkit-animation-name: left-spin;
+// }
+
+// .circle[data-anim~="right"] {
+//   -webkit-animation-duration: 3s; /* Half animation time */
+//   -webkit-animation-name: right-spin;
+// }
+/* Rotate the right side of the progress bar from 0 to 180 degrees */
+// @-webkit-keyframes right-spin {
+//   from {
+//     -webkit-transform: rotate(0deg);
+//   }
+//   to {
+//     -webkit-transform: rotate(180deg);
+//   }
+// }
+// /* Rotate the left side of the progress bar from 0 to 360 degrees */
+// @-webkit-keyframes left-spin {
+//   from {
+//     -webkit-transform: rotate(0deg);
+//   }
+//   to {
+//     -webkit-transform: rotate(360deg);
+//   }
+// }
+// /* Set the wrapper clip to auto, effectively removing the clip */
+// @-webkit-keyframes close-wrapper {
+//   to {
+//     clip: rect(auto, auto, auto, auto);
+//   }
+// }
+
+/* Switch form modern */
+
+/* Rounded sliders */
+.slider-switch.round {
+  border-radius: 34px;
+  height: 20px;
+  width: 40px;
+}
+
+.slider-switch.round:before {
+  border-radius: 50%;
+}
+span.title {
+  text-align: right;
+  display: block;
+  padding: 2px;
+}
+
+.cols-table {
+  display: table;
+  width: 100%;
+}
+.cols-table .cols-cell {
+  display: table-cell;
+}
+
+/* SWITCH ON OFF or YES or NOT */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider-switch {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider-switch:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.switch input:checked + .slider-switch {
+  background-color: var(--primary);
+}
+
+.switch input:focus + .slider-switch {
+  box-shadow: 0 0 1px var(--primary);
+}
+
+.switch input:checked + .slider-switch:before {
+  -webkit-transform: translateX(17px);
+  -ms-transform: translateX(17px);
+  transform: translateX(17px);
+}
+
+.btn_delete_text_search {
+  position: absolute;
+  right: 9%;
+  top: 10px;
+  font-size: 18px;
+  color: black;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  &:hover {
+    background-color: red;
+  }
+}
+
+// FORM HOME CAR
+.bghome {
+  background: url("https://checkauto.es/wp-content/uploads/2019/12/coche-audi-a8-2.jpg") no-repeat;
+  background-size: cover;
+}
+.form.steps {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+// CUSTOM CHECKBOX
+
+
+
+@mixin group(
+  $color
+){
+  input[type="checkbox"],
+  input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  label {
+    position: relative;
+    margin-right: 1em;
+    padding-left: 2em;
+    padding-right: 1em;
+    line-height: 2em;
+    cursor: pointer;
+    z-index: 2;
+    width: auto;
+    display: block !important;
+    margin: 0px;
+    color: black;
+    font-family: gotham book, arial;
+  }
+   label:before {
+    box-sizing: border-box;
+    content: " ";
+    position: absolute;
+    top: 0.3em;
+    left: 0;
+    display: block;
+    width: 1.4em;
+    height: 1.4em;
+    border: 0px solid black;
+    border-radius: .25em;
+    z-index: -1;
+  }
+  
+   input[type="radio"] +  label::before {
+    border-radius: 1em;
+    border: 2px solid $color;
+  }
+  
+  /* Checked */
+   input[type="checkbox"]:checked +  label,
+   input[type="radio"]:checked +  label {
+    padding-left: 1em;
+    color: white;
+    z-index: 1;
+    margin-right: 20px;
+  }
+   input[type="checkbox"]:checked +  label:before,
+   input[type="radio"]:checked +  label:before {
+    top: 0;
+    width: 100%;
+    height: 2em;
+    background: $color;
+    border-radius: 25px;
+    // border-bottom: 5px solid midnightblue;
+  }
+  
+  /* Transition */
+   label,
+   label::before {
+    -webkit-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+}
+.group {
+  @include group(royalblue);
+}

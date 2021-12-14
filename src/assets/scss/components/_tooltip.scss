@@ -1,0 +1,65 @@
+[data-title] {
+  position: relative;
+}
+[data-position="bottom"][data-title]:hover::before,
+[data-position="top"][data-title]:hover::before,
+[data-position="left"][data-title]:hover::before,
+[data-position="right"][data-title]:hover::before {
+  content: attr(data-title);
+  position: absolute;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 2px;
+  background: var(--contrast-color);
+  color: var(--primary-color);
+  font-size: 16px;
+  white-space: nowrap;
+  z-index: 1;
+}
+[data-position="bottom"][data-title]:hover::before {
+  bottom: -38px;
+}
+[data-position="top"][data-title]:hover::before {
+  top: -38px;
+}
+[data-position="left"][data-title]:hover::before {
+  right: 100%;
+}
+[data-position="right"][data-title]:hover::before {
+  left: 100%;
+}
+
+[data-position="bottom"][data-title]:hover::after,
+[data-position="top"][data-title]:hover::after,
+[data-position="left"][data-title]:hover::after,
+[data-position="right"][data-title]:hover::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  color: #fff;
+  border: 10px solid transparent;
+  z-index: 1;
+}
+[data-position="bottom"][data-title]:hover::after {
+  bottom: -10px;
+  left: 10px;
+  border-bottom: 8px solid #000;
+}
+
+[data-position="top"][data-title]:hover::after {
+  top: -10px;
+  left: 10px;
+  border-top: 8px solid #000;
+}
+
+[data-position="left"][data-title]:hover::after {
+  top: 2px;
+  left: 0;
+  border-left: 8px solid #000;
+}
+
+[data-position="right"][data-title]:hover::after {
+  top: 2px;
+  right: 0;
+  border-right: 8px solid #000;
+}

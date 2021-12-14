@@ -1,0 +1,25 @@
+// BORDERS
+
+$fifth: 0, 5, 10, 15, 20, 25;
+$sides: top, right, bottom, left;
+$borders: dotted, dashed, solid, double, groove, ridge, inset, outset;
+
+// BORDER RADIUS
+
+@each $number in $fifth {
+    .radius_#{$number} {
+        border-radius: $number + px;
+    }
+}
+
+// ALL TYPES BORDERS FOR ALL SIDES
+
+@each $border in $borders {
+    @each $side in $sides {
+        @for $i from 1 through 10 {
+            .border_#{$border}_#{$side}_#{$i} {
+                border-#{$side}: $i + px $border;
+            }
+        }
+    }
+}

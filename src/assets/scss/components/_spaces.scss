@@ -1,0 +1,52 @@
+
+$sides: top, right, bottom, left;
+
+// PADDINGS AND MARGINS FOR SIDE
+@each $side in $sides {
+    @for $i from 0 through 10 {
+      .pd_#{$side}_#{$i} {
+        padding-#{$side}: $i * 5px;
+      }
+      .mg_#{$side}_#{$i} {
+        margin-#{$side}: $i * 5px;
+      }
+    }
+  }
+
+
+  @for $i from 0 through 10 {
+    .pd_#{$i} {
+      padding: $i * 5px;
+    }
+    .pdv_#{$i} {
+      padding-top: $i * 5px;
+      padding-bottom: $i * 5px;
+    }
+    .pdh_#{$i} {
+      padding-left: $i * 5px;
+      padding-right: $i * 5px;
+    }
+    .mg_#{$i} {
+      margin: $i * 5px;
+    }
+    .mgv_#{$i} {
+      margin: $i * 5px auto;
+    }
+    .mgh_#{$i} {
+      margin: auto $i * 5px;
+    }
+  }
+  
+
+  .mg_left_300 {
+    margin-left: 300px;
+  }
+  .mg_right_300 {
+    margin-right: 300px;
+  }
+
+  // MARGIN AUTO
+.mga {
+    margin: auto;
+    float: none !important;
+  }

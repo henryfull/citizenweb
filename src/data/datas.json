@@ -1,0 +1,935 @@
+{
+    "version": 0.3,
+
+    "rarible": {
+        "common": {
+            "id": 5,
+            "name": "common",
+            "color": "#007EFF",
+            "numRarity": 5,
+            "icon": ""
+        },
+        "uncommon": {
+            "name": "uncommon",
+            "color": "#00B65C",
+            "numRarity": 4,
+            "id": 4,
+            "icon": ""
+        },
+        "rare": {
+            "name": "rare",
+            "color": "#FFB000",
+            "numRarity": 3,
+            "id": 3,
+            "icon": ""
+        },
+        "epic": {
+            "name": "epic",
+            "color": "#A200FF",
+            "numRarity": 2,
+            "id": 2,
+            "icon": ""
+        },
+        "legendary": {
+            "name": "legendary",
+            "color": "#FF3734",
+            "numRarity": 1,
+            "id": 1,
+            "icon": ""
+        }
+    },
+    "rarity": [
+        {
+            "id": 5,
+            "name": "common",
+            "color": "#007EFF",
+            "numRarity": 5,
+            "icon": ""
+        },
+        {
+            "name": "uncommon",
+            "color": "#00B65C",
+            "numRarity": 4,
+            "id": 4,
+            "icon": ""
+        },
+        {
+            "name": "rare",
+            "color": "#FFB000",
+            "numRarity": 3,
+            "id": 3,
+            "icon": ""
+        },
+        {
+            "name": "epic",
+            "color": "#A200FF",
+            "numRarity": 2,
+            "id": 2,
+            "icon": ""
+        },
+        {
+            "name": "legendary",
+            "color": "#FF3734",
+            "numRarity": 1,
+            "id": 1,
+            "icon": ""
+        }
+    ],
+    "block": [
+        {
+            "id": 1,
+            "name": "Establishment",
+            "url": "files/symbols/emblem-establishment.svg",
+            "description": "Technocrats and followers of the virtual world of Ether, yearning their independence.",
+            "color": "#FA0A04"
+        },
+        {
+            "id": 2,
+            "name": "Cybers",
+            "url": "files/symbols/emblem-cybers.svg",
+            "description": "They wish to subdue the rest of Citizens through a virtual paradise called Ether.",
+            "color": "#16FA04"
+        },
+        {
+            "id": 3,
+            "name": "Rebels",
+            "url": "files/symbols/emblem-rebels.svg",
+            "description": "The masses want to keep their life of yesteryear: a real life lived with dignity and freedom.",
+            "color": "#0465FA"
+        }
+    ],
+    "factions": [
+        {
+            "block": "Establishment",
+            "name": "Statesmen",
+            "url": "files/symbols/emblem-statesmen.svg",
+            "description": "Rulers and businessmen. The government pleases and contains the masses by sponsoring a virtual paradise called 'Ether'",
+            "color": "#FA6404"
+        },
+        {
+            "block": "Establishment",
+            "name": "Cops",
+            "url": "files/symbols/emblem-cops.svg",
+            "description": "It is the strongest faction of the Establishment. These officers watch over order and control in the real world, but also in Ether's virtual world.",
+            "color": "#FA0492"
+        },
+        {
+            "block": "Establishment",
+            "name": "Influencers",
+            "url": "files/symbols/emblem-influencers.svg",
+            "description": "Journalists and Influencers are meant to handle the opinion of the masses in favour of the government through Ether.",
+            "color": "#FAAF04"
+        },
+        {
+            "block": "Cybers",
+            "name": "Masters",
+            "url": "files/symbols/emblem-masters.svg",
+            "description": "Tech-savvy technocrats who agreed to create Ether. They hold relevant and powerful positions as scientists, surgeons and theologians.",
+            "color": "#BDFA04"
+        },
+        {
+            "block": "Cybers",
+            "name": "Cyborgs",
+            "url": "files/symbols/emblem-cyborgs.svg",
+            "description": "Foreigners that got robotic implants and acquired great qualities that allowed them to develop and design Ether's complex world.",
+            "color": "#00D36D"
+        },
+        {
+            "block": "Cybers",
+            "name": "Virtuals",
+            "url": "files/symbols/emblem-virtuals.svg",
+            "description": "Citizens that live in a humble way and spend their time in Ether's paradise, where they can hold their “second” lives as they dream",
+            "color": "#04FA3F"
+        },
+        {
+            "block": "Rebels",
+            "name": "Hackers",
+            "url": "files/symbols/emblem-hackers.svg",
+            "description": "Few Cyborgs hack Ether and report corrupts, trying to rescue the Citizens from the demanding virtual world.",
+            "color": "#5804FA"
+        },
+        {
+            "block": "Rebels",
+            "name": "Singulars",
+            "url": "files/symbols/emblem-singulars.svg",
+            "description": "Revolutionary in nature, they are thinkers, writers, artists and activists. They fight for the equality and dignity of all animals.",
+            "color": "#04D8FA"
+        },
+        {
+            "block": "Rebels",
+            "name": "Artisans",
+            "url": "files/symbols/emblem-artisans.svg",
+            "description": "Citizens that struggle to progress, life a real life and maintain real jobs already almost extinct, such as nurses, chefs or prostitutes",
+            "color": "#7C00B3"
+        }
+    ],
+    "typeCharacter": [
+        {
+            "id": 1,
+            "name": "emblem",
+            "icon": "⭐️"
+        },
+        {
+            "id": 2,
+            "name": "pig",
+            "icon": "🐷"
+        },
+        {
+            "id": 3,
+            "name": "cat",
+            "icon": "😻"
+        },
+        {
+            "id": 4,
+            "name": "mare",
+            "icon": "🐴"
+        },
+        {
+            "id": 5,
+            "name": "crow",
+            "icon": "🐦"
+        },
+        {
+            "id": 6,
+            "name": "sheep",
+            "icon": "🐑"
+        },
+        {
+            "id": 7,
+            "name": "dog",
+            "icon": "🐶"
+        },
+        {
+            "id": 8,
+            "name": "cyborg",
+            "icon": "🤖"
+        },
+        {
+            "id": 9,
+            "name": "goat",
+            "icon": "🐐"
+        },
+        {
+            "id": 10,
+            "name": "donkey",
+            "icon": "🐴"
+        },
+        {
+            "id": 11,
+            "name": "hen",
+            "icon": "🐓"
+        },
+        {
+            "id": 12,
+            "name": "cow",
+            "icon": "🐮"
+        },
+        {
+            "id": 13,
+            "name": "rabbit",
+            "icon": "🐇"
+        },
+        {
+            "id": 14,
+            "name": "mole",
+            "icon": "🦫"
+        },
+        {
+            "id": 14,
+            "name": "bull",
+            "icon": "🐂"
+        },
+        {
+            "id": 15,
+            "name": "mouse",
+            "icon": "🐭"
+        },
+        {
+            "id": 15,
+            "name": "bot",
+            "icon": "🤺"
+        }
+    ],
+    "vocation": [
+        {
+            "id": 1,
+            "name": "Activist"
+        },
+        {
+            "id": 2,
+            "name": "Activist & blogger in Araknet"
+        },
+        {
+            "id": 3,
+            "name": "Activist & famous blogger in Araknet"
+        },
+        {
+            "id": 4,
+            "name": "Assistant to the Governor's Cabinet"
+        },
+        {
+            "id": 5,
+            "name": "Blockmailer Police agent"
+        },
+        {
+            "id": 6,
+            "name": "Boxing teacher in Ether"
+        },
+        {
+            "id": 7,
+            "name": "Business man"
+        },
+        {
+            "id": 8,
+            "name": "Coucher of the Cabinet & lover"
+        },
+        {
+            "id": 9,
+            "name": "Coucher of the Governor's Cabinet"
+        },
+        {
+            "id": 10,
+            "name": "Developer & Puddle Hog's friend"
+        },
+        {
+            "id": 11,
+            "name": "Developer in Araknet"
+        },
+        {
+            "id": 12,
+            "name": "Developer in Ether"
+        },
+        {
+            "id": 13,
+            "name": "Digital artist in Ether"
+        },
+        {
+            "id": 14,
+            "name": "Everyday inluencer"
+        },
+        {
+            "id": 15,
+            "name": "Ex-politician"
+        },
+        {
+            "id": 16,
+            "name": "Famous & Vlogger"
+        },
+        {
+            "id": 17,
+            "name": "Founder of Ether"
+        },
+        {
+            "id": 18,
+            "name": "Governor"
+        },
+        {
+            "id": 19,
+            "name": "Guinea pig of Dr. Orwell"
+        },
+        {
+            "id": 20,
+            "name": "Hacker and leader"
+        },
+        {
+            "id": 21,
+            "name": "Hacker of Ehter"
+        },
+        {
+            "id": 22,
+            "name": "Hairdresser"
+        },
+        {
+            "id": 23,
+            "name": "Head of Laboratory"
+        },
+        {
+            "id": 24,
+            "name": "Inspector of the case"
+        },
+        {
+            "id": 25,
+            "name": "Joker in Ether"
+        },
+        {
+            "id": 26,
+            "name": "Laboratory scientist"
+        },
+        {
+            "id": 27,
+            "name": "Laboratory surgeon"
+        },
+        {
+            "id": 28,
+            "name": "Lawyer"
+        },
+        {
+            "id": 29,
+            "name": "Lawyer of the case & mareizing"
+        },
+        {
+            "id": 30,
+            "name": "Mechanical ingeneer for Dr.Orwell"
+        },
+        {
+            "id": 31,
+            "name": "Militar"
+        },
+        {
+            "id": 32,
+            "name": "Nurse & lover"
+        },
+        {
+            "id": 33,
+            "name": "Photographers in Araknet"
+        },
+        {
+            "id": 34,
+            "name": "Police agent"
+        },
+        {
+            "id": 35,
+            "name": "Politician"
+        },
+        {
+            "id": 36,
+            "name": "Rebel heart"
+        },
+        {
+            "id": 37,
+            "name": "Speaker in Ether"
+        },
+        {
+            "id": 38,
+            "name": "Spiritual guide in Ether"
+        },
+        {
+            "id": 39,
+            "name": "Spy in Ether"
+        },
+        {
+            "id": 40,
+            "name": "Student"
+        },
+        {
+            "id": 41,
+            "name": "Teacher"
+        },
+        {
+            "id": 42,
+            "name": "Teckie in Dr.Orwell's projects"
+        },
+        {
+            "id": 43,
+            "name": "Virtual"
+        },
+        {
+            "id": 44,
+            "name": "Virtual & guinea pig of Dr. Orwell"
+        },
+        {
+            "id": 45,
+            "name": "Virtual & lover"
+        },
+        {
+            "id": 46,
+            "name": "Virtual Memmory Manager"
+        },
+        {
+            "id": 47,
+            "name": "Vlogger"
+        },
+        {
+            "id": 48,
+            "name": "Vlogger & shop addict"
+        },
+        {
+            "id": 49,
+            "name": "Vlogger in troubles"
+        },
+        {
+            "id": 50,
+            "name": "Waitress & rebel"
+        },
+        {
+            "id": 51,
+            "name": "All animals are equal, but some animals are more equal than others"
+        },
+        {
+            "id": 52,
+            "name": "If you have a dream, don't wait. Act."
+        },
+        {
+            "id": 53,
+            "name": "You can also become a Cyborg"
+        },
+        {
+            "id": 54,
+            "name": "The best virtual world ever"
+        }
+    ],
+    "background": [
+        {
+            "name": "bg-beach.jpg",
+            "id": 1
+        },
+        {
+            "name": "bg-building-2.jpg",
+            "id": 2
+        },
+        {
+            "name": "bg-building.jpg",
+            "id": 3
+        },
+        {
+            "name": "bg-cabinet.jpg",
+            "id": 4
+        },
+        {
+            "name": "bg-digital-1.jpg",
+            "id": 5
+        },
+        {
+            "name": "bg-digital-2.jpg",
+            "id": 6
+        },
+        {
+            "name": "bg-garden.jpg",
+            "id": 7
+        },
+        {
+            "name": "bg-home.jpg",
+            "id": 8
+        },
+        {
+            "name": "bg-hospital.jpg",
+            "id": 9
+        },
+        {
+            "name": "bg-police.jpg",
+            "id": 10
+        },
+        {
+            "name": "bg-shopping.jpg",
+            "id": 11
+        },
+        {
+            "name": "bg-street.jpg",
+            "id": 12
+        }
+    ],
+    "typeToken": [
+        {
+            "name": "card",
+            "id": 1
+        },
+        {
+            "name": "skin",
+            "id": 2
+        },
+        {
+            "name": "item",
+            "id": 3
+        },
+        {
+            "name": "skill",
+            "id": 4
+        }
+    ],
+    "effect": [
+        {
+            "name": "normal",
+            "id": 1
+        },
+        {
+            "name": "water",
+            "id": 2
+        },
+        {
+            "name": "fire",
+            "id": 3
+        },
+        {
+            "name": "electric",
+            "id": 4
+        },
+        {
+            "name": "poison",
+            "id": 5
+        },
+        {
+            "name": "blood",
+            "id": 6
+        }
+    ],
+    "names": [
+        {
+            "name": "Jerico"
+        },
+        {
+            "name": "Matilda"
+        },
+        {
+            "name": "Oregon"
+        },
+        {
+            "name": "Charly"
+        },
+        {
+            "name": "Luci"
+        },
+        {
+            "name": "Annais"
+        }
+    ],
+    "roles": [
+        {
+            "name": "support"
+        },
+        {
+            "name": "tank"
+        },
+        {
+            "name": "assasin"
+        },
+        {
+            "name": "warrior"
+        },
+        {
+            "name": "healer"
+        },
+        {
+            "name": "hacker"
+        }
+    ],
+    "characters": [
+        {
+            "id": 1,
+            "name": "bot-1.svg",
+            "gender": "woman",
+            "race": "bot",
+            "rol": "tank",
+            "code": "u000"
+        },
+        {
+            "id": 2,
+            "name": "bull-1.svg",
+            "gender": "man",
+            "race": "bull",
+            "rol": "tank",
+            "code": "m000"
+        },
+        {
+            "id": 3,
+            "name": "cat-1.svg",
+            "gender": "woman",
+            "race": "cat",
+            "rol": "assasin",
+            "code": "f000"
+        },
+        {
+            "id": 4,
+            "name": "cat-2.png",
+            "gender": "woman",
+            "race": "cat",
+            "rol": "assasin",
+            "code": "f001"
+        },
+        {
+            "id": 5,
+            "name": "crow-1.svg",
+            "gender": "man",
+            "race": "crow",
+            "rol": "assasin",
+            "code": "m000"
+        },
+        {
+            "id": 6,
+            "name": "crow-2.png",
+            "gender": "man",
+            "race": "crow",
+            "rol": "assasin",
+            "code": "m001"
+        },
+        {
+            "id": 7,
+            "name": "crow-3.png",
+            "gender": "man",
+            "race": "crow",
+            "rol": "assasin",
+            "code": "m002"
+        },
+        {
+            "id": 8,
+            "name": "crow-4.png",
+            "gender": "man",
+            "race": "crow",
+            "rol": "assasin",
+            "code": "m003"
+        },
+        {
+            "id": 9,
+            "name": "crow-5.png",
+            "gender": "man",
+            "race": "crow",
+            "rol": "assasin",
+            "code": "m004"
+        },
+        {
+            "id": 10,
+            "name": "dog-1.svg",
+            "gender": "man",
+            "race": "dog",
+            "rol": "warrior",
+            "code": "m000"
+        },
+        {
+            "id": 11,
+            "name": "dog-2.svg",
+            "gender": "man",
+            "race": "dog",
+            "rol": "warrior",
+            "code": "m001"
+        },
+        {
+            "id": 12,
+            "name": "dog-3.svg",
+            "gender": "man",
+            "race": "dog",
+            "rol": "warrior",
+            "code": "m002"
+        },
+        {
+            "id": 13,
+            "name": "dog-4.svg",
+            "gender": "man",
+            "race": "crow",
+            "rol": "warrior",
+            "code": "m003"
+        },
+        {
+            "id": 14,
+            "name": "dog-5.svg",
+            "gender": "man",
+            "race": "dog",
+            "rol": "warrior",
+            "code": "m004"
+        },
+        {
+            "id": 15,
+            "name": "dog-6.svg",
+            "gender": "man",
+            "race": "dog",
+            "rol": "warrior",
+            "code": "m005"
+        },
+        {
+            "id": 16,
+            "name": "goat-1.svg",
+            "gender": "man",
+            "race": "goat",
+            "rol": "assasin",
+            "code": "m000"
+        },
+        {
+            "id": 17,
+            "name": "mare-1.svg",
+            "gender": "woman",
+            "race": "mare",
+            "rol": "support",
+            "code": "f000"
+        },
+        {
+            "id": 18,
+            "name": "mare-2.svg",
+            "gender": "woman",
+            "race": "mare",
+            "rol": "support",
+            "code": "f001"
+        },
+        {
+            "id": 19,
+            "name": "mare-3.svg",
+            "gender": "woman",
+            "race": "mare",
+            "rol": "support",
+            "code": "f002"
+        },
+        {
+            "id": 20,
+            "name": "mare-4.svg",
+            "gender": "woman",
+            "race": "mare",
+            "rol": "support",
+            "code": "f003"
+        },
+        {
+            "id": 21,
+            "name": "mare-6.svg",
+            "gender": "woman",
+            "race": "mare",
+            "rol": "support",
+            "code": "f004"
+        },
+        {
+            "id": 22,
+            "name": "mare-7.svg",
+            "gender": "woman",
+            "race": "mare",
+            "rol": "support",
+            "code": "f005"
+        },
+        {
+            "id": 23,
+            "name": "mare-8.svg",
+            "gender": "woman",
+            "race": "mare",
+            "rol": "support",
+            "code": "f006"
+        },
+        {
+            "id": 24,
+            "name": "mare-9.svg",
+            "gender": "woman",
+            "race": "mare",
+            "rol": "support",
+            "code": "f007"
+        },
+        {
+            "id": 25,
+            "name": "pig-1.svg",
+            "gender": "man",
+            "race": "pig",
+            "rol": "warrior",
+            "code": "m000"
+        },
+        {
+            "id": 26,
+            "name": "pig-2.svg",
+            "gender": "man",
+            "race": "pig",
+            "rol": "warrior",
+            "code": "m001"
+        },
+        {
+            "id": 27,
+            "name": "pig-3.svg",
+            "gender": "man",
+            "race": "pig",
+            "rol": "warrior",
+            "code": "m010"
+        },
+        {
+            "id": 28,
+            "name": "pig-4.svg",
+            "gender": "man",
+            "race": "pig",
+            "rol": "warrior",
+            "code": "m011"
+        },
+        {
+            "id": 29,
+            "name": "pig-5.svg",
+            "gender": "man",
+            "race": "pig",
+            "rol": "warrior",
+            "code": "m020"
+        },
+        {
+            "id": 30,
+            "name": "sheep-1.svg",
+            "gender": "woman",
+            "race": "sheep",
+            "rol": "support",
+            "code": "f000"
+        },
+        {
+            "id": 31,
+            "name": "sheep-2.svg",
+            "gender": "woman",
+            "race": "sheep",
+            "rol": "support",
+            "code": "f001"
+        },
+        {
+            "id": 32,
+            "name": "sheep-3.svg",
+            "gender": "woman",
+            "race": "sheep",
+            "rol": "support",
+            "code": "f002"
+        },
+        {
+            "id": 33,
+            "name": "sheep-4.svg",
+            "gender": "woman",
+            "race": "sheep",
+            "rol": "support",
+            "code": "f003"
+        },
+        {
+            "id": 34,
+            "name": "sheep-5.svg",
+            "gender": "woman",
+            "race": "sheep",
+            "rol": "support",
+            "code": "f004"
+        },
+        {
+            "id": 34,
+            "name": "rabbit-1.svg",
+            "gender": "man",
+            "race": "rabbit",
+            "rol": "tank",
+            "code": "m000"
+        },
+        {
+            "id": 35,
+            "name": "mole-1.svg",
+            "gender": "man",
+            "race": "mole",
+            "rol": "support",
+            "code": "m000"
+        },
+        {
+            "id": 36,
+            "name": "donkey-1.svg",
+            "gender": "man",
+            "race": "donkey",
+            "rol": "warrior",
+            "code": "m000"
+        },
+        {
+            "id": 36,
+            "name": "rabbit-girl-1.svg",
+            "gender": "woman",
+            "race": "rabbit",
+            "rol": "assasin",
+            "code": "f000"
+        },
+        {
+            "id": 37,
+            "name": "cow-1.svg",
+            "gender": "woman",
+            "race": "cow",
+            "rol": "support",
+            "code": "f000"
+        },
+        {
+            "id": 38,
+            "name": "mouse-1.svg",
+            "gender": "woman",
+            "race": "mouse",
+            "rol": "assasin",
+            "code": "f000"
+        },
+        {
+            "id": 39,
+            "name": "espanta-1.svg",
+            "gender": "man",
+            "race": "espanta",
+            "rol": "warrior",
+            "code": "u000"
+        }
+    ]
+}

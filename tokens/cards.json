@@ -1,0 +1,2111 @@
+[
+    {
+        "_id": "KMQOjXXpyIktLgSxdEnDZ",
+        "name": "bull-1.svg",
+        "namecard": "Bull Red",
+        "faction": "statesmen",
+        "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+        "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+        "image": "bull-1.svg",
+        "background": "bg-building.jpg",
+        "typeToken": "card",
+        "race": "bull",
+        "block": "establishment",
+        "rarity": "legendary",
+        "level": 1,
+        "count": 1,
+        "effect": "electric",
+        "slots": [
+            {
+                "location": "head",
+                "use": false
+            },
+            {
+                "location": "body",
+                "use": false
+            },
+            {
+                "location": "arms",
+                "use": false
+            },
+            {
+                "location": "legs",
+                "use": false
+            }
+        ],
+        "states": {
+            "energyBase": 80,
+            "energy": 90,
+            "affinity": 0,
+            "strength": 56,
+            "precision": 127,
+            "armor": 58,
+            "dodge": 57,
+            "influence": 46,
+            "knowlegde": 84,
+            "shield": 41,
+            "maxshield": 41,
+            "life": 1080,
+            "maxlife": 1080
+        },
+        "resistence": {
+            "normal": 38,
+            "fire": 12,
+            "electric": 2,
+            "poison": 42,
+            "blood": 22,
+            "total": null
+        },
+        "recovery": {
+            "life": "0.76",
+            "shield": "0.36"
+        },
+        "skills": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 56,
+                "effect": "electric",
+                "name": "G-Max Volt Crash",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "a000",
+                "name": "super",
+                "description": "Te hace 100 de daño verdadero",
+                "cost": 100,
+                "turn": 0,
+                "status": true,
+                "type": "active",
+                "cooldown": 2
+            },
+            {
+                "code": "c001",
+                "name": "super",
+                "description": "Durante 4 turnos te hace daño a fuego",
+                "cost": 50,
+                "turn": 4,
+                "status": true,
+                "type": "active",
+                "cooldown": 2
+            },
+            {
+                "code": "d002",
+                "name": "super",
+                "description": "Durante 2 turnos no puedes cambiar de carta",
+                "cost": 20,
+                "turn": 4,
+                "status": true,
+                "type": "active",
+                "cooldown": 2
+            }
+        ],
+        "defense": {
+            "block": {
+                "strength": 60,
+                "cost": 30,
+                "name": "block"
+            },
+            "shield": {
+                "strength": 26,
+                "cost": 40,
+                "description": "Añade escudo a un personaje",
+                "name": "shield",
+                "color": "#57F9FE",
+                "code": "shield"
+            }
+        },
+        "change": {
+            "name": "change",
+            "cost": 50,
+            "description": "Intercambia tu carta del tablero por otra del banquillo",
+            "color": "#FE6A57",
+            "code": "swap"
+        },
+        "skills_combat": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 56,
+                "effect": "electric",
+                "name": "G-Max Volt Crash",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "a000",
+                "name": "super",
+                "description": "Te hace 100 de daño verdadero",
+                "cost": 100,
+                "turn": 0,
+                "status": true,
+                "type": "active",
+                "cooldown": 2
+            },
+            {
+                "code": "c001",
+                "name": "super",
+                "description": "Durante 4 turnos te hace daño a fuego",
+                "cost": 50,
+                "turn": 4,
+                "status": true,
+                "type": "active",
+                "cooldown": 2
+            },
+            {
+                "code": "d002",
+                "name": "super",
+                "description": "Durante 2 turnos no puedes cambiar de carta",
+                "cost": 20,
+                "turn": 4,
+                "status": true,
+                "type": "active",
+                "cooldown": 2
+            }
+        ],
+        "power": 2842,
+        "price": 1
+    },
+    {
+        "_id": "_W0cwQ4a1BIBfzLgKbflb",
+        "name": "bot-1.svg",
+        "namecard": "Botter",
+        "faction": "cyborgs",
+        "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+        "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+        "image": "bot-1.svg",
+        "background": "bg-building.jpg",
+        "typeToken": "card",
+        "race": "bot",
+        "block": "cybers",
+        "rarity": "rare",
+        "level": 1,
+        "count": 1,
+        "effect": "normal",
+        "slots": [
+            {
+                "location": "head",
+                "use": false
+            },
+            {
+                "location": "body",
+                "use": false
+            },
+            {
+                "location": "arms",
+                "use": false
+            },
+            {
+                "location": "legs",
+                "use": false
+            }
+        ],
+        "states": {
+            "energyBase": 60,
+            "energy": 60,
+            "affinity": 0,
+            "strength": 37,
+            "precision": 98,
+            "armor": 46,
+            "dodge": 27,
+            "influence": 30,
+            "knowlegde": 77,
+            "shield": 39,
+            "maxshield": 39,
+            "life": 840,
+            "maxlife": 840
+        },
+        "resistence": {
+            "normal": 37,
+            "fire": 3,
+            "electric": 35,
+            "poison": 4,
+            "blood": 6,
+            "total": null
+        },
+        "recovery": {
+            "life": "0.96",
+            "shield": "0.35"
+        },
+        "skills": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 37,
+                "effect": "normal",
+                "name": "Skull Bash",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "c002",
+                "name": "super",
+                "description": "Durante 4 turnos aumenta un poco más la energia",
+                "cost": 30,
+                "turn": 4,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            },
+            {
+                "code": "c003",
+                "name": "super",
+                "description": "Durante 2 turnos quitas un poco de energia al rival",
+                "cost": 20,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            },
+            {
+                "code": "d003",
+                "name": "super",
+                "description": "Inmunidad durante 1 turno",
+                "cost": 200,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            }
+        ],
+        "defense": {
+            "block": {
+                "strength": 41,
+                "cost": 30,
+                "name": "block"
+            },
+            "shield": {
+                "strength": 38,
+                "cost": 40,
+                "description": "Añade escudo a un personaje",
+                "name": "shield",
+                "color": "#57F9FE",
+                "code": "shield"
+            }
+        },
+        "change": {
+            "name": "change",
+            "cost": 50,
+            "description": "Intercambia tu carta del tablero por otra del banquillo",
+            "color": "#FE6A57",
+            "code": "swap"
+        },
+        "skills_combat": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 37,
+                "effect": "normal",
+                "name": "Skull Bash",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "c002",
+                "name": "super",
+                "description": "Durante 4 turnos aumenta un poco más la energia",
+                "cost": 30,
+                "turn": 4,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            },
+            {
+                "code": "c003",
+                "name": "super",
+                "description": "Durante 2 turnos quitas un poco de energia al rival",
+                "cost": 20,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            },
+            {
+                "code": "d003",
+                "name": "super",
+                "description": "Inmunidad durante 1 turno",
+                "cost": 200,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            }
+        ],
+        "power": 2195,
+        "price": 0.6
+    },
+    {
+        "_id": "cQee_L5LTbuOWdQF4P2af",
+        "name": "rabbit-1.svg",
+        "namecard": "Roger Rabbit",
+        "faction": "artisans",
+        "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+        "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+        "image": "rabbit-1.svg",
+        "background": "bg-building.jpg",
+        "typeToken": "card",
+        "race": "rabbit",
+        "block": "rebels",
+        "rarity": "uncommon",
+        "level": 1,
+        "count": 1,
+        "effect": "normal",
+        "slots": [
+            {
+                "location": "head",
+                "use": false
+            },
+            {
+                "location": "body",
+                "use": false
+            },
+            {
+                "location": "arms",
+                "use": false
+            },
+            {
+                "location": "legs",
+                "use": false
+            }
+        ],
+        "states": {
+            "energyBase": 60,
+            "energy": 80,
+            "affinity": 0,
+            "strength": 30,
+            "precision": 72,
+            "armor": 37,
+            "dodge": 15,
+            "influence": 18,
+            "knowlegde": 58,
+            "shield": 23,
+            "maxshield": 23,
+            "life": 420,
+            "maxlife": 420
+        },
+        "resistence": {
+            "normal": 58,
+            "fire": 9,
+            "electric": 19,
+            "poison": 25,
+            "blood": 8,
+            "total": null
+        },
+        "recovery": {
+            "life": "0.90",
+            "shield": "0.23"
+        },
+        "skills": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 30,
+                "effect": "normal",
+                "name": "Giga Impact",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "d001",
+                "name": "super",
+                "description": "Durante 1 turno el enemigo no puede hacer ninguna acción",
+                "cost": 50,
+                "turn": 3,
+                "status": true,
+                "type": "active",
+                "cooldown": 5
+            },
+            {
+                "code": "c004",
+                "name": "super",
+                "description": "Durante 2 turnos cuando un oponente te golpea se hace un 20% del daño inflingido",
+                "cost": 30,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 5
+            },
+            {
+                "code": "d004",
+                "name": "super",
+                "description": "Durante 4 turnos, si una carta oponente recibe escudo, en vez de eso, recidbe daño",
+                "cost": 20,
+                "turn": 4,
+                "status": true,
+                "type": "active",
+                "cooldown": 5
+            }
+        ],
+        "defense": {
+            "block": {
+                "strength": 34,
+                "cost": 30,
+                "name": "block"
+            },
+            "shield": {
+                "strength": 27,
+                "cost": 40,
+                "description": "Añade escudo a un personaje",
+                "name": "shield",
+                "color": "#57F9FE",
+                "code": "shield"
+            }
+        },
+        "change": {
+            "name": "change",
+            "cost": 50,
+            "description": "Intercambia tu carta del tablero por otra del banquillo",
+            "color": "#FE6A57",
+            "code": "swap"
+        },
+        "skills_combat": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 30,
+                "effect": "normal",
+                "name": "Giga Impact",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "d001",
+                "name": "super",
+                "description": "Durante 1 turno el enemigo no puede hacer ninguna acción",
+                "cost": 50,
+                "turn": 3,
+                "status": true,
+                "type": "active",
+                "cooldown": 5
+            },
+            {
+                "code": "c004",
+                "name": "super",
+                "description": "Durante 2 turnos cuando un oponente te golpea se hace un 20% del daño inflingido",
+                "cost": 30,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 5
+            },
+            {
+                "code": "d004",
+                "name": "super",
+                "description": "Durante 4 turnos, si una carta oponente recibe escudo, en vez de eso, recidbe daño",
+                "cost": 20,
+                "turn": 4,
+                "status": true,
+                "type": "active",
+                "cooldown": 5
+            }
+        ],
+        "power": 1258,
+        "price": 0.4
+    },
+    {
+        "_id": "U3K10hzR4i2BTvzwSdee7",
+        "name": "pig-1.svg",
+        "namecard": "PigGles Humbo",
+        "faction": "statesmen",
+        "aboutme": "\"Citizens should never know what business we have with the virtual world of Ether. Puddle Hog, go to talk to Chloe Finally, the influencer, and get rid of everything without anyone knowing.\" Being the governor of this city involves making tough decisions.",
+        "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-4.png",
+        "image": "pig-1.svg",
+        "background": "bg-building.jpg",
+        "typeToken": "card",
+        "race": "pig",
+        "block": "establishment",
+        "rarity": "epic",
+        "level": 1,
+        "count": 1,
+        "effect": "water",
+        "slots": [
+            {
+                "location": "head",
+                "use": false
+            },
+            {
+                "location": "body",
+                "use": false
+            },
+            {
+                "location": "arms",
+                "use": false
+            },
+            {
+                "location": "legs",
+                "use": false
+            }
+        ],
+        "states": {
+            "energyBase": 60,
+            "energy": 100,
+            "affinity": 0,
+            "strength": 49,
+            "precision": 98,
+            "armor": 46,
+            "dodge": 40,
+            "influence": 39,
+            "knowlegde": 71,
+            "shield": 47,
+            "maxshield": 47,
+            "life": 660,
+            "maxlife": 660
+        },
+        "resistence": {
+            "normal": 29,
+            "fire": 22,
+            "electric": 28,
+            "poison": 35,
+            "blood": 8,
+            "total": null
+        },
+        "recovery": {
+            "life": "0.60",
+            "shield": "0.42"
+        },
+        "skills": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 49,
+                "effect": "water",
+                "name": "Dive",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "d005",
+                "name": "super",
+                "description": "Cuando vaya a morir la proxima vez una de tus cartas, resucita",
+                "cost": 250,
+                "turn": 5,
+                "status": true,
+                "type": "active",
+                "cooldown": 7
+            },
+            {
+                "code": "d006",
+                "name": "super",
+                "description": "Todo el daño recibido en el proximo turno del oponente, lo recibira un compañero al azar",
+                "cost": 40,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 7
+            },
+            {
+                "code": "n001",
+                "name": "super",
+                "description": "Todo el daño recibido el proximo turno del oponente, lo recibira un compañero a elegir",
+                "cost": 50,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 7
+            }
+        ],
+        "defense": {
+            "block": {
+                "strength": 56,
+                "cost": 30,
+                "name": "block"
+            },
+            "shield": {
+                "strength": 23,
+                "cost": 40,
+                "description": "Añade escudo a un personaje",
+                "name": "shield",
+                "color": "#57F9FE",
+                "code": "shield"
+            }
+        },
+        "change": {
+            "name": "change",
+            "cost": 50,
+            "description": "Intercambia tu carta del tablero por otra del banquillo",
+            "color": "#FE6A57",
+            "code": "swap"
+        },
+        "skills_combat": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 49,
+                "effect": "water",
+                "name": "Dive",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "d005",
+                "name": "super",
+                "description": "Cuando vaya a morir la proxima vez una de tus cartas, resucita",
+                "cost": 250,
+                "turn": 5,
+                "status": true,
+                "type": "active",
+                "cooldown": 7
+            },
+            {
+                "code": "d006",
+                "name": "super",
+                "description": "Todo el daño recibido en el proximo turno del oponente, lo recibira un compañero al azar",
+                "cost": 40,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 7
+            },
+            {
+                "code": "n001",
+                "name": "super",
+                "description": "Todo el daño recibido el proximo turno del oponente, lo recibira un compañero a elegir",
+                "cost": 50,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 7
+            }
+        ],
+        "power": 1919,
+        "price": 0.8
+    },
+    {
+        "_id": "XC5BYyMUQcJl3djycf_mv",
+        "name": "sheep-3.svg",
+        "namecard": "C-Sheep#230",
+        "faction": "singulars",
+        "aboutme": "They call us \"virtuals\" because we spend many hours hooked on the world of Ether. The truth is that I don't care exactly what they call us. I just know that I enjoy doing what I want all day, and we get by on with what we are given.",
+        "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-6.png",
+        "image": "sheep-3.svg",
+        "background": "bg-digital-1.jpg",
+        "typeToken": "card",
+        "race": "sheep",
+        "block": "rebels",
+        "rarity": "common",
+        "level": 1,
+        "count": 1,
+        "effect": "fire",
+        "slots": [
+            {
+                "location": "head",
+                "use": false
+            },
+            {
+                "location": "body",
+                "use": false
+            },
+            {
+                "location": "arms",
+                "use": false
+            },
+            {
+                "location": "legs",
+                "use": false
+            }
+        ],
+        "states": {
+            "energyBase": 30,
+            "energy": 70,
+            "affinity": 0,
+            "strength": 19,
+            "precision": 71,
+            "armor": 29,
+            "dodge": 7,
+            "influence": 6,
+            "knowlegde": 57,
+            "shield": 3,
+            "maxshield": 3,
+            "life": 1000,
+            "maxlife": 1000
+        },
+        "resistence": {
+            "normal": 12,
+            "fire": 19,
+            "electric": 10,
+            "poison": 2,
+            "blood": 12,
+            "total": null
+        },
+        "recovery": {
+            "life": "0.96",
+            "shield": "0.21"
+        },
+        "skills": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 19,
+                "effect": "fire",
+                "name": "Shell Trap",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "d007",
+                "name": "super",
+                "description": "Todo el daño recibido el proximo turno, se transformara en vida",
+                "cost": 100,
+                "turn": 4,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            },
+            {
+                "code": "d008",
+                "name": "super",
+                "description": "Durante 3 turnos el oponente esta obligado a atacar con el ataque basico",
+                "cost": 40,
+                "turn": 3,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            },
+            {
+                "code": "m001",
+                "name": "super",
+                "description": "Copia la ultima habilidad que haya utilizado el rival y la aumenta en un 20%",
+                "cost": 30,
+                "turn": 0,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            }
+        ],
+        "defense": {
+            "block": {
+                "strength": 27,
+                "cost": 30,
+                "name": "block"
+            },
+            "shield": {
+                "strength": 35,
+                "cost": 40,
+                "description": "Añade escudo a un personaje",
+                "name": "shield",
+                "color": "#57F9FE",
+                "code": "shield"
+            }
+        },
+        "change": {
+            "name": "change",
+            "cost": 50,
+            "description": "Intercambia tu carta del tablero por otra del banquillo",
+            "color": "#FE6A57",
+            "code": "swap"
+        },
+        "skills_combat": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 19,
+                "effect": "fire",
+                "name": "Shell Trap",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "d007",
+                "name": "super",
+                "description": "Todo el daño recibido el proximo turno, se transformara en vida",
+                "cost": 100,
+                "turn": 4,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            },
+            {
+                "code": "d008",
+                "name": "super",
+                "description": "Durante 3 turnos el oponente esta obligado a atacar con el ataque basico",
+                "cost": 40,
+                "turn": 3,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            },
+            {
+                "code": "m001",
+                "name": "super",
+                "description": "Copia la ultima habilidad que haya utilizado el rival y la aumenta en un 20%",
+                "cost": 30,
+                "turn": 0,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            }
+        ],
+        "power": 2297,
+        "price": 0.2
+    },
+    {
+        "_id": "PVt3j8AYMPo5EgptXc_dz",
+        "name": "mare-1.svg",
+        "namecard": "E-Mare-90",
+        "faction": "influencers",
+        "aboutme": "I make them happier, as I share my adventures here and there. Entering Ether is like coming to my paradise. You join?",
+        "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-7.png",
+        "image": "mare-1.svg",
+        "background": "bg-garden.jpg",
+        "typeToken": "card",
+        "race": "mare",
+        "block": "establishment",
+        "rarity": "uncommon",
+        "level": 1,
+        "count": 1,
+        "effect": "electric",
+        "slots": [
+            {
+                "location": "head",
+                "use": false
+            },
+            {
+                "location": "body",
+                "use": false
+            },
+            {
+                "location": "arms",
+                "use": false
+            },
+            {
+                "location": "legs",
+                "use": false
+            }
+        ],
+        "states": {
+            "energyBase": 50,
+            "energy": 70,
+            "affinity": 0,
+            "strength": 29,
+            "precision": 89,
+            "armor": 30,
+            "dodge": 17,
+            "influence": 15,
+            "knowlegde": 59,
+            "shield": 23,
+            "maxshield": 23,
+            "life": 1220,
+            "maxlife": 1220
+        },
+        "resistence": {
+            "normal": 40,
+            "fire": 27,
+            "electric": 6,
+            "poison": 35,
+            "blood": 3,
+            "total": null
+        },
+        "recovery": {
+            "life": "0.53",
+            "shield": "0.41"
+        },
+        "skills": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 29,
+                "effect": "electric",
+                "name": "Volt Switch",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "d009",
+                "name": "super",
+                "description": "Durante 3 turnos el rival no puede hacer ninguna acción a no ser que reciba daño",
+                "cost": 30,
+                "turn": 4,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            },
+            {
+                "code": "d010",
+                "name": "super",
+                "description": "Durante 2 turnos tienes un escudo protector que mitiga un 40% del daño recibido ",
+                "cost": 30,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            },
+            {
+                "code": "k001",
+                "name": "super",
+                "description": "Todo el daño que recibdas se transformara en energia",
+                "cost": 20,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            }
+        ],
+        "defense": {
+            "block": {
+                "strength": 38,
+                "cost": 30,
+                "name": "block"
+            },
+            "shield": {
+                "strength": 32,
+                "cost": 40,
+                "description": "Añade escudo a un personaje",
+                "name": "shield",
+                "color": "#57F9FE",
+                "code": "shield"
+            }
+        },
+        "change": {
+            "name": "change",
+            "cost": 50,
+            "description": "Intercambia tu carta del tablero por otra del banquillo",
+            "color": "#FE6A57",
+            "code": "swap"
+        },
+        "skills_combat": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 29,
+                "effect": "electric",
+                "name": "Volt Switch",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "d009",
+                "name": "super",
+                "description": "Durante 3 turnos el rival no puede hacer ninguna acción a no ser que reciba daño",
+                "cost": 30,
+                "turn": 4,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            },
+            {
+                "code": "d010",
+                "name": "super",
+                "description": "Durante 2 turnos tienes un escudo protector que mitiga un 40% del daño recibido ",
+                "cost": 30,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            },
+            {
+                "code": "k001",
+                "name": "super",
+                "description": "Todo el daño que recibdas se transformara en energia",
+                "cost": 20,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 6
+            }
+        ],
+        "power": 2847,
+        "price": 0.4
+    },
+    {
+        "_id": "uAMYM4JpiT0QlU6b5ZrVW",
+        "name": "dog-5.svg",
+        "namecard": "Billy Brass",
+        "faction": "influencers",
+        "aboutme": "Life is like boxing. He who falls does not lose, but he who does not get up. This is how I encourage my students. We train very hard cause we know there is no shortcut to perfection.",
+        "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-8.png",
+        "image": "dog-5.svg",
+        "background": "bg-beach.jpg",
+        "typeToken": "card",
+        "race": "dog",
+        "block": "establishment",
+        "rarity": "epic",
+        "level": 1,
+        "count": 1,
+        "effect": "electric",
+        "slots": [
+            {
+                "location": "head",
+                "use": false
+            },
+            {
+                "location": "body",
+                "use": false
+            },
+            {
+                "location": "arms",
+                "use": false
+            },
+            {
+                "location": "legs",
+                "use": false
+            }
+        ],
+        "states": {
+            "energyBase": 80,
+            "energy": 80,
+            "affinity": 0,
+            "strength": 48,
+            "precision": 135,
+            "armor": 59,
+            "dodge": 43,
+            "influence": 38,
+            "knowlegde": 88,
+            "shield": 40,
+            "maxshield": 40,
+            "life": 460,
+            "maxlife": 460
+        },
+        "resistence": {
+            "normal": 19,
+            "fire": 46,
+            "electric": 14,
+            "poison": 23,
+            "blood": 27,
+            "total": null
+        },
+        "recovery": {
+            "life": "0.85",
+            "shield": "0.47"
+        },
+        "skills": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 48,
+                "effect": "electric",
+                "name": "Max Lightning",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "d011",
+                "name": "super",
+                "description": "Si mi carta muere, la del rival tambien, da igual su vida o escudo",
+                "cost": 200,
+                "turn": 6,
+                "status": true,
+                "type": "active",
+                "cooldown": 8
+            },
+            {
+                "code": "d012",
+                "name": "super",
+                "description": "Durante 4 turnos causa confusion al rival (50% de probabilidad de atacar cualquier carta del oponente)",
+                "cost": 100,
+                "turn": 4,
+                "status": true,
+                "type": "active",
+                "cooldown": 8
+            },
+            {
+                "code": "d013",
+                "name": "super",
+                "description": "Te pones un escudo del 20% de tu vida e inflinges daño al rival equivalente a un 30% de l escudo",
+                "cost": 30,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 8
+            }
+        ],
+        "defense": {
+            "block": {
+                "strength": 52,
+                "cost": 30,
+                "name": "block"
+            },
+            "shield": {
+                "strength": 21,
+                "cost": 40,
+                "description": "Añade escudo a un personaje",
+                "name": "shield",
+                "color": "#57F9FE",
+                "code": "shield"
+            }
+        },
+        "change": {
+            "name": "change",
+            "cost": 50,
+            "description": "Intercambia tu carta del tablero por otra del banquillo",
+            "color": "#FE6A57",
+            "code": "swap"
+        },
+        "skills_combat": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 48,
+                "effect": "electric",
+                "name": "Max Lightning",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "d011",
+                "name": "super",
+                "description": "Si mi carta muere, la del rival tambien, da igual su vida o escudo",
+                "cost": 200,
+                "turn": 6,
+                "status": true,
+                "type": "active",
+                "cooldown": 8
+            },
+            {
+                "code": "d012",
+                "name": "super",
+                "description": "Durante 4 turnos causa confusion al rival (50% de probabilidad de atacar cualquier carta del oponente)",
+                "cost": 100,
+                "turn": 4,
+                "status": true,
+                "type": "active",
+                "cooldown": 8
+            },
+            {
+                "code": "d013",
+                "name": "super",
+                "description": "Te pones un escudo del 20% de tu vida e inflinges daño al rival equivalente a un 30% de l escudo",
+                "cost": 30,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 8
+            }
+        ],
+        "power": 1573,
+        "price": 0.8
+    },
+    {
+        "_id": "-2DYYiTmWfgJFJYJiFgFZ",
+        "name": "pig-3.svg",
+        "namecard": "Puddle Hog",
+        "faction": "statesmen",
+        "aboutme": "The governor has made it clear to me. If anyone finds out that we use the world of Ether to manage public opinion, we are finished. Chloe Finally just got home, and we're going to clear up this matter. She is very attractive and I would definitely spend the night with her.",
+        "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-9.png",
+        "image": "pig-3.svg",
+        "background": "bg-cabinet.jpg",
+        "typeToken": "card",
+        "race": "pig",
+        "block": "establishment",
+        "rarity": "legendary",
+        "level": 1,
+        "count": 1,
+        "effect": "water",
+        "slots": [
+            {
+                "location": "head",
+                "use": false
+            },
+            {
+                "location": "body",
+                "use": false
+            },
+            {
+                "location": "arms",
+                "use": false
+            },
+            {
+                "location": "legs",
+                "use": false
+            }
+        ],
+        "states": {
+            "energyBase": 80,
+            "energy": 80,
+            "affinity": 0,
+            "strength": 55,
+            "precision": 109,
+            "armor": 53,
+            "dodge": 47,
+            "influence": 49,
+            "knowlegde": 95,
+            "shield": 60,
+            "maxshield": 60,
+            "life": 1080,
+            "maxlife": 1080
+        },
+        "resistence": {
+            "normal": 38,
+            "fire": 33,
+            "electric": 43,
+            "poison": 8,
+            "blood": 40,
+            "total": null
+        },
+        "recovery": {
+            "life": "0.56",
+            "shield": "0.44"
+        },
+        "skills": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 55,
+                "effect": "water",
+                "name": "Water Pulse",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "d014",
+                "name": "super",
+                "description": "No puede atacar hasta que cambie de carta, si solo tiene 1 carta, solo dura un turno",
+                "cost": 40,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 4
+            },
+            {
+                "code": "d015",
+                "name": "super",
+                "description": "Duerme al enemigo, no puede hacer ninguna accion hasta que despierte, tiene un 55% probabilidad de que despierte al inició de cada turno",
+                "cost": 50,
+                "turn": 3,
+                "status": true,
+                "type": "active",
+                "cooldown": 4
+            },
+            {
+                "code": "d016",
+                "name": "super",
+                "description": "Durante 2 turnos el rival tiene un 50% de probabilidad de que falle sus habilidades",
+                "cost": 40,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 4
+            }
+        ],
+        "defense": {
+            "block": {
+                "strength": 61,
+                "cost": 30,
+                "name": "block"
+            },
+            "shield": {
+                "strength": 39,
+                "cost": 40,
+                "description": "Añade escudo a un personaje",
+                "name": "shield",
+                "color": "#57F9FE",
+                "code": "shield"
+            }
+        },
+        "change": {
+            "name": "change",
+            "cost": 50,
+            "description": "Intercambia tu carta del tablero por otra del banquillo",
+            "color": "#FE6A57",
+            "code": "swap"
+        },
+        "skills_combat": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 55,
+                "effect": "water",
+                "name": "Water Pulse",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "d014",
+                "name": "super",
+                "description": "No puede atacar hasta que cambie de carta, si solo tiene 1 carta, solo dura un turno",
+                "cost": 40,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 4
+            },
+            {
+                "code": "d015",
+                "name": "super",
+                "description": "Duerme al enemigo, no puede hacer ninguna accion hasta que despierte, tiene un 55% probabilidad de que despierte al inició de cada turno",
+                "cost": 50,
+                "turn": 3,
+                "status": true,
+                "type": "active",
+                "cooldown": 4
+            },
+            {
+                "code": "d016",
+                "name": "super",
+                "description": "Durante 2 turnos el rival tiene un 50% de probabilidad de que falle sus habilidades",
+                "cost": 40,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 4
+            }
+        ],
+        "power": 2850,
+        "price": 1
+    },
+    {
+        "_id": "2ZCwNZoIdBVO8QEUDnS7P",
+        "name": "crow-2.png",
+        "namecard": "O-Crow-9",
+        "faction": "cyborgs",
+        "aboutme": "Dr. Orwell did a good job with me , right? My implants are cool! I haven't grown up in this city, but since I've been working at Ether I'm doing great here!",
+        "file": "https://citizennft.s3.eu-west-3.amazonaws.com/token-card-10.png",
+        "image": "crow-2.png",
+        "background": "bg-digital-2.jpg",
+        "typeToken": "card",
+        "race": "crow",
+        "block": "cybers",
+        "rarity": "uncommon",
+        "level": 1,
+        "count": 1,
+        "effect": "water",
+        "slots": [
+            {
+                "location": "head",
+                "use": false
+            },
+            {
+                "location": "body",
+                "use": false
+            },
+            {
+                "location": "arms",
+                "use": false
+            },
+            {
+                "location": "legs",
+                "use": false
+            }
+        ],
+        "states": {
+            "energyBase": 40,
+            "energy": 50,
+            "affinity": 0,
+            "strength": 25,
+            "precision": 92,
+            "armor": 31,
+            "dodge": 12,
+            "influence": 19,
+            "knowlegde": 60,
+            "shield": 16,
+            "maxshield": 16,
+            "life": 420,
+            "maxlife": 420
+        },
+        "resistence": {
+            "normal": 28,
+            "fire": 1,
+            "electric": 24,
+            "poison": 19,
+            "blood": 17,
+            "total": null
+        },
+        "recovery": {
+            "life": "0.79",
+            "shield": "0.42"
+        },
+        "skills": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 25,
+                "effect": "water",
+                "name": "Water Pulse",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "d017",
+                "name": "super",
+                "description": "Durante 2 turnos tienes un 50% más de probabilidad de esquivar los ataques",
+                "cost": 40,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 4
+            },
+            {
+                "code": "a007",
+                "name": "super",
+                "description": "Se pone escudo a si mismo.",
+                "cost": 50,
+                "turn": 0,
+                "status": true,
+                "type": "active",
+                "cooldown": 4
+            },
+            {
+                "code": "j002",
+                "name": "super",
+                "description": "Inrercambia el escudo con el rival.",
+                "cost": 50,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 4
+            }
+        ],
+        "defense": {
+            "block": {
+                "strength": 39,
+                "cost": 30,
+                "name": "block"
+            },
+            "shield": {
+                "strength": 37,
+                "cost": 40,
+                "description": "Añade escudo a un personaje",
+                "name": "shield",
+                "color": "#57F9FE",
+                "code": "shield"
+            }
+        },
+        "change": {
+            "name": "change",
+            "cost": 50,
+            "description": "Intercambia tu carta del tablero por otra del banquillo",
+            "color": "#FE6A57",
+            "code": "swap"
+        },
+        "skills_combat": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 25,
+                "effect": "water",
+                "name": "Water Pulse",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "d017",
+                "name": "super",
+                "description": "Durante 2 turnos tienes un 50% más de probabilidad de esquivar los ataques",
+                "cost": 40,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 4
+            },
+            {
+                "code": "a007",
+                "name": "super",
+                "description": "Se pone escudo a si mismo.",
+                "cost": 50,
+                "turn": 0,
+                "status": true,
+                "type": "active",
+                "cooldown": 4
+            },
+            {
+                "code": "j002",
+                "name": "super",
+                "description": "Inrercambia el escudo con el rival.",
+                "cost": 50,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 4
+            }
+        ],
+        "power": 1203,
+        "price": 0.4
+    },
+    {
+        "_id": "wo0a1epKiICwUanepaZQR",
+        "name": "cat-2.png",
+        "namecard": "Anne Droid",
+        "faction": "statesmen",
+        "aboutme": "Something is going wrong here. An influencer from the virtual world of Ether has been murdered in the apartment of a politician. Offensive messages to them, and few hints ... This case will be a strugle for me, but I will solve it.",
+        "image": "cat-2.png",
+        "background": "bg-digital-2.jpg",
+        "typeToken": "card",
+        "race": "cat",
+        "block": "establishment",
+        "rarity": "uncommon",
+        "level": 1,
+        "count": 1,
+        "effect": "electric",
+        "slots": [
+            {
+                "location": "head",
+                "use": false
+            },
+            {
+                "location": "body",
+                "use": false
+            },
+            {
+                "location": "arms",
+                "use": false
+            },
+            {
+                "location": "legs",
+                "use": false
+            }
+        ],
+        "states": {
+            "energyBase": 40,
+            "energy": 80,
+            "affinity": 0,
+            "strength": 28,
+            "precision": 100,
+            "armor": 37,
+            "dodge": 16,
+            "influence": 16,
+            "knowlegde": 62,
+            "shield": 26,
+            "maxshield": 26,
+            "life": 1020,
+            "maxlife": 1020
+        },
+        "resistence": {
+            "normal": 31,
+            "fire": 19,
+            "electric": 10,
+            "poison": 22,
+            "blood": 20,
+            "total": null
+        },
+        "recovery": {
+            "life": "0.68",
+            "shield": "0.39"
+        },
+        "skills": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 28,
+                "effect": "electric",
+                "name": "Electro Ball",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "b004",
+                "name": "super",
+                "description": "Le pone escudo a una carta a elegir.",
+                "cost": 40,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 4
+            },
+            {
+                "code": "f001",
+                "name": "super",
+                "description": "Cuando realizas un ataque se añade uma marca, cada marca hace aumentar un 20% la probabilidad de critico, si utilizas otra habilidad se pierden las marcas",
+                "cost": 0,
+                "turn": 0,
+                "status": true,
+                "type": "passive",
+                "cooldown": 4
+            },
+            {
+                "code": "d018",
+                "name": "super",
+                "description": "Cada turno recuperas un 5% de la vida hasta llegar al 100% ",
+                "cost": 0,
+                "turn": 0,
+                "status": true,
+                "type": "passive",
+                "cooldown": 4
+            }
+        ],
+        "defense": {
+            "block": {
+                "strength": 39,
+                "cost": 30,
+                "name": "block"
+            },
+            "shield": {
+                "strength": 24,
+                "cost": 40,
+                "description": "Añade escudo a un personaje",
+                "name": "shield",
+                "color": "#57F9FE",
+                "code": "shield"
+            }
+        },
+        "change": {
+            "name": "change",
+            "cost": 50,
+            "description": "Intercambia tu carta del tablero por otra del banquillo",
+            "color": "#FE6A57",
+            "code": "swap"
+        },
+        "skills_combat": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 28,
+                "effect": "electric",
+                "name": "Electro Ball",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "b004",
+                "name": "super",
+                "description": "Le pone escudo a una carta a elegir.",
+                "cost": 40,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 4
+            },
+            {
+                "code": "f001",
+                "name": "super",
+                "description": "Cuando realizas un ataque se añade uma marca, cada marca hace aumentar un 20% la probabilidad de critico, si utilizas otra habilidad se pierden las marcas",
+                "cost": 0,
+                "turn": 0,
+                "status": true,
+                "type": "passive",
+                "cooldown": 4
+            },
+            {
+                "code": "d018",
+                "name": "super",
+                "description": "Cada turno recuperas un 5% de la vida hasta llegar al 100% ",
+                "cost": 0,
+                "turn": 0,
+                "status": true,
+                "type": "passive",
+                "cooldown": 4
+            }
+        ],
+        "power": 2473,
+        "price": 0.4
+    },
+    {
+        "_id": "o_RA7x9SXeLzMM0xq3nsw",
+        "name": "mole-1.png",
+        "namecard": "Topocida",
+        "faction": "virtuals",
+        "aboutme": "Nowadays, robots are in charge of the jobs that Citizen usually developed. Now, the Establishment supports them, albeit in a precarious way. They mostly hang out in the fascinating world of Ether. But some of them are struggling to get ahead, and keep real jobs. They mostly hang ",
+        "image": "mole-1.png",
+        "background": "bg-police.jpg",
+        "typeToken": "card",
+        "race": "mole",
+        "block": "cybers",
+        "rarity": "legendary",
+        "level": 1,
+        "count": 1,
+        "effect": "electric",
+        "slots": [
+            {
+                "location": "head",
+                "use": false
+            },
+            {
+                "location": "body",
+                "use": false
+            },
+            {
+                "location": "arms",
+                "use": false
+            },
+            {
+                "location": "legs",
+                "use": false
+            }
+        ],
+        "states": {
+            "energyBase": 70,
+            "energy": 80,
+            "affinity": 0,
+            "strength": 50,
+            "precision": 100,
+            "armor": 51,
+            "dodge": 37,
+            "influence": 36,
+            "knowlegde": 85,
+            "shield": 41,
+            "maxshield": 41,
+            "life": 1060,
+            "maxlife": 1060
+        },
+        "resistence": {
+            "normal": 43,
+            "fire": 28,
+            "electric": 30,
+            "poison": 27,
+            "blood": 47,
+            "total": null
+        },
+        "recovery": {
+            "life": "0.58",
+            "shield": "0.49"
+        },
+        "skills": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 50,
+                "effect": "electric",
+                "name": "Thunder Shock",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "a008",
+                "name": "super",
+                "description": "Recuperas el 100% de la vida",
+                "cost": 30,
+                "turn": 0,
+                "status": true,
+                "type": "active",
+                "cooldown": 2
+            },
+            {
+                "code": "a009",
+                "name": "super",
+                "description": "Infunde miedo, si el rival es de otra facción, reduce el daño y la armadura a la mitad, sino un 25%",
+                "cost": 20,
+                "turn": 2,
+                "status": true,
+                "type": "passive",
+                "cooldown": 2
+            },
+            {
+                "code": "d019",
+                "name": "super",
+                "description": "Probabilidad de un 20% de que tu oponente falle sus ataques ",
+                "cost": 20,
+                "turn": 0,
+                "status": true,
+                "type": "passive",
+                "cooldown": 2
+            }
+        ],
+        "defense": {
+            "block": {
+                "strength": 53,
+                "cost": 30,
+                "name": "block"
+            },
+            "shield": {
+                "strength": 20,
+                "cost": 40,
+                "description": "Añade escudo a un personaje",
+                "name": "shield",
+                "color": "#57F9FE",
+                "code": "shield"
+            }
+        },
+        "change": {
+            "name": "change",
+            "cost": 50,
+            "description": "Intercambia tu carta del tablero por otra del banquillo",
+            "color": "#FE6A57",
+            "code": "swap"
+        },
+        "skills_combat": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 50,
+                "effect": "electric",
+                "name": "Thunder Shock",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "a008",
+                "name": "super",
+                "description": "Recuperas el 100% de la vida",
+                "cost": 30,
+                "turn": 0,
+                "status": true,
+                "type": "active",
+                "cooldown": 2
+            },
+            {
+                "code": "a009",
+                "name": "super",
+                "description": "Infunde miedo, si el rival es de otra facción, reduce el daño y la armadura a la mitad, sino un 25%",
+                "cost": 20,
+                "turn": 2,
+                "status": true,
+                "type": "passive",
+                "cooldown": 2
+            },
+            {
+                "code": "d019",
+                "name": "super",
+                "description": "Probabilidad de un 20% de que tu oponente falle sus ataques ",
+                "cost": 20,
+                "turn": 0,
+                "status": true,
+                "type": "passive",
+                "cooldown": 2
+            }
+        ],
+        "power": 2713,
+        "price": 1
+    },
+    {
+        "_id": "Hkny_c18QPvRCTAk9BIm8",
+        "name": "goat-1.png",
+        "namecard": "Cabronazi",
+        "faction": "singulars",
+        "aboutme": "Nowadays, robots are in charge of the jobs that Citizen usually developed. Now, the Establishment supports them, albeit in a precarious way. They mostly hang out in the fascinating world of Ether. But some of them are struggling to get ahead, and keep real jobs. They mostly hang ",
+        "image": "goat-1.png",
+        "background": "bg-police.jpg",
+        "typeToken": "card",
+        "race": "Cabronazi",
+        "block": "rebels",
+        "rarity": "legendary",
+        "level": 1,
+        "count": 1,
+        "effect": "normal",
+        "slots": [
+            {
+                "location": "head",
+                "use": false
+            },
+            {
+                "location": "body",
+                "use": false
+            },
+            {
+                "location": "arms",
+                "use": false
+            },
+            {
+                "location": "legs",
+                "use": false
+            }
+        ],
+        "states": {
+            "energyBase": 70,
+            "energy": 90,
+            "affinity": 0,
+            "strength": 49,
+            "precision": 121,
+            "armor": 45,
+            "dodge": 40,
+            "influence": 39,
+            "knowlegde": 83,
+            "shield": 35,
+            "maxshield": 35,
+            "life": 1060,
+            "maxlife": 1060
+        },
+        "resistence": {
+            "normal": 13,
+            "fire": 15,
+            "electric": 42,
+            "poison": 48,
+            "blood": 42,
+            "total": null
+        },
+        "recovery": {
+            "life": "0.73",
+            "shield": "0.34"
+        },
+        "skills": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 49,
+                "effect": "normal",
+                "name": "Horn Drill",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "f002",
+                "name": "super",
+                "description": "Cuando realizas un bloqueo, añades una marca, si tienes 10 cargas, haces una explosion letal al oponente, las marcas se vacian",
+                "cost": 0,
+                "turn": 0,
+                "status": true,
+                "type": "passive",
+                "cooldown": 2
+            },
+            {
+                "code": "g001",
+                "name": "super",
+                "description": "Escoge una carta para luchar y hace daño por 20% de la vida del rival",
+                "cost": 50,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 2
+            },
+            {
+                "code": "g002",
+                "name": "super",
+                "description": "Escoge una carta para luchar y le añade 100 de escudo",
+                "cost": 40,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 2
+            }
+        ],
+        "defense": {
+            "block": {
+                "strength": 55,
+                "cost": 30,
+                "name": "block"
+            },
+            "shield": {
+                "strength": 26,
+                "cost": 40,
+                "description": "Añade escudo a un personaje",
+                "name": "shield",
+                "color": "#57F9FE",
+                "code": "shield"
+            }
+        },
+        "change": {
+            "name": "change",
+            "cost": 50,
+            "description": "Intercambia tu carta del tablero por otra del banquillo",
+            "color": "#FE6A57",
+            "code": "swap"
+        },
+        "skills_combat": [
+            {
+                "code": "0000",
+                "cost": 20,
+                "strength": 49,
+                "effect": "normal",
+                "name": "Horn Drill",
+                "status": true,
+                "type": "active",
+                "description": "basic atack",
+                "cooldown": 0,
+                "multiplier": 100,
+                "color": "white"
+            },
+            {
+                "code": "f002",
+                "name": "super",
+                "description": "Cuando realizas un bloqueo, añades una marca, si tienes 10 cargas, haces una explosion letal al oponente, las marcas se vacian",
+                "cost": 0,
+                "turn": 0,
+                "status": true,
+                "type": "passive",
+                "cooldown": 2
+            },
+            {
+                "code": "g001",
+                "name": "super",
+                "description": "Escoge una carta para luchar y hace daño por 20% de la vida del rival",
+                "cost": 50,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 2
+            },
+            {
+                "code": "g002",
+                "name": "super",
+                "description": "Escoge una carta para luchar y le añade 100 de escudo",
+                "cost": 40,
+                "turn": 2,
+                "status": true,
+                "type": "active",
+                "cooldown": 2
+            }
+        ],
+        "power": 2729,
+        "price": 1
+    }
+]

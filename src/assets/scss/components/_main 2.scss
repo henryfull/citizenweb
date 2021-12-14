@@ -1,0 +1,156 @@
+@for $i from 0 through 6 {
+  .p#{$i} {
+    padding: $i * 5px;
+  }
+}
+@for $i from 0 through 5 {
+  .pb#{$i} {
+    padding-bottom: $i * 10px;
+  }
+}
+@for $i from 0 through 5 {
+  .pt#{$i} {
+    padding-top: $i * 10px;
+  }
+}
+@for $i from 0 through 5 {
+  .pl#{$i} {
+    padding-left: $i * 10px;
+  }
+}
+@for $i from 0 through 5 {
+  .pr#{$i} {
+    padding-right: $i * 10px;
+  }
+}
+@for $i from 0 through 5 {
+  .pv#{$i} {
+    padding: $i * 10px 0px;
+  }
+}
+@for $i from 0 through 5 {
+  .ph#{$i} {
+    padding: 0 $i * 10px;
+  }
+}
+@for $i from 0 through 6 {
+  .m#{$i} {
+    margin: $i * 5px;
+  }
+}
+@for $i from 0 through 5 {
+  .mb#{$i} {
+    margin-bottom: $i * 10px;
+  }
+}
+@for $i from 0 through 5 {
+  .mt#{$i} {
+    margin-top: $i * 10px;
+  }
+}
+@for $i from 0 through 5 {
+  .ml#{$i} {
+    margin-left: $i * 10px;
+  }
+}
+@for $i from 0 through 5 {
+  .mr#{$i} {
+    margin-right: $i * 10px;
+  }
+}
+@for $i from 0 through 5 {
+  .mv#{$i} {
+    margin: $i * 10px auto;
+  }
+}
+@for $i from 0 through 5 {
+  .mh#{$i} {
+    margin: auto $i * 10px;
+  }
+}
+@for $i from 0 through 5 {
+  .br#{$i} {
+    border-radius: $i * 5px;
+  }
+}
+#content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+div {
+  box-sizing: border-box;
+}
+.show {
+  display: block !important;
+  opacity: 1 !important;
+
+}
+.hide {
+  display: none !important;
+}
+.showMenu {
+  display: block !important;
+}
+.hideMenu {
+  display: none !important;
+}
+.showDropdown {
+  display: block !important;
+}
+.hideDropdown {
+  display: none !important;
+}
+.showFlex {
+  display: flex !important;
+}
+.hideFlex {
+  display: none !important;
+}
+.showGrid {
+  display: grid !important;
+}
+.hideGrid {
+  display: none !important;
+}
+
+.flex {
+  display: flex;
+}
+
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.pleft {
+  left: 0px;
+}
+.pright {
+  right: 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  padding: 10px;
+}
+.row {
+  clear: both;
+}
+
+.h100 {
+  height: 100%;
+}
+.ma {
+  margin: auto;
+  float: none !important;
+}
+

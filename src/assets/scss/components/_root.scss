@@ -1,0 +1,21 @@
+
+
+
+.icon::before,
+.icon::after {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.leaflet-container {
+  width: 100%;
+  min-height: 250px;
+}
+@media(max-width: 587px){
+  
+  .leaflet-container {
+    min-height: 150px;
+  }
+}

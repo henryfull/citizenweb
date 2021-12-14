@@ -1,0 +1,45 @@
+.notifications {
+  position: fixed;
+  top: 70px;
+}
+
+.notification,
+.notification-modern {
+  padding: 15px;
+  max-width: 300px;
+  box-shadow: 0px 2px 4px #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: none;
+  margin: 10px;
+
+  p {
+    font-size: 1em;
+  }
+  a {
+    font-weight: bold;
+  }
+  transition-delay: 1s;
+  -webkit-transition-delay: 1s;
+  -webkit-transition: all 1s ease-out; /* For Safari 3.1 to 6.0 */
+  transition: all 1s ease-out;
+}
+
+.notification-modern {
+  p,
+  i,
+  a {
+    color: var(--primary-color);
+  }
+}
+
+.icon_notification {
+  font-size: 12px;
+    color: white;
+    padding: 2px;
+    border-radius: 25px;
+    width: 20px;
+    background-color: crimson;
+    top: 0px;
+    right: -5px;
+}
