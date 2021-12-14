@@ -15,6 +15,15 @@ export const DivHome = styled.div`
   background-position-y: top;
 `;
 
+export const Logo = styled.div`
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+  }
+`;
+
 export const ContentHome = styled.div`
   height: 100vh;
   display: grid;

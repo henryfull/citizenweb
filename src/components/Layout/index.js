@@ -6,7 +6,7 @@ export const Layout = ({ children, title, subtitle }) => {
   return (
     <>
       <Helmet>
-        {title && <title>~{title} | Citizen</title>}
+        {title && <title>{title} | Citizen</title>}
         {subtitle && <meta name='description' content={subtitle} />}
       </Helmet>
       <Div>
