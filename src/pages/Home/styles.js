@@ -4,7 +4,7 @@ import background from "../../assets/img/home/bg-transparent-blocks.png";
 import recblue4 from "../../assets/img/common/icons-ciitizen-rect-4-blue.svg";
 import recred4 from "../../assets/img/common/icons-ciitizen-rect-4-red.svg";
 import recwhite4 from "../../assets/img/common/icons-ciitizen-rect-4-white.svg";
-
+let second = "#00c3ff";
 // import Background from "../../assets/img/home/happy-girl-car.jpg";
 
 export const DivHome = styled.div`
@@ -13,6 +13,16 @@ export const DivHome = styled.div`
   background-size: cover;
   height: 100vh;
   background-position-y: top;
+`;
+export const Div = styled.div`
+  h2 {
+    color: ${second};
+    text-transform: uppercase;
+  }
+  .Max {
+    max-width: 1200px;
+    margin: auto;
+  }
 `;
 
 export const Logo = styled.div`
@@ -31,10 +41,9 @@ export const ContentHome = styled.div`
     display: grid;
     grid-template-columns: 300px auto 370px;
   }
-  .money{
+  .money {
     grid-area: 2 / 1 / span 3 / 3;
   }
-
 `;
 export const Msg = styled.p`
   text-align: center;
@@ -45,7 +54,227 @@ export const Msg = styled.p`
     color: red;
   }
 `;
+export const About = styled.div`
+  background: url(${process.env.PUBLIC_URL}files/assets/linear-bg.png) no-repeat
+    center center;
+  max-height: 500px;
+  overflow: hidden;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 60% 1fr;
+  padding: 20px;
+  margin: 50px auto;
+  .about {
+    color: #ccc;
+  }
+  img {
+    margin: auto;
+  }
+  h2 {
+    line-height: normal;
+    max-width: 400px;
+  }
+  p.description {
+    max-width: 400px;
+    color: #fff;
+  }
+  button {
+    margin: 20px auto;
+    background: url(${process.env.PUBLIC_URL}files/assets/button-blue-bg.png)
+      no-repeat center center;
+    padding: 10px 40px;
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    h2 {
+      line-height: normal;
+    }
+    img {
+      display: none;
+    }
+  }
+`;
+export const Modes = styled.div`
+  background: url(${process.env.PUBLIC_URL}files/assets/bg-panelado.jpg) repeat;
+  background-size: 30px;
+  .modes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+    gap: 20px;
+    padding: 20px;
+  }
+  .modes_images {
+    position: relative;
+    h3 {
+      position: absolute;
+      bottom: 0;
+      left: 30px;
+      margin: auto;
+      width: 100%;
+      color: white;
+      font-size: 24px;
+      padding: 5px;
+      &:first-letter {
+        text-transform: uppercase;
+      }
+    }
+  }
+  p {
+    color: #fff;
+  }
+  @media (max-width: 768px) {
+    text-align: center;
+    .modes {
+      grid-template-columns: 1fr;
+    }
 
+    h2 {
+      line-height: normal;
+    }
+  }
+`;
+export const Characteres = styled.div`
+  p {
+    text-align: center;
+    color: #fff;
+    max-width: 60%;
+    margin: auto;
+  }
+  .list_characters {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin: 50px auto;
+    img {
+      margin: auto;
+      width: 60px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
+    padding: 20px;
+    img {
+      width: 40px;
+    }
+    p {
+      max-width: 90%;
+    }
+    h2 {
+      line-height: normal;
+    }
+  }
+`;
+
+export const Edit = styled.div`
+  background: url(${process.env.PUBLIC_URL}files/assets/bg-panelado.jpg) repeat;
+  background-size: 30px;
+  display: grid;
+  padding: 50px 10px;
+  p {
+    text-align: center;
+    color: #fff;
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  img {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 10px 10px 5px black;
+  }
+
+  @media (max-width: 768px) {
+    p {
+      width: 90%;
+    }
+    h2 {
+      line-height: normal;
+    }
+    img {
+      width: 90%;
+    }
+  }
+`;
+export const Suscriptions = styled.div`
+  /* background: url(${process.env
+    .PUBLIC_URL}files/assets/bg-panelado.jpg) repeat; */
+  background-size: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  padding: 50px 10px;
+  h3 {
+    color: ${second};
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: normal;
+  }
+  h4 {
+    color: var(--primary);
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    color: #fff;
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  img {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+  input {
+    display: grid;
+  }
+  input[type="email"] {
+    border: 1px solid var(--second);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    width: 100%;
+    margin: 20px auto;
+  }
+  input[type="submit"] {
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    width: 80%;
+    margin: 20px auto;
+    &:hover {
+      background: var(--primary);
+      cursor: pointer;
+    }
+  }
+  .Suscription_email {
+    display: grid;
+    max-width: 400px;
+  }
+  label {
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    margin: 5px 0px;
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    p {
+      width: 90%;
+    }
+    h2 {
+      line-height: normal;
+    }
+    img {
+      width: 90%;
+    }
+  }
+`;
 export const Form = styled.form`
   width: 100%;
   padding: 15px 0px;
@@ -333,27 +562,6 @@ export const Whatis = styled.aside`
     }
   }
 `;
-export const Div = styled.aside`
-  button {
-    color: white;
-    background-color: var(--darkopacity);
-    margin: 5px;
-    padding: 10px;
-    font-size: 16px;
-    width: 100%;
-    border-left: 5px solid var(--primary);
-    text-align: left;
-    clip-path: polygon(100% 0, 100% 60%, 95% 100%, 0 100%, 0 0);
-    cursor: pointer;
-    &:hover {
-      background-color: rgba(0, 0, 0, 1);
-    }
-  }
-  > div.active {
-    background-color: var(--citizen-darkblue);
-  }
-`;
-
 
 export const Article = styled.section`
   background-color: rgba(0, 0, 0, 0.2);
