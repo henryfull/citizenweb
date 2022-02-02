@@ -1,9 +1,4 @@
 import styled from "styled-components";
-
-import background from "../../assets/img/home/bg-transparent-blocks.png";
-import recblue4 from "../../assets/img/common/icons-ciitizen-rect-4-blue.svg";
-import recred4 from "../../assets/img/common/icons-ciitizen-rect-4-red.svg";
-import recwhite4 from "../../assets/img/common/icons-ciitizen-rect-4-white.svg";
 let second = "#00c3ff";
 // import Background from "../../assets/img/home/happy-girl-car.jpg";
 
@@ -13,6 +8,18 @@ export const DivHome = styled.div`
   background-size: cover;
   height: 100vh;
   background-position-y: top;
+  position: relative;
+  h3 {
+    position: absolute;
+    bottom: 50px;
+    margin: auto;
+    left: 1%;
+    right: 1%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 15px black;
+  }
 `;
 export const Div = styled.div`
   h2 {
@@ -31,6 +38,21 @@ export const Logo = styled.div`
     height: auto;
     max-height: 200px;
     object-fit: contain;
+  }
+`;
+export const Language = styled.button`
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border: 1px solid ${props => props.lang};
+  color: ${props => props.lang};
+  border-radius: 50px;
+  font-size: 12px;
+  top: 5px;
+  right: 5px;
+  &:hover {
+    background: ${props => props.lang};
+    color: black;
   }
 `;
 
@@ -108,7 +130,7 @@ export const Modes = styled.div`
     position: relative;
     h3 {
       position: absolute;
-      bottom: 0;
+      top: 130px;
       left: 30px;
       margin: auto;
       width: 100%;
@@ -155,8 +177,73 @@ export const Characteres = styled.div`
   @media (max-width: 768px) {
     text-align: center;
     padding: 20px;
+    .list_characters {
+      img {
+        width: 40px;
+      }
+    }
+    p {
+      max-width: 90%;
+    }
+    h2 {
+      line-height: normal;
+    }
+  }
+`;
+export const Gameplay = styled.div`
+  background: url(${process.env.PUBLIC_URL}files/assets/bg-panelado.jpg) repeat;
+  background-size: 30px;
+  padding: 50px 10px;
+  p {
+    text-align: center;
+    color: #fff;
+    max-width: 60%;
+    margin: auto;
+  }
+  img {
+    margin: 50px auto;
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
+    padding: 20px;
     img {
-      width: 40px;
+      width: 100%;
+    }
+    p {
+      max-width: 90%;
+    }
+    h2 {
+      line-height: normal;
+    }
+  }
+`;
+export const Skills = styled.div`
+  background: url(${process.env.PUBLIC_URL}files/assets/bg-skills.png) no-repeat
+    center center;
+  background-size: cover;
+  p {
+    text-align: center;
+    color: #fff;
+    max-width: 60%;
+    margin: auto;
+  }
+  .list_characters {
+    display: grid;
+    gap: 20px;
+    margin: 50px auto;
+    img {
+      text-align: center;
+      margin: auto;
+      max-width: 500px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
+    padding: 20px;
+    img {
+      width: 100%;
     }
     p {
       max-width: 90%;
@@ -394,283 +481,11 @@ export const List = styled.div`
   }
 `;
 
-export const Whatis = styled.aside`
-  min-height: 500px;
-  display: grid;
-  grid-template-columns: 1fr;
-  place-content: center;
-  border-bottom: 1px solid var(--primary);
-  h3 {
-  }
+export const Footer = styled.footer`
   p {
-    max-width: 500px;
-  }
-  p.center {
+    font-size: 8px;
+    color: grey;
+    padding: 5px;
     text-align: center;
-    margin: auto;
-  }
-  img.emblem {
-    filter: invert();
-  }
-  .blocks {
-    padding: 15px 5px;
-  }
-  .arrow {
-    transform: rotate(125deg);
-    display: inline-block;
-    margin-right: 10px;
-  }
-  .blocks,
-  .select_blocks {
-    /* border-radius: 25px; */
-
-    border: 10px solid transparent;
-    border-image: url("${recblue4}") 60 round;
-    position: relative;
-    &:hover {
-      border-image: url("${recwhite4}") 60 round;
-    }
-    &.active {
-      border-image: url("${recred4}") 60 round;
-      border-color: var(--primary);
-    }
-  }
-  .carousel {
-    white-space: nowrap;
-    overflow-x: scroll;
-    max-width: 90vw;
-  }
-
-  .group_blocs {
-    /* display: grid;
-    grid-template-columns: 250px 250px 250px; */
-    display: flex;
-    gap: 10px;
-    width: 100%;
-    place-items: flex-start;
-    margin: 30px auto;
-    text-align: center;
-    place-content: center;
-    overflow: scroll;
-
-    .list_factions {
-      width: 500px;
-      padding: 0px 10px;
-      ._factions {
-        width: 100%;
-        max-width: 100%;
-        p {
-          font-size: 16px;
-        }
-      }
-    }
-
-    @media (max-width: 600px) {
-      place-content: baseline;
-    }
-  }
-  button {
-    overflow: hidden;
-    width: 250px;
-
-    &.select_blocks {
-      position: relative;
-      background: url("${background}") no-repeat center top;
-      .bg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        &.establishment {
-          background: linear-gradient(crimson 10%, black 50%);
-        }
-        &.cybers {
-          background: linear-gradient(green 10%, black 50%);
-        }
-        &.rebels {
-          background: linear-gradient(blue 10%, black 50%);
-        }
-      }
-      .block_image {
-        @media (min-width: 600px) {
-          .block_image {
-            max-height: 400px;
-            height: 360px;
-          }
-        }
-        display: grid;
-        max-height: 400px;
-        height: 360px;
-        overflow: hidden;
-        .image {
-          object-fit: none;
-          width: 100%;
-          height: 100%;
-        }
-      }
-      ._footer {
-        position: relative;
-        height: 300px;
-        display: grid;
-        place-content: center;
-        img {
-          margin: auto;
-        }
-        p {
-          font-size: 14px;
-        }
-        hr {
-          width: 100%;
-        }
-        &.establishment {
-          background: linear-gradient(crimson 10%, black 50%);
-          &:before {
-            background-color: crimson;
-          }
-        }
-        &.cybers {
-          background: linear-gradient(green 10%, black 50%);
-          &:before {
-            background-color: green;
-          }
-        }
-        &.rebels {
-          background: linear-gradient(blue 10%, black 50%);
-          &:before {
-            background-color: blue;
-          }
-        }
-        &:before {
-          content: "";
-          position: absolute;
-          top: -29px;
-          width: 100%;
-          height: 50px;
-          left: 0;
-          transform: skewY(10deg);
-          z-index: 0;
-          border-top: 5px solid grey;
-        }
-      }
-    }
-    @media (max-width: 600px) {
-      .block_image {
-        height: 240px;
-      }
-    }
-  }
-`;
-
-export const Article = styled.section`
-  background-color: rgba(0, 0, 0, 0.2);
-  margin: 5px auto;
-  display: grid;
-  border: 2px solid ${(props) => props.color};
-  width: 300px;
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-  strong,
-  p {
-    color: var(--second);
-    &.desactive {
-      font-family: "alien";
-      font-size: 18px;
-      color: var(--primary);
-    }
-  }
-  b {
-    color: ${(props) => props.color};
-  }
-  b::first-letter,
-  p::first-letter,
-  span::first-letter {
-    text-transform: uppercase;
-  }
-  .contents {
-    max-width: 300px;
-  }
-  .stats {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 10px;
-  }
-  .power {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 24px;
-    margin: 0px;
-    text-shadow: 2px 2px 0px var(--black);
-  }
-  .rarity {
-    background-color: ${(props) => props.color};
-    width: 100%;
-    padding: 5px;
-    color: white;
-    vertical-align: middle;
-    span {
-      vertical-align: text-bottom;
-    }
-    p {
-      color: white;
-    }
-  }
-  .block-image-story {
-    position: relative;
-    max-width: 300px;
-    .block_emblem {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      width: 40px;
-      height: auto;
-      filter: invert();
-    }
-
-    &.desactive {
-      img {
-        filter: brightness(0);
-        -webkit-filter: brightness(0);
-      }
-    }
-    width: 100%;
-    height: 100%;
-    max-height: 300px;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 5px;
-    clip-path: polygon(
-      0 100%,
-      25% 100%,
-      75% 100%,
-      100% 75%,
-      100% 12%,
-      100% 0,
-      25% 0,
-      0 25%
-    );
-    img {
-      width: 100%;
-    }
-  }
-  @media (max-width: 600px) {
-    display: block;
-    padding: 5px;
-    .block-image-story {
-      float: left;
-      margin-right: 10px;
-      width: 100%;
-      height: 250px;
-    }
-    strong {
-      display: inline-flex;
-      flex-direction: row-reverse;
-      span {
-        padding: 2px;
-      }
-    }
   }
 `;
