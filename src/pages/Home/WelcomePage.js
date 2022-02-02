@@ -261,7 +261,7 @@ const WelcomePage = () => {
           <p>{l.msg_01221}</p>
           <div className="list_characters Max">
             <img
-              src={`${pathOrigin}/files/assets/gameplay-es.png`}
+              src={`${pathOrigin}/files/assets/gameplay-${language}.png`}
               alt="capture gameplay citizen v.1.9"
               title="Gameplay Citizen"
             />
