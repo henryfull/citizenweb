@@ -11,7 +11,7 @@ var uri = {};
 // const uri = '80.211.173.215';
 // const uri = '52.47.75.51'; //AWS
 
-if (process.env.NODE_ENV !== "development") {
+if (process.env.NODE_ENV === "development") {
   const webProtocol = "http://";
   uri.BASE_URL_API = webProtocol + process.env.REACT_APP_BASE_URL_LOCAL + ":4000/";
   // uri.BASE_URL_API = webProtocol + process.env.REACT_APP_BASE_URL_PRO + "/api/" ;
