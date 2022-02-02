@@ -73,23 +73,24 @@ const WelcomePage = () => {
       userAgent: navigator.userAgent,
     };
     console.log(data);
-    fetch(Api("suscriber"), {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
-      .then((res) => res.json()) // Transform the data into json
-      .then((res) => {
-        console.log(res);
-        if (res.body.code) {
-          setShowMessage(l.msg_01258);
-        } else {
-          setShowMessage(l.msg_01259);
-        }
-        setCookies("subscribe", true, { expires: 1 });
-      });
+    console.log(Api("suscriber"));
+    // fetch(Api("suscriber"), {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSON.stringify(data),
+    // })
+    //   .then((res) => res.json()) // Transform the data into json
+    //   .then((res) => {
+    //     console.log(res);
+    //     if (res.body.code) {
+    //       setShowMessage(l.msg_01258);
+    //     } else {
+    //       setShowMessage(l.msg_01259);
+    //     }
+    //     setCookies("subscribe", true, { expires: 1 });
+    //   });
   };
 
   return (

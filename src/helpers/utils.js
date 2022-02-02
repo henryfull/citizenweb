@@ -16,12 +16,12 @@ if (process.env.NODE_ENV === "development") {
   uri.BASE_URL_API = webProtocol + process.env.REACT_APP_BASE_URL_LOCAL + ":4000/";
   // uri.BASE_URL_API = webProtocol + process.env.REACT_APP_BASE_URL_PRO + "/api/" ;
   uri.BASE_URL_IO = socketProtocol + process.env.REACT_APP_BASE_URL_LOCAL + ":4000/";
-
+  
 } else {
-  const webProtocol = "https://";
+  const webProtocol = "https://api.";
   uri.BASE_URL_API = webProtocol + process.env.REACT_APP_BASE_URL_PRO + "/" ;
   uri.BASE_URL_IO = socketProtocol + process.env.REACT_APP_API_URL_LOCAL + '.'  + process.env.REACT_APP_BASE_URL_PRO + "/";
-
+  
 }
 
 export const login = (e) => {
